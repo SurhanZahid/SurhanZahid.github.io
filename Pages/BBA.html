@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="utf-8"> 
+        <title>Divider</title>         
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <!-- Loading Bootstrap -->         
+        <link href="css/bootstrap.css" rel="stylesheet"> 
+        <!-- Edit CSS -->         
+        <link href="css/default.css" rel="stylesheet"> 
+        <link href="css/main.css" rel="stylesheet"> 
+        <!-- Font Awesome -->         
+        <link href="css/font-awesome.css" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,900,700,600,300,200" rel="stylesheet" type="text/css"> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet"> 
+        <link rel="shortcut icon" href="images/favicon.ico"> 
+        <link href="css/customnavbar.css" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>     
+    <body> 
+        <header class="header"> 
+            <a class="brand-logo" href="">
+                <img alt="logo" src="logo1.png">
+            </a>             
+            <nav class="navigation"> 
+                <div class="navigation__top"> 
+                    <ul class="top-nav-list desktop-only"> 
+                        <li class="top-nav-list__item"> 
+                            <a class="top-link" href="#">Acdamic Calander</a> 
+                        </li>                         
+                        <li class="top-nav-list__item"> 
+                            <a class="top-link" href="#">Contact Us</a> 
+                        </li>                         
+                        <li class="top-nav-list__item"> 
+                            <a class="top-link" href="#">Peshwar Campus</a> 
+                        </li>                         
+                        <li class="top-nav-list__item"> 
+                            <a class="top-link" href="#">Campus Mail</a> 
+                        </li>                         
+                    </ul>                     
+                </div>                 
+                <div class="navigation__main"> 
+                    <div class="mobile-nav-ui"> 
+                        <div class="mobile-nav-ui__left"> 
+                            <div class="menu-btn" data-action="back"> 
+                                <div class="menu-btn__icon menu-btn__icon_back"></div>
+                                <span class="menu-btn__label">BACK</span> 
+                            </div>                             
+                        </div>                         
+                        <div class="mobile-nav-ui__right"> 
+                            <div class="menu-btn" data-action="open"> 
+                                <i class="fa fa-align-justify"></i>
+                                <span class="menu-btn__label">MENU</span> 
+                            </div>                             
+                            <div class="menu-btn" data-action="close"> 
+                                <div class="menu-btn__icon menu-btn__icon_close"></div>
+                                <span class="menu-btn__label">CLOSE</span> 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                    <div class="mobile-nav-wrap"> 
+                        <div class="dropdown-background"></div>                         
+                        <ul class="main-nav-list menu"> 
+                            <li class="menu-item menu-item-has-children orange"> 
+                                <a href="/travel-explore"><span>AUIC</span></a> 
+                                <div class="menu-dropdown"> 
+                                    <div class="menu-dropdown__content"> 
+                                        <ul class="sub-menu"> 
+                                            <li class="menu-item"> 
+                                                <a href="">OVERALL</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/travel-explore/weekend">Vision & Mission</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/travel-explore/vacation">Objectives</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/travel-explore/vacation">VC Message</a> 
+                                            </li>                                             
+                                        </ul>
+                                        <a class="menu-article" href="/event/highlights-of-portugal-may-27-june-2-2018">
+                                            <img alt="" class="menu-article__img" src="2.jpg"> 
+                                            <span class="menu-article__title">Fairwell Highlights, June 17-23, 2018</span>
+                                        </a>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </li>                             
+                            <li class="menu-item menu-item-has-children green"> 
+                                <a href="/play-sports"><span>Departments</span></a> 
+                                <div class="menu-dropdown"> 
+                                    <div class="menu-dropdown__content"> 
+                                        <ul class="sub-menu"> 
+                                            <li class="menu-item"> 
+                                                <a href="">OVERALL</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/dodgeball">Civil Engineering</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/field-hockey-indoor">Electrical Engineering (BSSE)</a> 
+                                            </li>
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/field-hockey-indoor">Electrical Engineering (MSSE)</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/field-hockey-outdoor">Computer Sciences (BSCS)</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/floor-hockey-indoor">Computer Sciences (MSCS)</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/floor-hockey-outdoor">Software Engineering (BSSE)</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/football-indoor">Software Engineering (MSSE)</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/football-outdoor">Telecomunication & Networks</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/golf">BBA</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/kickball">MBA</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/lacrosse-outdoor">MS(MGT)</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/soccer-indoor">MSEM</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/soccer-outdoor">MSPM</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/softball-indoor">MS(LSM)</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/softball-outdoor">M.COM</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/ultimate-frisbee">English</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/volleyball-indoor">Psychology</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/volleyball-outdoor">Microbiology</a> 
+                                            </li>
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/volleyball-outdoor">Biotechnology</a> 
+                                            </li>
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/volleyball-outdoor">Phram-D</a> 
+                                            </li>                                             
+                                        </ul>
+                                        <a class="menu-article" href="/event/thursday-fenway-coed-6v6-dodgeball-030118">
+                                            <img alt="" class="menu-article__img" src="4.jpg"> 
+                                            <span class="menu-article__title">Admissions Are Open</span>
+                                        </a>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </li>                             
+                            <li class="menu-item menu-item-has-children blue"> 
+                                <a href="/ski-ride"><span>Rules & Policies</span></a> 
+                                <div class="menu-dropdown"> 
+                                    <div class="menu-dropdown__content"> 
+                                        <ul class="sub-menu"> 
+                                            <li class="menu-item"> 
+                                                <a href="/ski-ride/ski-weekend">Academic Integrity</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/ski-ride/ski-vacation">Academic System</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/ski-ride/day-ski">Registration</a> 
+                                            </li>                                             
+                                        </ul>
+                                        <a class="menu-article" href="/event/sugarloaf-march-2-4-2018">
+                                            <img alt="" class="menu-article__img" src="/__media/2.%20Ski%20&%20Ride/Ski%20Weekends/2-Menu_articles/MenuArticle_Sugarloaf.jpg"> 
+                                            <span class="menu-article__title">Sugarloaf March 2-4, 2018</span>
+                                        </a>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </li>                             
+                            <li class="menu-item menu-item-has-children fuchsia"> 
+                                <a href="/social-events"><span>Admission & Aids</span></a> 
+                                <div class="menu-dropdown"> 
+                                    <div class="menu-dropdown__content"> 
+                                        <ul class="sub-menu"> 
+                                            <li class="menu-item"> 
+                                                <a href="/social-events/social">Admission Overview</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/social-events/adventure">Financial Aid</a> 
+                                            </li>
+                                            <li class="menu-item"> 
+                                                <a href="/social-events/adventure">Scholarships</a> 
+                                            </li>
+                                            <li class="menu-item"> 
+                                                <a href="/social-events/adventure">Fee Structure</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/social-events/adventure">Admission Overview</a> 
+                                            </li>                                             
+                                        </ul>
+                                        <a class="menu-article" href="/event/spring-cornhole-tournament">
+                                            <img alt="" class="menu-article__img" src="/__media/3.%20Get%20Social/Social/2%20Menu%20Article/MenuArticle_Cornhole2.jpg"> 
+                                            <span class="menu-article__title">Spring Cornhole Tournament</span>
+                                        </a>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </li>                             
+                            <li class="menu-item menu-item-has-children"> 
+                                <a href="/join"><span>Research</span></a> 
+                                <div class="menu-dropdown"> 
+                                    <div class="menu-dropdown__content"> 
+                                        <ul class="sub-menu"> 
+                                            <li class="menu-item"> 
+                                                <a href="/join/member-rewards">Projects</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/join/corporate-membership">Publications</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/join/news-alerts">Abasyn Intl. Conference</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/join/member-faqs">Journel of Social Sciences</a> 
+                                            </li>                                             
+                                        </ul>                                         
+                                        <a class="menu-article" href="/event/thursday-fenway-coed-6v6-dodgeball-030118">
+                                            <img alt="" class="menu-article__img" src="4.jpg"> 
+                                            <span class="menu-article__title">Admissions Are Open</span>
+                                        </a>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </li>                             
+                            <li class="menu-item menu-item-has-children"> 
+                                <a href="/about"><span>Center of M & E</span></a> 
+                                <div class="menu-dropdown"> 
+                                    <div class="menu-dropdown__content"> 
+                                        <ul class="sub-menu"> 
+                                            <li class="menu-item"> 
+                                                <a href="/about/jobs">About the Center</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/about/staff">OBE at AUIC</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/about/testimonials">Software System - TLS</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/about/faq">Research and Analysis</a> 
+                                            </li>                                             
+                                        </ul>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </li>                             
+                        </ul>                         
+                        <ul class="mobile-sub-nav-list"> 
+                            <li class="mobile-sub-nav-list__item"> 
+                                <a class="top-link" href="#">Acdamic Calander</a> 
+                            </li>                             
+                            <li class="mobile-sub-nav-list__item"> 
+                                <a class="top-link" href="#">Contact Us</a> 
+                            </li>                             
+                            <li class="mobile-sub-nav-list__item"> 
+                                <a class="top-link" href="#">Peshwar Campus</a> 
+                            </li>                             
+                            <li class="mobile-sub-nav-list__item"> 
+                                <a class="top-link" href="#">Peshwar Campus</a> 
+                            </li>                             
+                            <li class="mobile-sub-nav-list__item"> 
+                                <a class="top-link" href="#">Campus Mail</a> 
+                            </li>                             
+                        </ul>                         
+                    </div>                     
+                </div>                 
+            </nav>             
+        </header>         
+        <div class="container" style="margin-top: 110px;">
+             
+
+            <div class="table-responsive"> 
+            	<h3 class="text-center" style="margin-bottom:20px;">SEMESTER 1</h3>
+                <table class="table">
+                    <thead style="background-color:#006666; color: white">
+                        <tr>
+                            <th>Course Code</th>
+                            <th>Course Name</th>
+                            <th>Credit Hours</th>
+                            <th>Pre Req</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>SS104</td>
+                           <td>English - I (Comprehension)</td>
+                            <td>3+0</td>
+                            <td>None</td>
+                           
+                        </tr>
+                        <tr>
+                            <td>MG108</td>
+                           <td>Introduction to Management</td>
+                            <td>3+0</td>
+                            <td>None</td>
+                           
+                        </tr>
+                        <tr>
+                            <td>CS100</td>
+                           <td>Introduction to Computing</td>
+                            <td>3+0</td>
+                            <td>None</td>
+                           
+                        </tr>
+                        <tr>
+                            <td>MT100</td>
+                           <td>Basic Mathematics</td>
+                            <td>3+0</td>
+                            <td>None</td>
+                           
+                        </tr>
+                        <tr>
+                            <td>SS108</td>
+                            <td>Islamic Studies/Ethics (for Non-Muslims)</td>
+                            <td>2+0</td>
+                            <td>None</td>                          
+                        </tr>
+                         <tr>
+                            <td>SS118</td>
+                           <td>Pakistan Studies</td>
+                            <td>2+0</td>
+                            <td>None</td>                          
+                        </tr>
+                    </tbody>
+                </table>
+                <h3 class="text-center" style="margin-bottom:20px;">SEMESTER 2</h3>
+                <table class="table">
+                    <thead style="background-color:#006666; color: white">
+                        <tr>
+                            <th>Course Code</th>
+                            <th>Course Name</th>
+                            <th>Credit Hours</th>
+                            <th>Pre Req</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>SS124</td>
+                            <td>English - II (Communication Skills)</td>
+                            <td>3+0</td>
+                            <td>SS104</td>
+                           
+                        </tr>
+                        <tr>
+                            <td>MG104</td>
+                            <td>Microeconomics</td>
+                            <td>3+0</td>
+                            <td>None</td>
+                           
+                        </tr>
+                        <tr>
+                            <td>MT104</td>
+                            <td>Business Mathematics</td>
+                            <td>3+0</td>
+                            <td>MT100</td>
+                           
+                        </tr>
+                        <tr>
+                            <td>CS121</td>
+                            <td>Advanced Computer Business Applications</td>
+                            <td>3+0</td>
+                            <td>CS100</td>
+                        </tr>
+                        <tr>
+                            <td>MG100</td>
+                            <td>Financial Accounting I</td>
+                            <td>3+0</td>
+                            <td>None</td>
+                        </tr>
+                         
+                         
+                    </tbody>
+                </table>
+                <h3 class="text-center" style="margin-bottom:20px;">SEMESTER 3</h3>
+                <table class="table">
+                    <thead style="background-color:#006666; color: white">
+                        <tr>
+                            <th>Course Code</th>
+                            <th>Course Name</th>
+                            <th>Credit Hours</th>
+                            <th>Pre Req</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>SS211</td>
+                            <td>English - III (Technical Report Writing)</td>
+                            <td>3+0</td>
+                            <td>SS124</td>
+                           
+                        </tr>
+                        <tr>
+                            <td>MT205</td>
+                            <td>Business Statistics</td>
+                            <td>3+0</td>
+                            <td>MT100</td>
+                           
+                        </tr>
+                        <tr>
+                            <td>MG204</td>
+                            <td>Macroeconomics</td>
+                            <td>3+0</td>
+                            <td>MG104</td>
+                           
+                        </tr>
+                        <tr>
+                            <td>MG209</td>
+                            <td>Principles of Marketing</td>
+                            <td>3+0</td>
+                            <td>None</td>
+                        </tr>
+                        <tr>
+                            <td>MG115</td>
+                            <td>Introduction to HRM   </td>
+                            <td>3+0</td>
+                            <td>None</td>
+                        </tr>
+                        <tr>
+                            <td>SS216</td>
+                            <td>Introduction to Sociology   </td>
+                            <td>3+0</td>
+                            <td>None</td>
+                        </tr>
+                    </tbody>
+                </table>
+          
+
+          <h3 class="text-center" style="margin-bottom:20px;">SEMESTER 4</h3>
+                <table class="table">
+                    <thead style="background-color:#006666; color: white">
+                        <tr>
+                            <th>Course Code</th>
+                            <th>Course Name</th>
+                            <th>Credit Hours</th>
+                            <th>Pre Req</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>SS288</td>
+                            <td>Business Communication</td>
+                            <td>3+0</td>
+                            <td>SS211</td>
+                           
+                        </tr>
+                        <tr>
+                            <td>SS129</td>
+                            <td>Arabic/Chinese etc</td>
+                            <td>3+0</td>
+                            <td>None</td>
+                           
+                        </tr>
+                        <tr>
+                            <td>SS208</td>
+                            <td>Environmental Sciences</td>
+                            <td>3+0</td>
+                            <td>None</td>
+                           
+                        </tr>
+                        <tr>
+                            <td>MG202</td>
+                            <td>Financial Accounting II</td>
+                            <td>3+0</td>
+                            <td>MG100</td>
+                        </tr>
+                        <tr>
+                            <td>MG222</td>
+                            <td>Pakistan Economics</td>
+                            <td>3+0</td>
+                            <td>MG204</td>
+                        </tr>
+                        <tr>
+                            <td>SS218</td>
+                            <td>Introduction to Psychology</td>
+                            <td>3+0</td>
+                            <td>None</td>
+                        </tr>
+                    </tbody>
+                </table>
+           
+
+          <h3 class="text-center" style="margin-bottom:20px;">SEMESTER 5</h3>
+                <table class="table">
+                    <thead style="background-color:#006666; color: white">
+                        <tr>
+                            <th>Course Code</th>
+                            <th>Course Name</th>
+                            <th>Credit Hours</th>
+                            <th>Pre Req</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>MG301</td>
+                            <td>Cost Accounting</td>
+                            <td>3+0</td>
+                            <td>MG202</td>
+                           
+                        </tr>
+                        <tr>
+                            <td>MG366</td>
+                            <td>Marketing Management</td>
+                            <td>3+0</td>
+                            <td>MG209</td>
+                           
+                        </tr>
+                        <tr>
+                            <td>MT301</td>
+                            <td>Statistics & Probability</td>
+                            <td>3+0</td>
+                            <td>MT205</td>
+                           
+                        </tr>
+                        <tr>
+                            <td>MG206</td>
+                            <td>Business Finance</td>
+                            <td>3+0</td>
+                            <td>MG202</td>
+                        </tr>
+                        <tr>
+                            <td>MG308</td>
+                            <td>Business Law</td>
+                            <td>3+0</td>
+                            <td>None</td>
+                        </tr>
+                        <tr>
+                            <td>MG3xx</td>
+                            <td>Specialization I</td>
+                            <td>3+0</td>
+                            <td>None</td>
+                        </tr>
+                    </tbody>
+                </table>
+          
+
+          <h3 class="text-center" style="margin-bottom:20px;">SEMESTER 6</h3>
+                <table class="table">
+                    <thead style="background-color:#006666; color: white">
+                        <tr>
+                            <th>Course Code</th>
+                            <th>Course Name</th>
+                            <th>Credit Hours</th>
+                            <th>Pre Req</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                                    <tr>
+                                        <td>SS406</td>
+                                        <td>Business Ethics</td>
+                                        <td>3+0</td>
+                                        <td>MG308</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>MG245</td>
+                                        <td>Organizational Behavior</td>
+                                        <td>3+0</td>
+                                        <td>SS218</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>MG306</td>
+                                        <td>Consumer Behavior</td>
+                                        <td>3+0</td>
+                                        <td>MG209</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>CS204</td>
+                                        <td>MIS</td>
+                                        <td>3+0</td>
+                                        <td>CS121</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>MG301</td>
+                                        <td>Financial Management</td>
+                                        <td>3+0</td>
+                                        <td>MG202</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>MG4xx</td>
+                                        <td>Specialization II</td>
+                                        <td>3+0</td>
+                                        <td>None</td>
+                                    </tr>
+                       
+                    </tbody>
+                </table>
+           
+
+          <h3 class="text-center" style="margin-bottom:20px;">SEMESTER 7</h3>
+                <table class="table">
+                    <thead style="background-color:#006666; color: white">
+                        <tr>
+                            <th>Course Code</th>
+                            <th>Course Name</th>
+                            <th>Credit Hours</th>
+                            <th>Pre Req</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                                        <td>SS401</td>
+                                        <td>Research Methodology & Professional Ethics</td>
+                                        <td>3+0</td>
+                                        <td>None</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>MG402</td>
+                                        <td>Production and Operations Management</td>
+                                        <td>3+0</td>
+                                        <td>MG108</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>MG404</td>
+                                        <td>Entrepreneurship</td>
+                                        <td>3+0</td>
+                                        <td>None</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>MG4xx</td>
+                                        <td>Specialization III</td>
+                                        <td>3+0</td>
+                                        <td>None</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>MG499</td>
+                                        <td>Project (I)</td>
+                                        <td>3+0</td>
+                                        <td>None</td>
+                                    </tr>
+                       
+                    </tbody>
+                </table>
+           
+
+          <h3 class="text-center" style="margin-bottom:20px;">SEMESTER 8</h3>
+                <table class="table">
+                    <thead style="background-color:#006666; color: white">
+                        <tr>
+                            <th>Course Code</th>
+                            <th>Course Name</th>
+                            <th>Credit Hours</th>
+                            <th>Pre Req</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                                        <td>MG411</td>
+                                        <td>Strategic Management</td>
+                                        <td>3+0</td>
+                                        <td>MG108</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>MG458</td>
+                                        <td>International Business Management</td>
+                                        <td>3+0</td>
+                                        <td>MG206</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>MG4xx</td>
+                                        <td>Specialization IV</td>
+                                        <td>3+0</td>
+                                        <td>None</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>MG4xx</td>
+                                        <td>General Elective</td>
+                                        <td>3+0</td>
+                                        <td>None</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>MG499</td>
+                                        <td>Project (II)</td>
+                                        <td>3+0</td>
+                                        <td>MG499</td>
+                                    </tr>
+                                </tbody>
+                </table>
+            
+
+          <h3 class="text-center" style="margin-bottom:20px;">Elective Courses</h3>
+                <table class="table">
+                    <thead style="background-color:#006666; color: white">
+                        <tr>
+                            <th>Course Code</th>
+                            <th>Course Name</th>
+                            <th>Credit Hours</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                                    <tr>
+                                        <td>MG394</td>
+                                        <td>Summer Internship</td>
+                                        <td>2+0</td>
+                                        
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>MB422</td>
+                                        <td>Molecular Mechanism of Antimicrobial Drugs-1</td>
+                                        <td>2+1</td>
+                                        
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>MB423</td>
+                                        <td>Epidemiology</td>
+                                        <td>3+0</td>
+                                        
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>MB424</td>
+                                        <td>Clinical Bacteriology</td>
+                                        <td>2+1</td>
+                                        
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>MB425</td>
+                                        <td>Medical Virology</td>
+                                        <td>2+1</td>
+                                        
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>MB428</td>
+                                        <td>Clinical Hematology in Microbial disease</td>
+                                        <td>2+1</td>
+                                        
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>MB429</td>
+                                        <td>Clinical Mycology</td>
+                                        <td>2+1</td>
+                                        
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>MB430</td>
+                                        <td>Biosafety and Risk Management</td>
+                                        <td>3+0</td>
+                                        
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>MB431</td>
+                                        <td>Environment Biotechnology</td>
+                                        <td>2+1</td>
+                                        
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>MB431</td>
+                                        <td>Hospital Waste managements</td>
+                                        <td>3+0</td>
+                                        
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>MB432</td>
+                                        <td>Radio Biology</td>
+                                        <td>3+0</td>
+                                        
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td>MB433</td>
+                                        <td>Food Biotechnology</td>
+                                        <td>3+0</td>
+                                        
+                                    </tr>
+                                </tbody>
+                </table>
+            
+
+
+            </div>
+        </div>         
+        <!-- /#page -->         
+        <!--=== Load JS here for greater good ====-->         
+        <script type="text/javascript" src="js/customnavbar.js"></script>         
+        <script src="js/jquery-1.8.3.min.js"></script>         
+        <script src="js/bootstrap.min.js"></script>         
+        <script src="js/isotope.pkgd.js"></script>         
+        <script src="js/jquery.countdown.min.js"></script>         
+        <script src="js/jquery.flexslider.js"></script>         
+        <script src="js/jquery.nivo.slider.pack.js"></script>         
+        <script src="js/portfolio-custom1.js"></script>         
+        <script src="js/portfolio-custom2.js"></script>         
+        <script src="js/main.js"></script>         
+    </body>
+</html>

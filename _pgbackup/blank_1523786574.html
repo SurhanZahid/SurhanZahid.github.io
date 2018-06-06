@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="utf-8"> 
+        <title>Divider</title>         
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <!-- Loading Bootstrap -->         
+        <link href="css/bootstrap.css" rel="stylesheet"> 
+        <!-- Edit CSS -->         
+        <link href="css/default.css" rel="stylesheet"> 
+        <link href="css/main.css" rel="stylesheet"> 
+        <!-- Font Awesome -->         
+        <link href="css/font-awesome.css" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,900,700,600,300,200" rel="stylesheet" type="text/css"> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet"> 
+        <link rel="shortcut icon" href="images/favicon.ico"> 
+        <link href="css/customnavbar.css" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>     
+    <body> 
+        <header class="header"> 
+            <a class="brand-logo" href="">
+                <img alt="logo" src="logo1.png">
+            </a>             
+            <nav class="navigation"> 
+                <div class="navigation__top"> 
+                    <ul class="top-nav-list desktop-only"> 
+                        <li class="top-nav-list__item"> 
+                            <a class="top-link" href="#">Acdamic Calander</a> 
+                        </li>                         
+                        <li class="top-nav-list__item"> 
+                            <a class="top-link" href="#">Contact Us</a> 
+                        </li>                         
+                        <li class="top-nav-list__item"> 
+                            <a class="top-link" href="#">Peshwar Campus</a> 
+                        </li>                         
+                        <li class="top-nav-list__item"> 
+                            <a class="top-link" href="#">Campus Mail</a> 
+                        </li>                         
+                    </ul>                     
+                </div>                 
+                <div class="navigation__main"> 
+                    <div class="mobile-nav-ui"> 
+                        <div class="mobile-nav-ui__left"> 
+                            <div class="menu-btn" data-action="back"> 
+                                <div class="menu-btn__icon menu-btn__icon_back"></div>
+                                <span class="menu-btn__label">BACK</span> 
+                            </div>                             
+                        </div>                         
+                        <div class="mobile-nav-ui__right"> 
+                            <div class="menu-btn" data-action="open"> 
+                                <i class="fa fa-align-justify"></i>
+                                <span class="menu-btn__label">MENU</span> 
+                            </div>                             
+                            <div class="menu-btn" data-action="close"> 
+                                <div class="menu-btn__icon menu-btn__icon_close"></div>
+                                <span class="menu-btn__label">CLOSE</span> 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                    <div class="mobile-nav-wrap"> 
+                        <div class="dropdown-background"></div>                         
+                        <ul class="main-nav-list menu"> 
+                            <li class="menu-item menu-item-has-children orange"> 
+                                <a href="/travel-explore"><span>AUIC</span></a> 
+                                <div class="menu-dropdown"> 
+                                    <div class="menu-dropdown__content"> 
+                                        <ul class="sub-menu"> 
+                                            <li class="menu-item"> 
+                                                <a href="">OVERALL</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/travel-explore/weekend">Vision & Mission</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/travel-explore/vacation">Objectives</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/travel-explore/vacation">VC Message</a> 
+                                            </li>                                             
+                                        </ul>
+                                        <a class="menu-article" href="/event/highlights-of-portugal-may-27-june-2-2018">
+                                            <img alt="" class="menu-article__img" src="2.jpg"> 
+                                            <span class="menu-article__title">Fairwell Highlights, June 17-23, 2018</span>
+                                        </a>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </li>                             
+                            <li class="menu-item menu-item-has-children green"> 
+                                <a href="/play-sports"><span>Departments</span></a> 
+                                <div class="menu-dropdown"> 
+                                    <div class="menu-dropdown__content"> 
+                                        <ul class="sub-menu"> 
+                                            <li class="menu-item"> 
+                                                <a href="">OVERALL</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/dodgeball">Civil Engineering</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/field-hockey-indoor">Electrical Engineering (BSSE)</a> 
+                                            </li>
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/field-hockey-indoor">Electrical Engineering (MSSE)</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/field-hockey-outdoor">Computer Sciences (BSCS)</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/floor-hockey-indoor">Computer Sciences (MSCS)</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/floor-hockey-outdoor">Software Engineering (BSSE)</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/football-indoor">Software Engineering (MSSE)</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/football-outdoor">Telecomunication & Networks</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/golf">BBA</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/kickball">MBA</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/lacrosse-outdoor">MS(MGT)</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/soccer-indoor">MSEM</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/soccer-outdoor">MSPM</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/softball-indoor">MS(LSM)</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/softball-outdoor">M.COM</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/ultimate-frisbee">English</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/volleyball-indoor">Psychology</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/volleyball-outdoor">Microbiology</a> 
+                                            </li>
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/volleyball-outdoor">Biotechnology</a> 
+                                            </li>
+                                            <li class="menu-item"> 
+                                                <a href="/play-sports/volleyball-outdoor">Phram-D</a> 
+                                            </li>                                             
+                                        </ul>
+                                        <a class="menu-article" href="/event/thursday-fenway-coed-6v6-dodgeball-030118">
+                                            <img alt="" class="menu-article__img" src="4.jpg"> 
+                                            <span class="menu-article__title">Admissions Are Open</span>
+                                        </a>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </li>                             
+                            <li class="menu-item menu-item-has-children blue"> 
+                                <a href="/ski-ride"><span>Rules & Policies</span></a> 
+                                <div class="menu-dropdown"> 
+                                    <div class="menu-dropdown__content"> 
+                                        <ul class="sub-menu"> 
+                                            <li class="menu-item"> 
+                                                <a href="/ski-ride/ski-weekend">Academic Integrity</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/ski-ride/ski-vacation">Academic System</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/ski-ride/day-ski">Registration</a> 
+                                            </li>                                             
+                                        </ul>
+                                        <a class="menu-article" href="/event/sugarloaf-march-2-4-2018">
+                                            <img alt="" class="menu-article__img" src="/__media/2.%20Ski%20&%20Ride/Ski%20Weekends/2-Menu_articles/MenuArticle_Sugarloaf.jpg"> 
+                                            <span class="menu-article__title">Sugarloaf March 2-4, 2018</span>
+                                        </a>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </li>                             
+                            <li class="menu-item menu-item-has-children fuchsia"> 
+                                <a href="/social-events"><span>Admission & Aids</span></a> 
+                                <div class="menu-dropdown"> 
+                                    <div class="menu-dropdown__content"> 
+                                        <ul class="sub-menu"> 
+                                            <li class="menu-item"> 
+                                                <a href="/social-events/social">Admission Overview</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/social-events/adventure">Financial Aid</a> 
+                                            </li>
+                                            <li class="menu-item"> 
+                                                <a href="/social-events/adventure">Scholarships</a> 
+                                            </li>
+                                            <li class="menu-item"> 
+                                                <a href="/social-events/adventure">Fee Structure</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/social-events/adventure">Admission Overview</a> 
+                                            </li>                                             
+                                        </ul>
+                                        <a class="menu-article" href="/event/spring-cornhole-tournament">
+                                            <img alt="" class="menu-article__img" src="/__media/3.%20Get%20Social/Social/2%20Menu%20Article/MenuArticle_Cornhole2.jpg"> 
+                                            <span class="menu-article__title">Spring Cornhole Tournament</span>
+                                        </a>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </li>                             
+                            <li class="menu-item menu-item-has-children"> 
+                                <a href="/join"><span>Research</span></a> 
+                                <div class="menu-dropdown"> 
+                                    <div class="menu-dropdown__content"> 
+                                        <ul class="sub-menu"> 
+                                            <li class="menu-item"> 
+                                                <a href="/join/member-rewards">Projects</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/join/corporate-membership">Publications</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/join/news-alerts">Abasyn Intl. Conference</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/join/member-faqs">Journel of Social Sciences</a> 
+                                            </li>                                             
+                                        </ul>                                         
+                                        <a class="menu-article" href="/event/thursday-fenway-coed-6v6-dodgeball-030118">
+                                            <img alt="" class="menu-article__img" src="4.jpg"> 
+                                            <span class="menu-article__title">Admissions Are Open</span>
+                                        </a>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </li>                             
+                            <li class="menu-item menu-item-has-children"> 
+                                <a href="/about"><span>Center of M & E</span></a> 
+                                <div class="menu-dropdown"> 
+                                    <div class="menu-dropdown__content"> 
+                                        <ul class="sub-menu"> 
+                                            <li class="menu-item"> 
+                                                <a href="/about/jobs">About the Center</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/about/staff">OBE at AUIC</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/about/testimonials">Software System - TLS</a> 
+                                            </li>                                             
+                                            <li class="menu-item"> 
+                                                <a href="/about/faq">Research and Analysis</a> 
+                                            </li>                                             
+                                        </ul>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </li>                             
+                        </ul>                         
+                        <ul class="mobile-sub-nav-list"> 
+                            <li class="mobile-sub-nav-list__item"> 
+                                <a class="top-link" href="#">Acdamic Calander</a> 
+                            </li>                             
+                            <li class="mobile-sub-nav-list__item"> 
+                                <a class="top-link" href="#">Contact Us</a> 
+                            </li>                             
+                            <li class="mobile-sub-nav-list__item"> 
+                                <a class="top-link" href="#">Peshwar Campus</a> 
+                            </li>                             
+                            <li class="mobile-sub-nav-list__item"> 
+                                <a class="top-link" href="#">Peshwar Campus</a> 
+                            </li>                             
+                            <li class="mobile-sub-nav-list__item"> 
+                                <a class="top-link" href="#">Campus Mail</a> 
+                            </li>                             
+                        </ul>                         
+                    </div>                     
+                </div>                 
+            </nav>             
+        </header>         
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center">BS in Computer Science</h2>
+                <center>
+                    <table class="points_table">
+                        <thead>
+                            <tr>
+                                <th class="col-xs-2">Course Code</th>
+                                <th class="col-xs-6">Course Name</th>
+                                <th class="col-xs-2">Credit Hours</th>
+                                <th class="col-xs-2">Pre Req</th>
+                            </tr>
+                        </thead>
+                        <tbody class="points_table_scrollbar">
+                            <tr class="odd">
+                                <td class="col-xs-2">1</td>
+                                <td class="col-xs-6">Test Points</td>
+                                <td class="col-xs-2">10</td>
+                                <td class="col-xs-2">0</td>
+                            </tr>
+                            <tr class="even">
+                                <td class="col-xs-2">1</td>
+                                <td class="col-xs-6">Test Points</td>
+                                <td class="col-xs-2">10</td>
+                                <td class="col-xs-2">0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </center>
+            </div>
+        </div>         
+        <!-- /#page -->         
+        <!--=== Load JS here for greater good ====-->         
+        <script type="text/javascript" src="js/customnavbar.js"></script>         
+        <script src="js/jquery-1.8.3.min.js"></script>         
+        <script src="js/bootstrap.min.js"></script>         
+        <script src="js/isotope.pkgd.js"></script>         
+        <script src="js/jquery.countdown.min.js"></script>         
+        <script src="js/jquery.flexslider.js"></script>         
+        <script src="js/jquery.nivo.slider.pack.js"></script>         
+        <script src="js/portfolio-custom1.js"></script>         
+        <script src="js/portfolio-custom2.js"></script>         
+        <script src="js/main.js"></script>         
+    </body>
+</html>
