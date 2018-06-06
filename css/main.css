@@ -1211,15 +1211,15 @@
 .header6 .navbar-nav > li > a.nav-button:hover{
     border: 0;
     color: #fff;
-    background-color: #01BF86; 
+    background-color: none;
 }
 
 .header6 .navbar-nav > li > a.nav-button{
     color: #fff;
-    background-color: #444; 
+    background-color: #444;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 8px 18px; 
+    padding: 8px 18px;
     font-weight: bold;
     border-radius: 3px;
     line-height: 15px;
@@ -1232,8 +1232,8 @@
 /* header */
 .header6 {
     position: relative;
-    background-color: #01BF86;
-    background: url('../images/dark-logs-bg.jpg') no-repeat scroll center top / cover ;
+    background-color: white;
+    /*background: url('../images/dark-logs-bg.jpg') no-repeat scroll center top / cover ;*/
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -1261,7 +1261,7 @@
 
 .header6 .carousel-inner > .item img{
     border-radius: 6px;
-    
+
 }
 
 .header6 .carousel-inner > .item img.img-responsive {
@@ -1272,7 +1272,7 @@
 
 .header6 .carousel-caption h3{
     font-weight: 700;
-    font-size: 25px; 
+    font-size: 25px;
     margin-top: 0;
     word-spacing: 3px;
     color: #38A5E0;
@@ -1282,7 +1282,7 @@
 .header6 .carousel-caption p{
     color: #f0ece4;
     font-size: 14px;
-    margin-bottom: 0; 
+    margin-bottom: 0;
     line-height: 1.7;
     max-width: 700px;
     font-weight: 300;
@@ -1294,7 +1294,7 @@
     color: #ffffff;
     left: 0;
     padding: 25px;
-    min-height: 100px; 
+    min-height: 100px;
     position: absolute;
     right: 0;
     text-align: inherit;
@@ -1315,7 +1315,7 @@
     margin-top: -40px;
     z-index: 3;
 }
-    
+
 .header6 .carousel-control.prev{
     left: -40px;
     -webkit-transition: all 0.4s ease;
@@ -1325,35 +1325,35 @@
 .header6 .carousel:hover .carousel-control.prev{
     left: 0;
 }
-    
+
 .header6 .carousel-control.next{
     left: auto;
     right: -40px;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
-    
+
 .header6 .carousel:hover .carousel-control.next{
     right: 0;
-}    
+}
 
-.header6 .carousel-control.prev i{ 
-    border-top-right-radius: 4px; 
-    border-bottom-right-radius: 4px; 
+.header6 .carousel-control.prev i{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 
 .header6 .carousel-control.next i{
-    border-top-left-radius: 4px; 
-    border-bottom-left-radius: 4px; 
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
 
 .header6 .carousel-control i{
-    width: 25px; 
+    width: 25px;
     height: 100px;
-    padding-top: 40px; 
+    padding-top: 40px;
     background-color: rgba(255, 255, 255, 0.3);
-    color: #eee; 
-    text-shadow: none;  
+    color: #eee;
+    text-shadow: none;
 }
 
 .header6 .carousel-control i:hover{
@@ -1361,7 +1361,7 @@
     color: #eee;
 }
 
-.header6 .carousel-control:hover, 
+.header6 .carousel-control:hover,
 .header6 .carousel-control:focus{
     opacity: 1;
 }
@@ -1395,9 +1395,9 @@
 /*	header 7
 /*----------------------------------------------------*/
 .header7 .navbar{
-    border: 0; 
-    background-color: #222; 
-    border-radius: 0; 
+    border: 0;
+    background-color: #222;
+    border-radius: 0;
     height: 70px;
     padding-top: 9px;
     padding-bottom: 9px;
@@ -1410,7 +1410,7 @@
     height: 52px;
     font-size: 26px;
     line-height: 0;
-    font-weight: 700; 
+    font-weight: 700;
     padding: 6px 15px;
     text-transform: uppercase;
 }
@@ -1418,7 +1418,7 @@
 .header7 .navbar-default .navbar-brand > span{
     display: block;
     margin-top: -26px;
-    text-indent: 51px 
+    text-indent: 51px
 }
 
 .header7 .navbar-default .navbar-brand span:last-child {
@@ -1456,7 +1456,7 @@
 
 .header7 .navbar-nav > li > a{
     background-color: transparent;
-    color: #fff; 
+    color: #fff;
     display: inline-block;
     padding-left: 0;
     padding-right: 0;
@@ -1505,7 +1505,7 @@
     transition: all 0.5s ease;
 }
 
-.header7 .navbar-default .navbar-toggle:hover, 
+.header7 .navbar-default .navbar-toggle:hover,
 .header7 .navbar-default .navbar-toggle:focus {
     background-color: transparent;
 }
@@ -1528,7 +1528,7 @@
     color: #fff;
 }
 
-.header7 .navbar-default .navbar-brand:hover, 
+.header7 .navbar-default .navbar-brand:hover,
 .header7 .navbar-default .navbar-brand:focus{
     color: #fff;
 }
@@ -1541,14 +1541,14 @@
 .header7 .navbar-nav > li > a.nav-button:hover{
     border: 0;
     color: #fff;
-    background-color: #38A5E0; 
+    background-color: #38A5E0;
 }
 
 .header7 .navbar-nav > li > a.nav-button{
-    background-color: #01BF86; 
+    background-color: #01BF86;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 8px 18px; 
+    padding: 8px 18px;
     font-weight: bold;
     border-radius: 3px;
     line-height: 15px;
@@ -1587,18 +1587,18 @@
 }
 
 .header7 .login-reg h3{
-    color: #eee; 
+    color: #eee;
     font-weight: 100;
-    margin-top: 0; 
-    margin-bottom: 10px; 
-    position: relative; 
+    margin-top: 0;
+    margin-bottom: 10px;
+    position: relative;
     font-family: 'Roboto Slab', serif;
 }
 
 .header7 .login-reg p{
-    color: #ddd; 
+    color: #ddd;
     font-weight: 100;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
     font-size: 17px
 }
 
@@ -1636,7 +1636,7 @@
     font-weight: 300;
     font-size: 13px;
     margin-bottom: 0;
-    margin-top: 25px; 
+    margin-top: 25px;
     text-indent: 2px;
     font-family: 'Roboto Slab', serif;
 }
@@ -1663,9 +1663,9 @@
 /*	header 8
 /*----------------------------------------------------*/
 .header8 .navbar{
-    border: 0; 
-    background-color: #191C33; 
-    border-radius: 0; 
+    border: 0;
+    background-color: #191C33;
+    border-radius: 0;
     margin-bottom: 0;
     height: 70px;
     padding-top: 9px;
@@ -1678,7 +1678,7 @@
     height: 52px;
     font-size: 26px;
     line-height: 0;
-    font-weight: 700; 
+    font-weight: 700;
     padding: 6px 15px;
     text-transform: uppercase;
 }
@@ -1686,7 +1686,7 @@
 .header8 .navbar-default .navbar-brand > span{
     display: block;
     margin-top: -26px;
-    text-indent: 51px 
+    text-indent: 51px
 }
 
 .header8 .navbar-default .navbar-brand span:last-child {
@@ -1724,7 +1724,7 @@
 
 .header8 .navbar-nav > li > a{
     background-color: transparent;
-    color: #fff; 
+    color: #fff;
     display: inline-block;
     padding-left: 0;
     padding-right: 0;
@@ -1773,7 +1773,7 @@
     transition: all 0.5s ease;
 }
 
-.header8 .navbar-default .navbar-toggle:hover, 
+.header8 .navbar-default .navbar-toggle:hover,
 .header8 .navbar-default .navbar-toggle:focus {
     background-color: transparent;
 }
@@ -1796,7 +1796,7 @@
     color: #fff;
 }
 
-.header8 .navbar-default .navbar-brand:hover, 
+.header8 .navbar-default .navbar-brand:hover,
 .header8 .navbar-default .navbar-brand:focus{
     color: #fff;
 }
@@ -1809,15 +1809,15 @@
 .header8 .navbar-nav > li > a.nav-button:hover{
     border: 0;
     color: #fff;
-    background-color: #10132D; 
+    background-color: #10132D;
 }
 
 .header8 .navbar-nav > li > a.nav-button{
-    background-color: #38A5E0; 
+    background-color: #38A5E0;
     margin-top: 10px;
     font-size: 13px;
     margin-bottom: 10px;
-    padding: 8px 18px; 
+    padding: 8px 18px;
     font-weight: 400;
     border-radius: 3px;
     line-height: 15px;
@@ -1911,14 +1911,14 @@
     opacity: 1;
     font-weight: 100;
     font-family: 'Roboto Slab', serif;
-    
+
 }
 
 .header8 .subscribe .sign-tag p{
-    color: #bbb; 
+    color: #bbb;
     font-size: 13px;
     margin-bottom: 0;
-    margin-top: 25px; 
+    margin-top: 25px;
     text-indent: 2px;
     font-weight: 300;
     font-family: 'Roboto Slab', serif;
@@ -1954,35 +1954,35 @@
 @media (min-width: 768px) {
     .header8 .subscribe input{
         min-width: 550px;
-	}	
+	}
 }
 
 @media only screen and ( max-width : 991px ) {
-    
+
     .header8 h1{
         font-weight: 700;
         font-size: 48px;
     }
-    
+
     .header8 .subscribe .button{
         width: 100%;
         margin-left: 0;
     }
-    
+
     .header8.email{
         color: #fff;
         font-size: 50px;
         margin-bottom: 10px;
      }
-    
+
 }
 
 /*	header 9
 /*----------------------------------------------------*/
 .header9 .navbar{
-    border: 0; 
-    background-color: #191C33; 
-    border-radius: 0; 
+    border: 0;
+    background-color: #191C33;
+    border-radius: 0;
     margin-bottom: 0;
     height: 70px;
     padding-top: 9px;
@@ -1995,7 +1995,7 @@
     height: 52px;
     font-size: 26px;
     line-height: 0;
-    font-weight: 700; 
+    font-weight: 700;
     padding: 6px 15px;
     text-transform: uppercase;
 }
@@ -2003,7 +2003,7 @@
 .header9 .navbar-default .navbar-brand > span{
     display: block;
     margin-top: -26px;
-    text-indent: 51px 
+    text-indent: 51px
 }
 
 .header9 .navbar-default .navbar-brand span:last-child {
@@ -2041,7 +2041,7 @@
 
 .header9 .navbar-nav > li > a{
     background-color: transparent;
-    color: #fff; 
+    color: #fff;
     display: inline-block;
     padding-left: 0;
     padding-right: 0;
@@ -2090,7 +2090,7 @@
     transition: all 0.5s ease;
 }
 
-.header9 .navbar-default .navbar-toggle:hover, 
+.header9 .navbar-default .navbar-toggle:hover,
 .header9 .navbar-default .navbar-toggle:focus {
     background-color: transparent;
 }
@@ -2113,7 +2113,7 @@
     color: #fff;
 }
 
-.header9 .navbar-default .navbar-brand:hover, 
+.header9 .navbar-default .navbar-brand:hover,
 .header9 .navbar-default .navbar-brand:focus{
     color: #fff;
 }
@@ -2126,14 +2126,14 @@
 .header9 .navbar-nav > li > a.nav-button:hover{
     border: 0;
     color: #fff;
-    background-color: #38A5E0; 
+    background-color: #38A5E0;
 }
 
 .header9 .navbar-nav > li > a.nav-button{
-    background-color: #10132D; 
+    background-color: #10132D;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 8px 18px; 
+    padding: 8px 18px;
     font-weight: bold;
     border-radius: 3px;
     line-height: 15px;
@@ -2180,13 +2180,13 @@
 .header9 .site-text{
     width: 100%;
     color: #fff;
-    font-size: 18px; 
+    font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 .header9 .site-text span{
-    border: 1px solid #fff; 
+    border: 1px solid #fff;
     display: inline-block;
     padding: 3px 20px;
 }
@@ -2211,7 +2211,7 @@
 /* end header */
 
 /* Slogan */
-.header9 .slogan ul {		
+.header9 .slogan ul {
 	margin: 0 !important;
 	padding: 0 !important;
 }
@@ -2227,12 +2227,12 @@
     color: #222;
 }
 
-.header9 .slogan p{		
+.header9 .slogan p{
     color: #eee;
 	text-align : center;
 	font-size : 12px;
-	max-width: 500px; 
-    margin: 0 auto; 
+	max-width: 500px;
+    margin: 0 auto;
     margin-bottom: 20px;
     margin-top: 20px;
     line-height: 1.7;
@@ -2246,12 +2246,12 @@
     .header9 .site-logo{
         font-size: 150px;
     }
-    
+
     .header9 .site-text{
         font-size: 25px;
     }
-    
-	.header9 .slogan ul  li {		
+
+	.header9 .slogan ul  li {
 		font-size: 50px;
 	}
     .header9 .slogan p{
@@ -2262,9 +2262,9 @@
 /*	header 10
 /*----------------------------------------------------*/
 .header10 .navbar{
-    border: 0; 
-    background-color: #191C33; 
-    border-radius: 0; 
+    border: 0;
+    background-color: #191C33;
+    border-radius: 0;
     margin-bottom: 0;
     height: 70px;
     padding-top: 9px;
@@ -2277,7 +2277,7 @@
     height: 52px;
     font-size: 26px;
     line-height: 0;
-    font-weight: 700; 
+    font-weight: 700;
     padding: 6px 15px;
     text-transform: uppercase;
 }
@@ -2285,7 +2285,7 @@
 .header10 .navbar-default .navbar-brand > span{
     display: block;
     margin-top: -26px;
-    text-indent: 51px 
+    text-indent: 51px
 }
 
 .header10 .navbar-default .navbar-brand span:last-child {
@@ -2323,7 +2323,7 @@
 
 .header10 .navbar-nav > li > a{
     background-color: transparent;
-    color: #fff; 
+    color: #fff;
     display: inline-block;
     padding-left: 0;
     padding-right: 0;
@@ -2372,7 +2372,7 @@
     transition: all 0.5s ease;
 }
 
-.header10 .navbar-default .navbar-toggle:hover, 
+.header10 .navbar-default .navbar-toggle:hover,
 .header10 .navbar-default .navbar-toggle:focus {
     background-color: transparent;
 }
@@ -2395,7 +2395,7 @@
     color: #fff;
 }
 
-.header10 .navbar-default .navbar-brand:hover, 
+.header10 .navbar-default .navbar-brand:hover,
 .header10 .navbar-default .navbar-brand:focus{
     color: #fff;
 }
@@ -2408,14 +2408,14 @@
 .header10 .navbar-nav > li > a.nav-button:hover{
     border: 0;
     color: #fff;
-    background-color: #38A5E0; 
+    background-color: #38A5E0;
 }
 
 .header10 .navbar-nav > li > a.nav-button{
-    background-color: #10132D; 
+    background-color: #10132D;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 8px 18px; 
+    padding: 8px 18px;
     font-weight: bold;
     border-radius: 3px;
     line-height: 15px;
@@ -2450,13 +2450,13 @@
 .header10 .site-text{
     width: 100%;
     color: #fff;
-    font-size: 18px; 
+    font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 .header10 .site-text span{
-    border: 1px solid #fff; 
+    border: 1px solid #fff;
     display: inline-block;
     padding: 3px 20px;
 }
@@ -2476,11 +2476,11 @@
 /* end header */
 
 /* Slogan */
-.header10 .slogan ul {		
+.header10 .slogan ul {
 	margin: 0 !important;
 	padding: 0 !important;
 }
-.header10 .slogan ul > li {	
+.header10 .slogan ul > li {
     line-height: 1.2;
     font-weight: 100;
 	font-size: 25px;
@@ -2512,7 +2512,7 @@
     min-width: 130px;
     padding-top: 5px;
 	transition: all 0.2s ease-in-out;
-	-webkit-transition: all 0.2s ease-in-out; 
+	-webkit-transition: all 0.2s ease-in-out;
 	   -moz-transition: all 0.2s ease-in-out;
 	    -ms-transition: all 0.2s ease-in-out;
 	     -o-transition: all 0.2s ease-in-out;
@@ -2522,7 +2522,7 @@
     background-color: rgba(255, 255, 255, 0);
 	border: 2px solid #fff;
 	transition: all 0.2s ease-in-out;
-	-webkit-transition: all 0.2s ease-in-out; 
+	-webkit-transition: all 0.2s ease-in-out;
 	   -moz-transition: all 0.2s ease-in-out;
 	    -ms-transition: all 0.2s ease-in-out;
 	     -o-transition: all 0.2s ease-in-out;
@@ -2549,30 +2549,30 @@
     .header10 .site-logo{
         font-size: 150px;
     }
-    
+
     .header10 .site-text{
         font-size: 25px;
     }
-    
+
     .header10 .tag-line {
         letter-spacing: 8px;
         word-spacing: 3px;
     }
-    
-	.header10 .slogan ul  li {		
+
+	.header10 .slogan ul  li {
 		font-size: 50px;
 	}
-    
+
     .header10 .slogan p{
 		font-size : 16px;
 	}
-    
+
     .header10 .countdown ul li {
         height: 170px;
         min-width: 170px;
         padding-top: 20px;
     }
-    
+
     .header10 .countdown ul li span {
         font-size: 70px;
     }
@@ -2585,8 +2585,9 @@
 	position:relative;
 	width:100%;
 	height:auto;
-    z-index:1;
 	overflow: hidden;
+	z-index:1;
+	margin-top:25px;
 }
 .nivoSlider img {
 	position:absolute;
@@ -2596,7 +2597,7 @@
 }
 .nivo-main-image {
 	display: block !important;
-	position: relative !important; 
+	position: relative !important;
 	width: 100% !important;
 }
 
@@ -2610,17 +2611,17 @@
 	border:0;
 	padding:0;
 	margin:0;
-	z-index:1;
+	z-index:6;
 	display:none;
-	background:white; 
-	filter:alpha(opacity=0); 
+	background:white;
+	filter:alpha(opacity=0);
 	opacity:0;
 }
 /* The slices and boxes in the Slider */
 .nivo-slice {
 	display:block;
 	position:absolute;
-	z-index:1;
+	z-index:5;
 	height:100%;
 	top:0;
 }
@@ -2634,7 +2635,7 @@
 
 /* Caption styles */
 .nivo-caption {
-    background: #01BF86 none repeat scroll 0 0;
+
     bottom: 0;
     color: #fff;
     display: none;
@@ -2649,7 +2650,7 @@
     z-index: 5;
 	-moz-opacity: 0.8;
 	filter:alpha(opacity=8); /* Safari/Chrome, other WebKit */    /* Firefox, other Gecko */
-	box-sizing: border-box; 
+	box-sizing: border-box;
 }
 
 .nivo-caption p {
@@ -2743,7 +2744,7 @@
 
 .content-section1 .single-content h3{
     font-size: 28px;
-    font-weight: 600; 
+    font-weight: 600;
     margin-bottom: 15px;
     font-family: 'Roboto Slab', serif;
 }
@@ -2790,7 +2791,7 @@
 
 .content-section2 .single-content h3{
     font-size: 28px;
-    font-weight: bold; 
+    font-weight: bold;
     margin-bottom: 15px;
 }
 
@@ -2852,7 +2853,7 @@
 
 .content-section3 .single-content h3{
     font-size: 28px;
-    font-weight: 600; 
+    font-weight: 600;
     margin-bottom: 15px;
     font-family: 'Roboto Slab', serif;
 }
@@ -2898,7 +2899,7 @@
 
 .content-section4 .single-content h3{
     font-size: 28px;
-    font-weight: bold; 
+    font-weight: bold;
     margin-bottom: 15px;
 }
 
@@ -2920,14 +2921,14 @@
 }
 
 .content-section5 .single-content h3 span{
-    font-size: 45px; 
-    margin-right: 5px; 
+    font-size: 45px;
+    margin-right: 5px;
     color: #555;
 }
 
 .content-section5 .single-content h3{
     font-size: 28px;
-    font-weight: 600; 
+    font-weight: 600;
     margin-bottom: 15px;
     font-family: 'Roboto Slab', serif;
 }
@@ -2996,7 +2997,7 @@
 
 .content-section6 .single-content h3{
     font-size: 28px;
-    font-weight: bold; 
+    font-weight: bold;
     margin-bottom: 15px;
 }
 
@@ -3062,7 +3063,7 @@
 }
 
 .content-section7 .single-content i {
-    margin: 0; 
+    margin: 0;
     top: 0;
     margin-left: -30px;
     top: -30px;
@@ -3071,7 +3072,7 @@
 .content-section7 .single-content h3{
     color: #fff;
     font-size: 28px;
-    font-weight: bold; 
+    font-weight: bold;
     margin-bottom: 15px;
     margin-top: 30px;
     position: relative;
@@ -3142,7 +3143,7 @@
 
 .content-section8 .single-content h3{
     font-size: 28px;
-    font-weight: bold; 
+    font-weight: bold;
     margin-bottom: 15px;
     position: relative;
     z-index: 2;
@@ -3220,7 +3221,7 @@
 .content-section9 .single-content h3{
     color: #fff;
     font-size: 28px;
-    font-weight: 600; 
+    font-weight: 600;
     margin: 0;
     position: relative;
     z-index: 2;
@@ -3272,7 +3273,7 @@
 
 .content-section10 .single-content h3{
     font-size: 28px;
-    font-weight: 600; 
+    font-weight: 600;
     margin-bottom: 15px;
     margin-top: 0;
     font-family: 'Roboto Slab', serif;
@@ -3305,7 +3306,7 @@
 
 .content-section11 .single-content h3{
     font-size: 28px;
-    font-weight: 600; 
+    font-weight: 600;
     margin-bottom: 15px;
     margin-top: 0;
     font-family: 'Roboto Slab', serif;
@@ -3325,7 +3326,7 @@
 }
 
 .content-section12 .single-content:hover{
-    background-color: #efefef;  
+    background-color: #efefef;
     background: url('../images/header9.jpg') no-repeat scroll center top / cover ;
 }
 
@@ -3333,7 +3334,7 @@
     position: relative;
     display: inline-block;
     margin-bottom: 10px;
-    padding: 30px 20px; 
+    padding: 30px 20px;
     background-color: transparent;
     -webkit-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
@@ -3361,7 +3362,7 @@
 
 .content-section12 .single-content h3{
     font-size: 28px;
-    font-weight: bold; 
+    font-weight: bold;
     margin-bottom: 15px;
     margin-top: 0;
     position: relative;
@@ -3416,7 +3417,7 @@
 .content1-1 .platform.list-inline > li span{
     display: block;
     font-size: 13px;
-    font-weight: 600; 
+    font-weight: 600;
     color: #466B77;
     margin-top: 10px;
     font-family: 'Roboto Slab', serif;
@@ -3448,10 +3449,10 @@
 
 .content1-2 .people{
     position: relative;
-    background: #ffffff; 
+    background: #ffffff;
     padding: 20px 25px;
     margin-bottom: 110px;
-} 
+}
 
 .content1-2 .people::before {
     border-left: 12px solid transparent;
@@ -3477,13 +3478,13 @@
 }
 
 .content1-2 .people .media {
-    position: absolute; 
-    bottom: -85px; 
+    position: absolute;
+    bottom: -85px;
 }
 
 .content1-2 .people .media img{
-    width: 55px; 
-    height: 55px; 
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
 }
 
@@ -3503,8 +3504,8 @@
 
 .content1-2 .people .media-body h3{
     font-size: 18px;
-    font-weight: 600; 
-    margin-top: 8px; 
+    font-weight: 600;
+    margin-top: 8px;
     margin-bottom: 3px;
 }
 
@@ -3538,15 +3539,15 @@
 
 .content1-3 .button{
     color: #fff;
-    text-transform: uppercase; 
-    font-size: 13px; 
+    text-transform: uppercase;
+    font-size: 13px;
     padding: 12px 0;
     min-width: 150px;
-    border: 0; 
-    box-shadow: none; 
+    border: 0;
+    box-shadow: none;
     border-radius: 30px;
     margin: 0 2px;
-    background-color: 
+    background-color:
 }
 
 .content1-3 .btn-success.button{
@@ -3591,15 +3592,15 @@
 
 .content1-4 .button{
     color: #fff;
-    text-transform: uppercase; 
-    font-size: 13px; 
+    text-transform: uppercase;
+    font-size: 13px;
     padding: 12px 0;
     min-width: 150px;
-    border: 0; 
-    box-shadow: none; 
+    border: 0;
+    box-shadow: none;
     border-radius: 30px;
     margin: 0 2px;
-    background-color: 
+    background-color:
 }
 
 .content1-4 .btn-success.button{
@@ -3644,15 +3645,15 @@
 
 .content1-5 .button{
     color: #fff;
-    text-transform: uppercase; 
-    font-size: 14px; 
+    text-transform: uppercase;
+    font-size: 14px;
     padding: 12px 0;
     min-width: 150px;
-    border: 0; 
-    box-shadow: none; 
+    border: 0;
+    box-shadow: none;
     border-radius: 30px;
     margin: 0 2px;
-    background-color: 
+    background-color:
 }
 
 .content1-5 .btn-success.button{
@@ -3697,15 +3698,15 @@
 
 .content1-6 .button{
     color: #fff;
-    text-transform: uppercase; 
-    font-size: 14px; 
+    text-transform: uppercase;
+    font-size: 14px;
     padding: 12px 0;
     min-width: 150px;
-    border: 0; 
-    box-shadow: none; 
+    border: 0;
+    box-shadow: none;
     border-radius: 30px;
     margin: 0 2px;
-    background-color: 
+    background-color:
 }
 
 .content1-6 .btn-success.button{
@@ -3760,7 +3761,7 @@
     width: 40px;
 }
 
-.content1-7 .media-right, 
+.content1-7 .media-right,
 .content1-7 .media > .pull-right{
     padding-left: 20px;
 }
@@ -3771,7 +3772,7 @@
 
 .content1-7 .single-content h3{
     font-size: 25px;
-    font-weight: bold; 
+    font-weight: bold;
     margin-bottom: 15px;
     margin-top: 0;
     font-family: 'Roboto Slab', serif;
@@ -3823,7 +3824,7 @@
     width: 40px;
 }
 
-.content1-8 .media-right, 
+.content1-8 .media-right,
 .content1-8 .media > .pull-right{
     padding-left: 20px;
 }
@@ -3834,7 +3835,7 @@
 
 .content1-8 .single-content h3{
     font-size: 25px;
-    font-weight: 600; 
+    font-weight: 600;
     margin-bottom: 15px;
     margin-top: 0;
     font-family: 'Roboto Slab', serif;
@@ -3899,7 +3900,7 @@
     width: 40px;
 }
 
-.content1-9 .media-right, 
+.content1-9 .media-right,
 .content1-9 .media > .pull-right{
     padding-left: 20px;
 }
@@ -3910,7 +3911,7 @@
 
 .content1-9 .single-content h3{
     font-size: 25px;
-    font-weight: 600; 
+    font-weight: 600;
     margin-bottom: 15px;
     margin-top: 0;
     font-family: 'Roboto Slab', serif;
@@ -3931,8 +3932,8 @@
 
 .content2-1 span{
     color: #666;
-    font-size: 14px; 
-    font-weight: 700; 
+    font-size: 14px;
+    font-weight: 700;
     text-transform: uppercase;
     font-family: 'Roboto Slab', serif;
 }
@@ -3948,15 +3949,15 @@
 
 .content2-1 .button{
     color: #fff;
-    text-transform: uppercase; 
-    font-size: 14px; 
+    text-transform: uppercase;
+    font-size: 14px;
     padding: 12px 0;
     min-width: 150px;
-    border: 0; 
-    box-shadow: none; 
+    border: 0;
+    box-shadow: none;
     border-radius: 30px;
     margin: 0 2px;
-    background-color: 
+    background-color:
 }
 
 .content2-1 .btn-success.button{
@@ -4033,15 +4034,15 @@
 
 .content2-3 .button{
     color: #fff;
-    text-transform: uppercase; 
-    font-size: 14px; 
+    text-transform: uppercase;
+    font-size: 14px;
     padding: 12px 0;
     min-width: 170px;
-    border: 0; 
-    box-shadow: none; 
+    border: 0;
+    box-shadow: none;
     border-radius: 4px;
     margin: 0 2px;
-    font-family: 'Roboto Slab', serif; 
+    font-family: 'Roboto Slab', serif;
 }
 
 .content2-3 .btn-success.button{
@@ -4054,7 +4055,7 @@
 
 .content2-3 .button:hover{
     background-color: #38A5E0;
-} 
+}
 
 /*	content 2-4
 /*----------------------------------------------------*/
@@ -4089,12 +4090,12 @@
 
 .content2-4 .button{
     color: #fff;
-    text-transform: uppercase; 
-    font-size: 14px; 
+    text-transform: uppercase;
+    font-size: 14px;
     padding: 12px 0;
     min-width: 170px;
-    border: 0; 
-    box-shadow: none; 
+    border: 0;
+    box-shadow: none;
     border-radius: 4px;
     margin: 0 2px;
     font-weight: 100;
@@ -4152,7 +4153,7 @@
     width: 40px;
 }
 
-.content2-5 .media-right, 
+.content2-5 .media-right,
 .content2-5 .media > .pull-right{
     padding-left: 20px;
 }
@@ -4163,7 +4164,7 @@
 
 .content2-5 .single-content h3{
     font-size: 25px;
-    font-weight: 700; 
+    font-weight: 700;
     margin-bottom: 15px;
     margin-top: 0;
     font-family: 'Roboto Slab', serif;
@@ -4211,7 +4212,7 @@
     width: 1px;
 }
 
-.content2-6 .media-right, 
+.content2-6 .media-right,
 .content2-6 .media > .pull-right{
     padding-left: 35px;
     margin-right: 20px;
@@ -4229,7 +4230,7 @@
 
 .content2-6 .single-content h3{
     font-size: 25px;
-    font-weight: 700; 
+    font-weight: 700;
     margin-bottom: 15px;
     margin-top: 0;
     font-family: 'Roboto Slab', serif;
@@ -4278,12 +4279,12 @@
     width: 1px;
 }
 
-.content2-7 .media-right, 
+.content2-7 .media-right,
 .content2-7 .media > .pull-right{
     padding-left: 35px;
     margin-right: 20px;
     position: relative;
-    
+
 }
 
 .content2-7 .media-left,
@@ -4291,7 +4292,7 @@
     padding-right: 35px;
     margin-left: 20px;
     position: relative;
-    
+
 }
 
 .content2-7 .single-content .media-right > i {
@@ -4300,7 +4301,7 @@
 
 .content2-7 .single-content h3{
     font-size: 25px;
-    font-weight: bold; 
+    font-weight: bold;
     margin-bottom: 0;
     margin-top: 0;
     font-family: 'Titillium Web', sans-serif;
@@ -4329,9 +4330,9 @@
 .content2-8 .single-content{
     display: inline-block;
     margin-bottom: 15px;
-    background-color: #ddd; 
-    min-width: 220px; 
-    height: 210px; 
+    background-color: #ddd;
+    min-width: 220px;
+    height: 210px;
     padding-top: 25px;
     border-radius: 6px;
 }
@@ -4349,7 +4350,7 @@
 
 .content2-8 .single-content h3{
     font-size: 55px;
-    font-weight: 700; 
+    font-weight: 700;
     margin-bottom: 0;
     margin-top: 10px;
     font-family: 'Titillium Web', sans-serif;
@@ -4388,7 +4389,7 @@
 }
 
 .content2-9 .single-content:hover i {
-    
+
 }
 
 .content2-9 .single-content i {
@@ -4424,7 +4425,7 @@
 .content2-9 .single-content h3{
     color: #fefefe;
     font-size: 55px;
-    font-weight: bold; 
+    font-weight: bold;
     margin-bottom: 0;
     margin-top: 10px;
     font-family: 'Roboto Slab', serif;
@@ -4459,7 +4460,7 @@
 }
 
 .content2-10 p.bold-para{
-    font-size: 18px; 
+    font-size: 18px;
     margin-bottom: 25px;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 300px;
@@ -4467,7 +4468,7 @@
 
 .content2-10 h2{
     font-size: 35px;
-    font-weight: 800; 
+    font-weight: 800;
     color: #222;
     text-transform: capitalize;
     margin-bottom: 30px;
@@ -4482,7 +4483,7 @@
 }
 
 .content2-10 .iphone-overflow{
-    max-height: 650px; 
+    max-height: 650px;
     overflow: hidden;
     width: 90%;
 }
@@ -4505,7 +4506,7 @@
     transition: all 0.4s ease 0s;
 }
 
-.content2-10 .media-right, 
+.content2-10 .media-right,
 .content2-10 .media > .pull-right{
     padding-left: 20px;
 }
@@ -4516,7 +4517,7 @@
 
 .content2-10 .single-content h3{
     font-size: 25px;
-    font-weight: 600; 
+    font-weight: 600;
     margin-bottom: 15px;
     margin-top: 0;
     font-family: 'Roboto Slab', serif;
@@ -4593,11 +4594,11 @@
 }
 
 .blog1 ul.post-info{
-    position: absolute; 
+    position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     bottom: 0;
-    margin: 0; 
+    margin: 0;
     line-height: 2;
     height: 35px;
     padding: 5px 10px;
@@ -4605,17 +4606,17 @@
 }
 
 .blog1 ul.post-info li i{
-    font-size: 12px; 
+    font-size: 12px;
     margin-right: 5px;
 }
 
-.blog1 ul.post-info li.post-tag{ 
+.blog1 ul.post-info li.post-tag{
     background-color: #01BF86;
     float: right;
-    margin-top: 3px;  
+    margin-top: 3px;
     margin-right: -10px;
     display: block;
-    line-height: 1.5; 
+    line-height: 1.5;
     font-weight: 400;
     padding: 1px 10px;
     font-size: 12px
@@ -4648,13 +4649,13 @@
     font-size: 12px;
     color: #aaaaaa;
     font-family: 'Roboto Slab', serif;
-    padding-left: 0; 
+    padding-left: 0;
     padding-right: 10px;
     letter-spacing: 1px;
 }
 
 .blog1 .blog-post .blog-details .list-inline > li:last-child{
-    padding-left: 10px; 
+    padding-left: 10px;
     padding-right: 0;
 }
 
@@ -4662,7 +4663,7 @@
     padding: 30px 25px;
 }
 
-/*	dividers 
+/*	dividers
 /*----------------------------------------------------*/
 hr.dashed {
 	border-style: dashed;
@@ -4766,7 +4767,7 @@ hr.shadowDown {
 	font-weight: 200;
 }
 
-/*	portfolio 1 
+/*	portfolio 1
 /*----------------------------------------------------*/
 .portfolio1{
     padding: 50px 0;
@@ -4785,7 +4786,7 @@ hr.shadowDown {
 }
 
 .portfolio1 .portfolio-filter .list-inline{
-    margin-bottom: 35px; 
+    margin-bottom: 35px;
     margin-left: 0;
 }
 
@@ -4808,16 +4809,16 @@ hr.shadowDown {
     font-weight: bold;
 }
 
-.portfolio1 .project-content .project-overflow strong{    
-    color: #fff; 
+.portfolio1 .project-content .project-overflow strong{
+    color: #fff;
     font-size: 17px;
-    margin-bottom: 5px; 
+    margin-bottom: 5px;
     display: block;
     font-family: 'Roboto Slab', serif;
 }
 .portfolio1 .project-content .project-overflow p{
     color: #eee;
-    font-size: 14px; 
+    font-size: 14px;
     word-spacing: 3px;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -4835,12 +4836,12 @@ hr.shadowDown {
 }
 
 .portfolio1 .project-content .project-overflow{
-    position: absolute; 
+    position: absolute;
     width: 100%;
     height: 100%;
     bottom: 10%;
     opacity: 0;
-    background-color: rgba(22, 190, 182, 0); 
+    background-color: rgba(22, 190, 182, 0);
     z-index: 2;
     -webkit-transition: all 500ms ease 0s;
     transition: all 500ms ease 0s;
@@ -4859,7 +4860,7 @@ hr.shadowDown {
     width: 100%;
     -webkit-transition: all 500ms ease 0s;
     transition: all 500ms ease 0s;
-    
+
 }
 
 .portfolio1 .project-content:hover:after{
@@ -4908,14 +4909,14 @@ hr.shadowDown {
 }
 
 .portfolio1 .single-item{
-    width: 33.33333333%;  
+    width: 33.33333333%;
     padding: 15px;
 }
 
 .portfolio1 .single-item img{
     background-color: #fff;
     float: left;
-    width: 100%;	
+    width: 100%;
 }
 
 .portfolio1 .portfolio-items:after {
@@ -4943,7 +4944,7 @@ hr.shadowDown {
 }
 
 .portfolio2 .portfolio-filter .list-inline{
-    margin-bottom: 35px; 
+    margin-bottom: 35px;
     margin-left: 0;
 }
 
@@ -4957,7 +4958,7 @@ hr.shadowDown {
     list-style: outside none none;
     margin-bottom: 5px;
     padding: 0 7px;
-    word-spacing: 4px;  
+    word-spacing: 4px;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -4969,16 +4970,16 @@ hr.shadowDown {
     padding: 4px 11px;
 }
 
-.portfolio2 .project-content .project-overflow strong{    
-    color: #fff; 
+.portfolio2 .project-content .project-overflow strong{
+    color: #fff;
     font-size: 17px;
-    margin-bottom: 5px; 
+    margin-bottom: 5px;
     display: block;
     font-family: 'Roboto Slab', serif;
 }
 .portfolio2 .project-content .project-overflow p{
     color: #eee;
-    font-size: 14px; 
+    font-size: 14px;
     word-spacing: 3px;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -4996,18 +4997,18 @@ hr.shadowDown {
 }
 
 .portfolio2 .project-content .project-overflow{
-    position: absolute; 
+    position: absolute;
     width: 100%;
     height: 100%;
     bottom: 10%;
     opacity: 1;
-    background-color: rgba(22, 190, 182, 0); 
+    background-color: rgba(22, 190, 182, 0);
     z-index: 2;
     -webkit-transition: all 500ms ease 0s;
     transition: all 500ms ease 0s;
     -webkit-transform: scale(0);
     transform: scale(0);
-    
+
 }
 
 .portfolio2 .project-content:hover .project-overflow{
@@ -5024,7 +5025,7 @@ hr.shadowDown {
     width: 100%;
     -webkit-transition: all 500ms ease 0s;
     transition: all 500ms ease 0s;
-    
+
 }
 
 .portfolio2 .project-content:hover:after{
@@ -5073,14 +5074,14 @@ hr.shadowDown {
 }
 
 .portfolio2 .single-item{
-    width: 33.33333333%;  
+    width: 33.33333333%;
     padding: 15px;
 }
 
 .portfolio2 .single-item img{
     background-color: #fff;
     float: left;
-    width: 100%;	
+    width: 100%;
 }
 
 .portfolio2 .portfolio-items:after {
@@ -5089,7 +5090,7 @@ hr.shadowDown {
     clear: both;
 }
 
-/*	portfolio 3 
+/*	portfolio 3
 /*----------------------------------------------------*/
 .portfolio3{
     padding-top: 50px;
@@ -5114,7 +5115,7 @@ hr.shadowDown {
 }
 
 .portfolio3 .portfolio-item figure {
-	background-color: #333;	
+	background-color: #333;
 	margin: 0;
 	position: relative;
 }
@@ -5172,7 +5173,7 @@ hr.shadowDown {
     background-color: #38A5E0;
 }
 
-/*	team 1 
+/*	team 1
 /*----------------------------------------------------*/
 .team1{
     padding: 0;
@@ -5185,7 +5186,7 @@ hr.shadowDown {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 11px;
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
     color: #555;
     margin-left: 10px;
 }
@@ -5218,7 +5219,7 @@ hr.shadowDown {
 
 .team1 .team-play{
     height: 100%;
-    background-color: rgba(1, 191, 134, 0.8); 
+    background-color: rgba(1, 191, 134, 0.8);
     color: #fff;
 }
 
@@ -5231,8 +5232,8 @@ hr.shadowDown {
 }
 
 .team1 .team-play strong{
-    font-style: italic; 
-    font-size: 18px; 
+    font-style: italic;
+    font-size: 18px;
     letter-spacing: 2px;
 }
 
@@ -5245,7 +5246,7 @@ hr.shadowDown {
 
 .team1 .team-play p{
     font-size: 17px;
-    font-family: helvetica; 
+    font-family: helvetica;
     letter-spacing: 1px;
 }
 
@@ -5259,9 +5260,9 @@ hr.shadowDown {
 
 .team1 h3{
     font-family: 'Titillium Web', sans-serif;
-    font-size: 22px; 
+    font-size: 22px;
     line-height: 1.5;
-    max-width: 540px; 
+    max-width: 540px;
     margin-bottom: 35px;
 }
 
@@ -5271,18 +5272,18 @@ hr.shadowDown {
 }
 
 .team1 .member img{
-    border-radius: 8px;  
+    border-radius: 8px;
     width: 100%;
 }
 
 .team1 .member .team-overflow strong{
-    font-size: 18px; 
-    color: #fff; 
+    font-size: 18px;
+    color: #fff;
 }
 
 .team1 .member .team-overflow .position{
     font-family: helvetica;
-    color: #f8f8f8; 
+    color: #f8f8f8;
     margin-bottom: 15px;
 }
 
@@ -5291,7 +5292,7 @@ hr.shadowDown {
 }
 
 .team1 .member .team-overflow{
-    position: absolute; 
+    position: absolute;
     border-radius: 8px;
     top: 0;
     margin: 0 auto;
@@ -5352,7 +5353,7 @@ hr.shadowDown {
     z-index: 0;
 }
 
-/*	team 1-1 
+/*	team 1-1
 /*----------------------------------------------------*/
 .team1-1{
     padding: 50px 0;
@@ -5408,10 +5409,10 @@ hr.shadowDown {
 }
 
 .team1-1 .member-overlay div i{
-    font-size: 40px; 
+    font-size: 40px;
     color: #fff;
     border-bottom: 2px solid #fff;
-    padding-bottom: 15px;  
+    padding-bottom: 15px;
 }
 
 .team1-1 .member:hover .member-overlay div{
@@ -5419,12 +5420,12 @@ hr.shadowDown {
     transform: scale(1);
 }
 
-.team1-1 .member-overlay div{   
-    -webkit-transition: all 0.5s ease;   
-    transition: all 0.5s ease;    
-    -webkit-transform: scale(0);    
+.team1-1 .member-overlay div{
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-transform: scale(0);
     transform: scale(0);
-    position: absolute; 
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -5444,7 +5445,7 @@ hr.shadowDown {
 	font-weight: 800;
 	font-size: 35px;
 }
-	
+
 .team1-2 .team-member img{
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
@@ -5465,12 +5466,12 @@ hr.shadowDown {
 }
 
 .team1-2 .team-overlay{
-	position: absolute; 
-	top: 0; 
-    -webkit-transition: all 0.5s ease 0s; 
+	position: absolute;
+	top: 0;
+    -webkit-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
-	background-color: rgba(0, 0, 0, 0.5); 
-	width: 100%; 
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
 	height: 100%;
 	opacity: 0;
 }
@@ -5480,9 +5481,9 @@ hr.shadowDown {
 	right: 15px;
 	top: 15px;
 	background-color: #38A5E0;
-	color: #fff; 
+	color: #fff;
 	border: 2px solid #38A5E0;
-	padding: 8px 15px 3px; 
+	padding: 8px 15px 3px;
 	font-weight: 600;
 	border-radius: 0;
 }
@@ -5496,16 +5497,16 @@ hr.shadowDown {
 .team1-2 .team-social-icon .fa{
 	padding-top: 8px;
 	cursor: pointer;
-	color: #fff; 
+	color: #fff;
 	width: 30px;
 	height: 30px;
-		
+
 }
 
 .team1-2 .team-social-icon{
 	position: absolute;
 	bottom: 0;
-	left: 0; 
+	left: 0;
 	background-color: #01BF86;
 	margin: 0;
 	padding: 0;
@@ -5600,12 +5601,12 @@ hr.shadowDown {
 .team2 .leader-overflow:before{
     content: '';
     position: absolute;
-    background-color: #01BF86; 
-    width: 20px; 
+    background-color: #01BF86;
+    width: 20px;
     height: 20px;
-    -webkit-transform: rotate(45deg); 
-    transform: rotate(45deg); 
-    position: absolute; 
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
     top: -10px;
     left: 50%;
     margin-left: -10px;
@@ -5639,7 +5640,7 @@ hr.shadowDown {
     color: #999999;
 }
 
-/*	team 2-1 
+/*	team 2-1
 /*----------------------------------------------------*/
 .team2-1.team2-1 {
     background-color: #222;
@@ -5757,7 +5758,7 @@ hr.shadowDown {
 /*----------------------------------------------------*/
 .team2-2{
     color: #fff;
-    background: url(../images/header9.jpg) scroll  no-repeat center top;  
+    background: url(../images/header9.jpg) scroll  no-repeat center top;
 }
 
 .team2-2 .section-padding{
@@ -5847,13 +5848,13 @@ hr.shadowDown {
 /*	team 3
 /*----------------------------------------------------*/
 .team3{
-    color: #fff;
-    background: url(../images/header8.jpg) fixed  no-repeat center top;  
+    color: black;
+    //background: url(../images/header8.jpg) fixed  no-repeat center top;
 }
 
 .team3 .section-padding{
     padding: 50px 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    //background-color: rgba(0, 0, 0, 0.5);
 }
 
 .team3 .section-title h2{
@@ -5909,13 +5910,13 @@ hr.shadowDown {
 }
 
 .team3 .social-icon:hover{
-    color: rgb(5, 216, 178);
+    color: #1A237E;
 	-webkit-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
 }
 
 .team3 .social-icon {
-    color: #fff;
+    color: #1976D2;
     font-size: 16px !important;
     padding: 5px;
     -webkit-transition: background 0.3s ease-in-out 0s;
@@ -5965,11 +5966,11 @@ hr.shadowDown {
     border: none;
 }
 .pricing-table1 .list-group-item:first-child{
-    border-top-left-radius: 0; 
+    border-top-left-radius: 0;
 	border-top-right-radius: 0;
-}	
+}
 .pricing-table1 .list-group-item:last-child{
-	border-bottom-left-radius: 0; 
+	border-bottom-left-radius: 0;
 	border-bottom-right-radius: 0;
 }
 .pricing-table1 .plan-name{
@@ -5982,7 +5983,7 @@ hr.shadowDown {
 .pricing-table1 .plan-prize{
     font-family: 'Roboto Slab', serif;
     padding: 40px 0;
-}	
+}
 .pricing-table1 .plan-prize sup, sub{
     color: rgb(255, 255, 255);
     font-size: 20px;
@@ -5992,7 +5993,7 @@ hr.shadowDown {
 .pricing-table1 .plan-prize span{
     color: rgb(255, 255, 255);
 	font-size: 40px;
-	font-weight: 900;   
+	font-weight: 900;
 }
 .pricing-table1 .plan-features{
     color: #777777;
@@ -6000,13 +6001,13 @@ hr.shadowDown {
 	background-color: rgb(242, 242, 239);
 	line-height: 40px;
 	font-weight: 300;
-    padding: 20px 0; 
+    padding: 20px 0;
     border-width: 0 1px;
     border-color: #ccc;
-    border-style: solid;	
+    border-style: solid;
 }
 .pricing-table1 .plan-buy-link{
-	padding: 20px 0;	
+	padding: 20px 0;
 }
 .pricing-table1 .list-group-item .btn-primary{
 	background: transparent;
@@ -6074,7 +6075,7 @@ hr.shadowDown {
 }
 
 .pricing-table1-1 .price-figure p{
-    font-size: 13px; 
+    font-size: 13px;
     font-style: italic;
     font-family: 'Roboto Slab', serif;
 }
@@ -6114,7 +6115,7 @@ hr.shadowDown {
 }
 
 .pricing-table1-1 .price-footer a.btn{
-    padding: 8px 0; 
+    padding: 8px 0;
     min-width: 120px;
     text-transform: uppercase;
     font-size: 13px;
@@ -6146,12 +6147,12 @@ hr.shadowDown {
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
+
 	.pricing-table1-1 .price-block {
 		margin-bottom: 20px;
-	
+
 }
-    
+
 /*	pricing 1-2
 /*----------------------------------------------------*/
 .pricing-table1-2{
@@ -6166,7 +6167,7 @@ hr.shadowDown {
 
 .pricing-table1-2 .pricing-table ul.list-items > li{
     border-top: 1px solid rgba(204, 204, 204, 0.3);
-    padding: 18px 0; 
+    padding: 18px 0;
     color: #777777;
 }
 
@@ -6175,12 +6176,12 @@ hr.shadowDown {
 }
 
 .pricing-table1-2 .pricing-table ul.list-items li > span{
-    margin: 0 1px; 
+    margin: 0 1px;
     display: inline;
     font-weight: 600;
     color: #555555;
 }
-    
+
 .pricing-table1-2 .pricing-table ul.list-items {
     font-size: 13px;
     font-weight: 400;
@@ -6194,15 +6195,15 @@ hr.shadowDown {
     font-family: 'Roboto Slab', serif;
     font-style: italic;
     letter-spacing: 2px;
-    margin-bottom: 20px; 
-    display: block; 
+    margin-bottom: 20px;
+    display: block;
     color: #999999;
     font-weight: 600;
 }
 
 .pricing-table1-2 .pricing-table h3{
     color: #666666;
-    font-size: 60px; 
+    font-size: 60px;
     font-weight: 700;
     margin-top: 10px;
     font-family: 'Roboto Slab', serif;
@@ -6220,8 +6221,8 @@ hr.shadowDown {
 }
 
 .pricing-table1-2 .pricing-table{
-    background: #F9F9F9; 
-    text-align: center; 
+    background: #F9F9F9;
+    text-align: center;
     padding-top: 15px;
     border: 1px solid rgba(238, 238, 238, 0.4);
     margin-bottom: 25px;
@@ -6277,7 +6278,7 @@ hr.shadowDown {
 .pricing-table1-2 .pricing-table .btn{
     margin: 0;
 }
-    
+
 .pricing-table1-2 .pricing-table .btn-default{
     border-radius: 0;
 }
@@ -6301,7 +6302,7 @@ hr.shadowDown {
     margin-right: 0;
 }
 
-    
+
 /*	pricing 2
 /*----------------------------------------------------*/
 .pricing_table2 {
@@ -6409,9 +6410,9 @@ hr.shadowDown {
 }
 
 .pricing_table2 .bottom > a.btn {
-    padding: 12px; 
-    border: none; 
-    font-weight: bold; 
+    padding: 12px;
+    border: none;
+    font-weight: bold;
     text-transform: uppercase;
     background-color: #38A5E0;
 }
@@ -6420,7 +6421,7 @@ hr.shadowDown {
 	margin: 40px;
 	width: auto;
 }
-    
+
 /*	pricing 2-1
 /*----------------------------------------------------*/
 .pricing-table2-1{
@@ -6540,7 +6541,7 @@ hr.shadowDown {
 /*----------------------------------------------------*/
 .pricing-table3{
     padding: 50px 0;
-    border-bottom: 1px solid transparent;	
+    border-bottom: 1px solid transparent;
     background-color: #eee;
 }
 
@@ -6649,13 +6650,13 @@ hr.shadowDown {
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
   padding: 18px 15px;
-} 
+}
 
 .pricing-table3 .panel .panel-footer .btn-success{
 	background-color: transparent;
 	border: 1px solid #fff;
-	padding-left: 25px;	
-	padding-right: 25px;	
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 .pricing-table3 .panel .panel-footer .btn-success:hover{
@@ -6666,7 +6667,7 @@ hr.shadowDown {
 .pricing-table3 .panel .panel-footer .active{
 	color: #38A5E0;
 	background-color: #fff;
-}	
+}
 
 .pricing-table3 .panel .panel-footer a{
 	color: #fff;
@@ -6681,9 +6682,9 @@ hr.shadowDown {
 @media (max-width: 980px) {
 	.pricing-table3 .panel-default {
 		margin-bottom: 30px;
-	}	
+	}
 }
-    
+
 /*	contact 1
 /*----------------------------------------------------*/
 .contact1{
@@ -6696,7 +6697,7 @@ hr.shadowDown {
     margin-right: 15px;
     margin-left: 15px;
     overflow: auto;
-    background-color: #fff; 
+    background-color: #fff;
     min-height: 550px;
 }
 
@@ -6772,8 +6773,8 @@ hr.shadowDown {
 
 .contact1 .list-unstyled > li > span{
     font-family: 'Roboto Slab', serif;
-    font-size: 14px; 
-    color: #666666; 
+    font-size: 14px;
+    color: #666666;
     letter-spacing: 1px;
 }
 
@@ -6804,7 +6805,7 @@ hr.shadowDown {
     height: 35px;
     margin-bottom: 5px;
     padding-top: 11px;
-    text-align: center;  
+    text-align: center;
     cursor: pointer;
     border-radius: 3px;
 }
@@ -6812,8 +6813,8 @@ hr.shadowDown {
 .contact1 .social-links i:hover{
     color: #eee;
 }
-    
-    
+
+
 /*	contact 2
 /*----------------------------------------------------*/
 .contact2{
@@ -6822,12 +6823,12 @@ hr.shadowDown {
 	background-attachment: scroll;
 	border-top: 1px solid #D9D9D9;
 	background-position: top center;
-	border-bottom: 1px solid #D9D9D9;	
-	background-color: rgba(244, 244, 244, 1); 
-	background: url(../images/overlap.png); 
+	border-bottom: 1px solid #D9D9D9;
+	background-color: rgba(244, 244, 244, 1);
+	background: url(../images/overlap.png);
 }
 
-.contact2.form-group{ 
+.contact2.form-group{
 	margin-bottom: 20px;
 }
 
@@ -6865,12 +6866,12 @@ hr.shadowDown {
     box-shadow: none;
     font-size: 13px;
     font-family: 'Roboto Slab', serif;
-}	
+}
 
  .contact2 .contact-form .form-control:focus{
 	border: 1px solid #01BF86;
  }
- 
+
 .contact2 .contact-form .form-control:focus{
 	outline: none;
 	-ms-box-shadow: none;
@@ -6887,7 +6888,7 @@ hr.shadowDown {
     padding: 13px;
     background-color: #01BF86;
 }
-    
+
 /*	contact 3
 /*----------------------------------------------------*/
 .contact3{
@@ -6900,7 +6901,7 @@ hr.shadowDown {
     margin-right: 15px;
     margin-left: 15px;
     overflow: auto;
-    background-color: #fff; 
+    background-color: #fff;
     min-height: 550px;
 }
 
@@ -6977,8 +6978,8 @@ hr.shadowDown {
 
 .contact3 .list-unstyled > li > span{
     font-family: 'Roboto Slab', serif;
-    font-size: 12px; 
-    color: #777777; 
+    font-size: 12px;
+    color: #777777;
     letter-spacing: 1px;
 }
 
@@ -7009,7 +7010,7 @@ hr.shadowDown {
     height: 35px;
     margin-bottom: 5px;
     padding-top: 11px;
-    text-align: center;  
+    text-align: center;
     cursor: pointer;
     border-radius: 3px;
 }
@@ -7020,7 +7021,7 @@ hr.shadowDown {
     color: #444;
     font-family: 'Roboto Slab', serif;
 }
-    
+
 /*	contact 4
 /*----------------------------------------------------*/
 .contact4{
@@ -7052,8 +7053,8 @@ hr.shadowDown {
 
 .contact4 .list-unstyled > li > span{
     font-family: 'Roboto Slab', serif;
-    font-size: 13px; 
-    color: #777777; 
+    font-size: 13px;
+    color: #777777;
     letter-spacing: 1px;
 }
 
@@ -7100,8 +7101,8 @@ hr.shadowDown {
     font-size: 17px;
     color: #eee;
     font-family: 'Roboto Slab', serif;
-}    
-    
+}
+
 /*	contact 5
 /*----------------------------------------------------*/
 .contact5{
@@ -7190,8 +7191,8 @@ hr.shadowDown {
 
 .contact5 .list-unstyled > li > span{
     font-family: 'Roboto Slab', serif;
-    font-size: 13px; 
-    color: #777777; 
+    font-size: 13px;
+    color: #777777;
     letter-spacing: 1px;
 }
 
@@ -7220,12 +7221,14 @@ hr.shadowDown {
     color: #eee;
     font-family: 'Roboto Slab', serif;
 }
-    
+
 /*	footer 1
 /*----------------------------------------------------*/
 .footer1{
 	background-color: #222;
 	padding: 5rem 0;
+	position:absolute;
+	width:100%;
 }
 
 .footer1 h1{
@@ -7359,7 +7362,7 @@ hr.shadowDown {
 	padding-left: 0;
 }
 
-.footer1 .tags .btn {
+.footer1 .tag .btn {
 	background-color: #363636;
 	border: medium none transparent;
 	border-radius: 2px;
