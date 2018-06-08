@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Abasyn University Islamabad</title>
+    <!-- Section CSS -->
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="/static/css/base.css"/>
+<link href="css/block.css" rel="stylesheet">
+<link href="css/base.css" rel="stylesheet">
+<link href="css/sidetabs.css" rel="stylesheet">
+<link href="css/courses.css" rel="stylesheet">
+<link href="css/staff.css" rel="stylesheet">
+<link href="css/default.css" rel="stylesheet">
+<link href="css/facebook.css" rel="stylesheet">
+<link href="css/font-awesome.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<!-- End CSS <link href="/css/carousel.css" rel="stylesheet">-->
+<link href="css/main.css" rel="stylesheet">
+<link href="css/customnavbar.css" rel="stylesheet">
+<link href="css/style-library-1.css" rel="stylesheet">
+<link href="css/font-awesome.css" rel="stylesheet">
+<link href="css/slider.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- End CSS -->
+
+<!-- Start Jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/facebook.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/facebook.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/customnavbar.js"></script>
+<!-- End Jquery -->
+
+ <!-- Font Awesome -->
+<link href="css/font-awesome.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,900,700,600,300,200" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet">
+ <link rel="stylesheet" href="components/pg.chocka-blocks/css/cb-style.css">
+<link rel="stylesheet" href="components/pg.chocka-blocks/css/owl.carousel.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400">
+<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+    <style>
+           .footer1{
+           position:absolute;
+       width:100%;
+           }
+           .footer1 .tag .btn {
+       background-color: #363636;
+       border: medium none transparent;
+       border-radius: 2px;
+       color: #999;
+       font-size: 11px;
+       margin-bottom: 8px;
+       padding: 7px 10px;
+    }
+    .nav-sidebar {
+       width: 100%;
+       padding: 8px 0;
+       border-right: 1px solid #ddd;
+    }
+    .nav-sidebar a {
+       color: #333;
+       -webkit-transition: all 0.08s linear;
+       -moz-transition: all 0.08s linear;
+       -o-transition: all 0.08s linear;
+       transition: all 0.08s linear;
+       -webkit-border-radius: 4px 0 0 4px;
+       -moz-border-radius: 4px 0 0 4px;
+       border-radius: 4px 0 0 4px;
+    }
+    .nav-sidebar .active a {
+       cursor: default;
+       background-color: #006666;
+       color: #fff;
+       text-shadow: 1px 1px 1px #666;
+    }
+    .nav-sidebar .active a:hover {
+       background-color: #26A69A;
+    }
+    .nav-sidebar .text-overflow a, .nav-sidebar .text-overflow .media-body {
+       white-space: nowrap;
+       overflow: hidden;
+       -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    }
+    }
+    p{
+      font-family: 'Lato', sans-serif;
+      color: #0b0507a3;
+    font-size: 25px;
+    line-height: 36px;
+
+    }
+
+    </style>
+    <link href="img/icon.png" rel="icon" type="image/png">
+</head>
+<body>
+    <script>
+    (function(d, s, id) {
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) return;
+       js = d.createElement(s);
+       js.id = id;
+       js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
+       fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk')); 
+    </script>
+     <!-- Navbar -->
+<header style="z-index:999;" class="header">
+            <a class="brand-logo" href="" >
+                <img style="margin-top:25px;" alt="logo" src="img/logo1.png">
+            </a>
+            <nav class="navigation">
+                <div class="navigation__top">
+                    <ul class="top-nav-list desktop-only">
+                        <li class="top-nav-list__item">
+                            <a class="top-link" href="#">Acdamic Calander</a>
+                        </li>
+                        <li class="top-nav-list__item">
+                            <a class="top-link" href="#">Contact Us</a>
+                        </li>
+                        <li class="top-nav-list__item">
+                            <a class="top-link" href="#">Peshwar Campus</a>
+                        </li>
+                        <li class="top-nav-list__item">
+                            <a class="top-link" href="#">Campus Mail</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navigation__main">
+                    <div class="mobile-nav-ui">
+                        <div class="mobile-nav-ui__left">
+                            <div class="menu-btn" data-action="back">
+                                <div class="menu-btn__icon menu-btn__icon_back"></div>
+                                <span class="menu-btn__label">BACK</span>
+                            </div>
+                        </div>
+                        <div class="mobile-nav-ui__right">
+                            <div class="menu-btn" data-action="open">
+                                <i class="fa fa-align-justify"></i>
+                                <span class="menu-btn__label">MENU</span>
+                            </div>
+                            <div class="menu-btn" data-action="close">
+                                <div class="menu-btn__icon menu-btn__icon_close"></div>
+                                <span class="menu-btn__label">CLOSE</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="background:white;" class="mobile-nav-wrap">
+                        <div class="dropdown-background"></div>
+                        <ul class="main-nav-list menu">
+                            <li class="menu-item menu-item-has-children orange">
+                                <a href="/travel-explore"><span>About Us</span></a>
+                                <div class="menu-dropdown">
+                                    <div class="menu-dropdown__content">
+                                        <ul class="sub-menu">
+                                            <li class="menu-item">
+                                                <a href="">OVERALL</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="{% url 'slider:vision' %}">Vision & Mission</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="{% url 'slider:objective' %}">Objectives</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="/travel-explore/vacation">VC Message</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="/travel-explore/vacation">About Us</a>
+                                            </li>
+                                        </ul>
+                                        <a class="menu-article" href="/event/highlights-of-portugal-may-27-june-2-2018">
+                                            <img alt="" class="menu-article__img" src="2.jpg">
+                                            <span class="menu-article__title">Fairwell Highlights, June 17-23, 2018</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="menu-item menu-item-has-children green">
+                                <a href="/play-sports"><span>Departments</span></a>
+                                <div class="menu-dropdown">
+                                    <div class="menu-dropdown__content">
+                                        <ul class="sub-menu">
+                                            <li class="menu-item">
+                                                <a href="">OVERALL</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="{% url 'slider:department_of_engineering' %}">Department of Engineering</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="{% url 'slider:department_of_computing' %}">Department of Computing</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="/play-sports/field-hockey-indoor">Department of Management Science</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="/play-sports/field-hockey-outdoor">Department of Pharmacy</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="/play-sports/floor-hockey-indoor">Department of Life Sciences</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="/play-sports/floor-hockey-outdoor">Department of Graduate Studies</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+
+
+
+                            <li class="menu-item menu-item-has-children blue">
+                                <a href="/ski-ride"><span>Rules & Policies</span></a>
+                                <div class="menu-dropdown">
+                                    <div class="menu-dropdown__content">
+                                        <ul class="sub-menu">
+                                            <li class="menu-item">
+                                                <a href="/ski-ride/ski-weekend">Academic Integrity</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="/ski-ride/ski-vacation">Academic System</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="/ski-ride/day-ski">Registration</a>
+                                            </li>
+                                        </ul>
+                                        <a class="menu-article" href="/event/sugarloaf-march-2-4-2018">
+                                            <img alt="" class="menu-article__img" src="/__media/2.%20Ski%20&%20Ride/Ski%20Weekends/2-Menu_articles/MenuArticle_Sugarloaf.jpg">
+                                            <span class="menu-article__title">Sugarloaf March 2-4, 2018</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="menu-item menu-item-has-children fuchsia">
+                                <a href="/social-events"><span>Admission & Aids</span></a>
+                                <div class="menu-dropdown">
+                                    <div class="menu-dropdown__content">
+                                        <ul class="sub-menu">
+                                            <li class="menu-item">
+                                                <a href="/social-events/social">Admission Overview</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="/social-events/adventure">Financial Aid</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="/social-events/adventure">Scholarships</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="{% url 'slider:feestructure' %}">Fee Structure</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="D:/WebProjects/Universirt Website/pages/admission_overview.html">Admission Overview</a>
+                                            </li>
+                                        </ul>
+                                        <a class="menu-article" href="/event/spring-cornhole-tournament">
+                                            <img alt="" class="menu-article__img" src="/__media/3.%20Get%20Social/Social/2%20Menu%20Article/MenuArticle_Cornhole2.jpg">
+                                            <span class="menu-article__title">Spring Cornhole Tournament</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="#"><span>Research</span></a>
+                                <div class="menu-dropdown">
+                                    <div class="menu-dropdown__content">
+                                        <ul class="sub-menu">
+                                            <li class="menu-item">
+                                                <a href="/join/member-rewards">Projects</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="{% url 'slider:publications'%}">Publications</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="{% url 'slider:journal'%}">Journel of Social Sciences</a>
+                                            </li>
+                                            
+                                        </ul>
+                                        <a class="menu-article" href="/event/thursday-fenway-coed-6v6-dodgeball-030118">
+                                            <img alt="" class="menu-article__img" src="#">
+                                            <span class="menu-article__title">Admissions Are Open</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="/about"><span>Dowloads</span></a>
+                                <div class="menu-dropdown">
+                                    <div class="menu-dropdown__content">
+                                        <ul class="sub-menu">
+                                            
+                                            <li class="menu-item">
+                                                <a href="/about/staff">OBE at AUIC</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="/about/testimonials">Software System - TLS</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="/about/faq">Research and Analysis</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="/about/jobs">About the Center</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="mobile-sub-nav-list">
+                            <li class="mobile-sub-nav-list__item">
+                                <a class="top-link" href="#">Acdamic Calander</a>
+                            </li>
+                            <li class="mobile-sub-nav-list__item">
+                                <a class="top-link" href="#">Contact Us</a>
+                            </li>
+                            <li class="mobile-sub-nav-list__item">
+                                <a class="top-link" href="#">Peshwar Campus</a>
+                            </li>
+                            <li class="mobile-sub-nav-list__item">
+                                <a class="top-link" href="#">Peshwar Campus</a>
+                            </li>
+                            <li class="mobile-sub-nav-list__item">
+                                <a class="top-link" href="#">Campus Mail</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+<!-- End Navbar -->
+<!-- HOD Message -->
+<div class="container">
+
+<div class="row">
+      <div class="col-sm-2">
+        <nav class="nav-sidebar">
+          <ul class="nav">
+            <li class="active">
+              <a href="{% url 'slider:department_of_computing' %}">HOD Message</a>
+            </li>
+            <li>
+              <a href="{% url 'slider:department_of_computing_bsse' %}">Program Info</a>
+            </li>
+            <li>
+              <a href="{% url 'slider:department_of_computing_bsse' %}">Program Structure</a>
+            </li>
+            <li>
+              <a href="{% url 'slider:department_of_computing_bsse' %}">Faculity</a>
+            </li>
+            <li>
+              <a href="{% url 'slider:department_of_computing_bsse' %}">Accredition</a>
+            </li>
+            <li>
+              <a href="{% url 'slider:department_of_computing_bsse' %}">Apply Online</a>
+            </li>
+            <li>
+              <a href="{% url 'slider:department_of_computing_bsse' %}">Fee Structure</a>
+            </li>
+            <li>
+              <a href="{% url 'slider:department_of_computing_bsse' %}">Online Admission</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+  <div class="col-md-10" id="static-content">
+  <h2 style="font-family: 'Lato', sans-serif;" class="text-center">HOD MESSAGE</h2>
+  <center><img src="img/sidraz.jpg" class="img-rounded" width="10%"></center>
+  <br>
+  <p style=" font-family: 'Lato', sans-serif; font-size: 25px; line-height: 36px; color: #0b0507a3; text-align: center;">“Our world today is in a state of flux. Information technology has changed, virtually, every facet of our lives, and an ever-evolving business environment affects each and every one of us.”</p>
+  <br>
+  <p class="justify">Capital University of Science & Technology is established by a federal charter and vested with the authority to award degrees at various levels in all disciplines. It started functioning in 1998 as Islamabad Campus of Mohammad Ali Jinnah University (MAJU) Karachi and achieved its recognition in the country and abroad by maintaining excellent academic standards. In recognition to its academic strength, infrastructure and financial viability, the President of the Islamic Republic of Pakistan, on 28th Sep. 2015, gave assent to a bill converting it into a law, passed by the Parliament of Pakistan referred to as ‘Capital University of Science and Technology Act’ which transformed MAJU, Islamabad Campus into Capital University of Science and Technology (CUST). As per CUST Act, it is a comprehensive Institution which can have faculties including, but not limited to, Engineering, Medicines, Natural Sciences, Management, Computing, Humanities and Arts.</p>
+  <p class="justify">
+    Currently, CUST has four Faculties: Faculty of Engineering; Faculty of Computing, Faculty of Health & Life Sciences and Faculty of Management and Social Sciences.
+  </p>
+
+  <p class="justify">
+    Faculty of Engineering has three Departments: Electrical Engineering; Mechanical Engineering and Civil Engineering. Faculty of Computing has Department of Computer Sciences and Department of Mathematics. Faculty of Health & Life Sciences has Department of Bioinformatics & Biosciences. In the Faculty of Management and Social Sciences, we have Department of Management Sciences.
+  </p>
+  </div>
+</div>
+<!-- End HOD Message -->
+<!-- Footer -->
+<section class="footer1" data-pgc="footer-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h1 style="color:#66BB6A;"><i style="color:#66BB6A;" class="fa fa-university"></i> Abasyn</h1>
+                        <p>sapiente, nam sunt rem beatae architecto cupiditate.</p>
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#"><i class="fa fa-home"></i></a>
+                            </div>
+                            <div class="media-body">
+                                <h5 class="media-heading">Address</h5>
+                                <p>Park Road, Chak Shahzad, Islamabad, Pakistan</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#"><i class="fa fa-envelope-o"></i></a>
+                            </div>
+                            <div class="media-body">
+                                <h5 class="media-heading">Having any questions?</h5>
+                                <p>admissions@abasynisb.edu.pk</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#"><i class="fa fa-phone"></i></a>
+                            </div>
+                            <div class="media-body">
+                                <h5 class="media-heading">Call us &amp; Hair us</h5>
+                                <p>+92 051 8438320-1</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#"><i class="fa fa-fax"></i></a>
+                            </div>
+                            <div class="media-body">
+                                <h5 class="media-heading">Fax</h5>
+                                <p>+92 051 8438325</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h4><i class="fa fa-facebook"></i>&nbsp;Facebook Feed</h4>
+                        <div class="media">
+                            <a class="fb-like-box" data-href="http://www.facebook.com/pages/sheffieldhope/348096328620951" data-width="282" data-chrome="noscrollbar"  data-height="430" data-show-faces="true" data-stream="true" scrolling="no" data-header="true" style="width:282px; position:absolute; left:-162px;"></a>
+                            <div class="fb-post" data-href="https://www.facebook.com/AbasynUniversityIslamabad/posts/2033662030180693" data-width="500" data-show-text="true"><blockquote cite="https://www.facebook.com/AbasynUniversityIslamabad/posts/2033662030180693" class="fb-xfbml-parse-ignore">Posted by <a href="https://www.facebook.com/AbasynUniversityIslamabad/">Abasyn University Islamabad Campus</a> on&nbsp;<a href="https://www.facebook.com/AbasynUniversityIslamabad/posts/2033662030180693">Sunday, February 11, 2018</a></blockquote></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h4>Popular tags</h4>
+                        <div class="tag" style="padding-top: 8px;">
+                            <a class="btn  btn-sm" href="#">Registration</a>
+                            <a class="btn btn-default btn-sm" href="#">Fee Structure</a>
+                            <a class="btn btn-default btn-sm" href="#">Courses</a>
+                            <a class="btn btn-default btn-sm" href="#">Department</a>
+                            <a class="btn btn-default btn-sm" href="#">Faculty</a>
+                            <a class="btn btn-default btn-sm" target="_blank" href="http://115.186.163.226/moodle/login/index.php">LMS</a>
+                        </div>
+
+
+
+                        </div>
+
+                </div>
+                <br>
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <iframe class="maps" style="filter: grayscale(90%);" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13284.256932660568!2d73.1555762!3d33.6554975!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe616d54130ec05d3!2sAbasyn+University+Islamabad+Campus!5e0!3m2!1sen!2s!4v1508581882280" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+<!-- End Footer -->
+ <!--=== Load JS here for greater good ====-->
+        <script src="js/jquery-1.8.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/isotope.pkgd.js"></script>
+        <script src="js/jquery.countdown.min.js"></script>
+        <script src="js/jquery.flexslider.js"></script>
+        <script src="js/jquery.nivo.slider.pack.js"></script>
+        <script src="js/portfolio-custom1.js"></script>
+        <script src="js/portfolio-custom2.js"></script>
+        <script src="js/main.js"></script>
+        <script type="text/javascript" src="components/pg.chocka-blocks/js/cb-main.js"></script>
+        <script type="text/javascript" src="components/pg.chocka-blocks/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="components/pg.chocka-blocks/js/jquery.easy-pie-chart.js">
+        
+    </script>
+</body>
+</html>
