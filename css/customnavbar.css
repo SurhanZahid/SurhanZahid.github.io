@@ -1529,7 +1529,7 @@ input, textarea {
 .mobile-nav-ui__left {
 	width: 60%;
 	position: relative;
-	height: 56px
+	height: 76px
 }
 .mobile-nav-ui__right {
 	position: relative;
@@ -1539,7 +1539,7 @@ input, textarea {
 .menu-btn {
 	height: 100%;
 	text-align: center;
-	padding: 17px 0;
+	padding: 29px 0;
 	cursor: pointer
 }
 [data-action=back] {
