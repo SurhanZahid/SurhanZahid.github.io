@@ -1,2765 +1,990 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
+    <!--meta tags-->
     <meta charset="UTF-8">
-    <title>Abasyn University Islamabad</title>
-    <!-- Section CSS -->
-<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-<link rel="stylesheet" href="/static/css/base.css"/>
-<link href="css/block.css" rel="stylesheet">
-<link href="css/base.css" rel="stylesheet">
-<link href="css/sidetabs.css" rel="stylesheet">
-<link href="css/courses.css" rel="stylesheet">
-<link href="css/staff.css" rel="stylesheet">
-<link href="css/default.css" rel="stylesheet">
-<link href="css/facebook.css" rel="stylesheet">
-<link href="css/font-awesome.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<!-- End CSS <link href="/css/carousel.css" rel="stylesheet">-->
-<link href="css/main.css" rel="stylesheet">
-<link href="css/customnavbar.css" rel="stylesheet">
-<link href="css/style-library-1.css" rel="stylesheet">
-<link href="css/font-awesome.css" rel="stylesheet">
-<link href="css/slider.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- End CSS -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="portfolio template based on HTML5">
+    <meta name="keywords" content="onepage, developer, resume, cv, personal, portfolio, personal resume, clean, modern">
+    <meta name="author" content="MouriTheme">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Start Jquery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-<script type="text/javascript" src="js/facebook.js"></script>
-<script src="assets/js/jquery.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
-<script src="js/facebook.js"></script>
-<script src="js/jquery.js"></script>
-<script src="js/slider.js"></script>
-<script src="js/customnavbar.js"></script>
-<!-- End Jquery -->
+    <!--template title-->
+    <title>MASON - Personal Portfolio HTML Template</title>
 
- <!-- Font Awesome -->
-<link href="css/font-awesome.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,900,700,600,300,200" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet">
- <link rel="stylesheet" href="components/pg.chocka-blocks/css/cb-style.css">
-<link rel="stylesheet" href="components/pg.chocka-blocks/css/owl.carousel.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400">
-<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
-<!-- Font Awesome -->
-    <style>
-        .footer1{
-        position:absolute;
-    width:100%;
-        }
-        .footer1 .tag .btn {
-    background-color: #363636;
-    border: medium none transparent;
-    border-radius: 2px;
-    color: #999;
-    font-size: 11px;
-    margin-bottom: 8px;
-    padding: 7px 10px;
-}
-.nav-sidebar {
-    width: 100%;
-    padding: 8px 0;
-    border-right: 1px solid #ddd;
-}
-.nav-sidebar a {
-    color: #333;
-    -webkit-transition: all 0.08s linear;
-    -moz-transition: all 0.08s linear;
-    -o-transition: all 0.08s linear;
-    transition: all 0.08s linear;
-    -webkit-border-radius: 4px 0 0 4px;
-    -moz-border-radius: 4px 0 0 4px;
-    border-radius: 4px 0 0 4px;
-}
-.nav-sidebar .active a {
-    cursor: default;
-    background-color: #006666;
-    color: #fff;
-    text-shadow: 1px 1px 1px #666;
-}
-.nav-sidebar .active a:hover {
-    background-color: #26A69A;
-}
-.nav-sidebar .text-overflow a, .nav-sidebar .text-overflow .media-body {
-    white-space: nowrap;
-    overflow: hidden;
-    -o-text-overflow: ellipsis;
-    text-overflow: ellipsis;
-}
+    <!--==========Favicon==========-->
 
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,600,700,800);
-@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
-figure.snip1208 {
-  font-family: 'Raleway', Arial, sans-serif;
-  color: #fff;
-  position: relative;
-  float: left;
-  overflow: hidden;
-  margin: 10px 1%;
-  min-width: 220px;
-  max-width: 310px;
-  width: 100%;
-  background-color: #ffffff;
-  color: #000000;
-  text-align: left;
-  font-size: 16px;
-}
-figure.snip1208 * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-}
-figure.snip1208 img {
-  max-width: 100%;
-  vertical-align: top;
-  -webkit-transform-origin: 50% 100%;
-  transform-origin: 50% 100%;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-}
-figure.snip1208 figcaption {
-  padding: 25px;
-  position: relative;
-}
-figure.snip1208 .date,
-figure.snip1208 i {
-  background-color: #1abc9c;
-  top: 25px;
-  color: #fff;
-  left: 25px;
-  min-height: 60px;
-  min-width: 60px;
-  position: absolute;
-  text-align: center;
-}
-figure.snip1208 .date {
-  -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s;
-  font-size: 22px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-figure.snip1208 .date span {
-  display: block;
-  line-height: 30px;
-}
-figure.snip1208 .date .month {
-  font-size: 16px;
-  background-color: rgba(0, 0, 0, 0.1);
-}
-figure.snip1208 i {
-  line-height: 60px;
-  font-size: 30px;
-  -webkit-transform: rotateY(-90deg);
-  transform: rotateY(-90deg);
-  -webkit-transition-delay: 0s;
-  transition-delay: 0s;
-}
-figure.snip1208 h3,
-figure.snip1208 p {
-  margin: 0;
-  padding: 0;
-}
-figure.snip1208 h3 {
-  margin-bottom: 10px;
-  display: inline-block;
-  font-weight: 600;
-  color: #333333;
-  text-transform: uppercase;
-}
-figure.snip1208 p {
-  font-size: 0.8em;
-  margin-bottom: 20px;
-  line-height: 1.6em;
-}
-figure.snip1208 button {
-  border: medium none;
-  padding: 10px 20px;
-  background-color: #1abc9c;
-  font-weight: 800;
-  color: #ffffff;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  font-size: 0.8em;
-}
-figure.snip1208 a {
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  position: absolute;
-  z-index: 1;
-}
-figure.snip1208:hover img,
-figure.snip1208.hover img {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-figure.snip1208:hover .date,
-figure.snip1208.hover .date {
-  -webkit-transform: rotateY(90deg);
-  transform: rotateY(90deg);
-  -webkit-transition-delay: 0s;
-  transition-delay: 0s;
-}
-figure.snip1208:hover i,
-figure.snip1208.hover i {
-  -webkit-transform: rotateY(0);
-  transform: rotateY(0);
-  -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s;
-}
-figure.snip1208:hover button,
-figure.snip1208.hover button {
-  background-color: #117964;
-}
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
+    <!--========== Theme Fonts ==========-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,600,700,800" rel="stylesheet">
 
-@import url(https://fonts.googleapis.com/css?family=Lato:400,600,700);
-.snip1527 {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-  color: #ffffff;
-  float: left;
-  font-family: 'Lato', Arial, sans-serif;
-  font-size: 16px;
-  margin: 10px 1%;
-  max-width: 310px;
-  min-width: 250px;
-  overflow: hidden;
-  position: relative;
-  text-align: left;
-  width: 100%;
-}
+    <!--Font Awesome css-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
-.snip1527 * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all 0.25s ease;
-  transition: all 0.25s ease;
-}
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
-.snip1527 img {
-  max-width: 100%;
-  vertical-align: top;
-  position: relative;
-}
+    <!--Animate css-->
+    <link rel="stylesheet" href="css/animate.css">
 
-.snip1527 figcaption {
-  padding: 25px 20px 25px;
-  position: absolute;
-  bottom: 0;
-  z-index: 1;
-}
+    <!--Animated headline css-->
+    <link rel="stylesheet" href="css/jquery.animatedheadline.css">
+    
+	<!--Owl carousel css-->
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.default.css">
+    
+	<!--Magnific popup css-->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+    
+	<!--Normalizer css-->
+	<link rel="stylesheet" href="css/normalize.css">
 
-.snip1527 figcaption:before {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #700877;
-  content: '';
-  background: -moz-linear-gradient(90deg, #700877 0%, #ff2759 100%, #ff2759 100%);
-  background: -webkit-linear-gradient(90deg, #700877 0%, #ff2759 100%, #ff2759 100%);
-  background: linear-gradient(90deg, #700877 0%, #ff2759 100%, #ff2759 100%);
-  opacity: 0.8;
-  z-index: -1;
-}
+    <!--Theme css-->
+    <link rel="stylesheet" href="css/style.css">
 
-.snip1527 .date {
-  background-color: #fff;
-  border-radius: 50%;
-  color: #700877;
-  font-size: 18px;
-  font-weight: 700;
-  min-height: 48px;
-  min-width: 48px;
-  padding: 10px 0;
-  position: absolute;
-  right: 15px;
-  text-align: center;
-  text-transform: uppercase;
-  top: -25px;
-}
-
-.snip1527 .date span {
-  display: block;
-  line-height: 14px;
-}
-
-.snip1527 .date .month {
-  font-size: 11px;
-}
-
-.snip1527 h3,
-.snip1527 p {
-  margin: 0;
-  padding: 0;
-}
-
-.snip1527 h3 {
-  display: inline-block;
-  font-weight: 700;
-  letter-spacing: -0.4px;
-  margin-bottom: 5px;
-}
-
-.snip1527 p {
-  font-size: 0.8em;
-  line-height: 1.6em;
-  margin-bottom: 0px;
-}
-
-.snip1527 a {
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  position: absolute;
-  z-index: 1;
-}
-
-.snip1527:hover img,
-.snip1527.hover img {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-</style>
-<link rel="icon" type="image/png" href="img/icon.png">
+    <!--Responsive css-->
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
 
-    <script> (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s);
-    js.id = id;
-    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk')); </script>
+    <!--preloader starts-->
 
-<!-- Navbar -->
-<header style="z-index:999;" class="header">
-            <a class="brand-logo" href="" >
-                <img style="margin-top:25px;" alt="logo" src="img/logo1.png">
-            </a>
-            <nav class="navigation">
-                <div class="navigation__top">
-                    <ul class="top-nav-list desktop-only">
-                        <li class="top-nav-list__item">
-                            <a class="top-link" href="#">Acdamic Calander</a>
-                        </li>
-                        <li class="top-nav-list__item">
-                            <a class="top-link" href="#">Contact Us</a>
-                        </li>
-                        <li class="top-nav-list__item">
-                            <a class="top-link" href="#">Peshwar Campus</a>
-                        </li>
-                        <li class="top-nav-list__item">
-                            <a class="top-link" href="#">Campus Mail</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="navigation__main">
-                    <div class="mobile-nav-ui">
-                        <div class="mobile-nav-ui__left">
-                            <div class="menu-btn" data-action="back">
-                                <div class="menu-btn__icon menu-btn__icon_back"></div>
-                                <span class="menu-btn__label">BACK</span>
+
+    <div class="loader_bg"><div class="loader"></div></div>
+
+
+    <!--preloader ends-->
+
+    <!--navigation area starts-->
+
+    <header class="nav-area navbar-fixed-top">
+        <div class="container">
+            <div class="row">
+                <!--main menu starts-->
+
+                <div class="col-md-12">
+                    <div class="main-menu">
+                        <div class="navbar navbar-cus">
+                            <div class="navbar-header">
+                                <a href="index.html" class="navbar-brand"><span class="logo">mason</span></a> <!--edit site name here-->
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
                             </div>
-                        </div>
-                        <div class="mobile-nav-ui__right">
-                            <div class="menu-btn" data-action="open">
-                                <i class="fa fa-align-justify"></i>
-                                <span class="menu-btn__label">MENU</span>
-                            </div>
-                            <div class="menu-btn" data-action="close">
-                                <div class="menu-btn__icon menu-btn__icon_close"></div>
-                                <span class="menu-btn__label">CLOSE</span>
+
+                            <div class="navbar-collapse collapse">
+                                <nav>
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li class="active"><a class="smooth-menu" href="#home">Home</a></li>
+                                        <li><a class="smooth-menu" href="#about">About</a></li>
+                                        <li><a class="smooth-menu" href="#services">Services</a></li>
+                                        <li><a class="smooth-menu" href="#portfolio">Portfolio</a></li>
+                                        <li><a class="smooth-menu" href="#testimonial">Testimonial</a></li>
+                                        <li><a class="smooth-menu" href="#contact">Contact</a></li>
+                                    </ul>
+                                </nav>
                             </div>
                         </div>
                     </div>
-                    <div style="background:white;" class="mobile-nav-wrap">
-                        <div class="dropdown-background"></div>
-                        <ul class="main-nav-list menu">
-                            <li class="menu-item menu-item-has-children orange">
-                                <a href="/travel-explore"><span>About Us</span></a>
-                                <div class="menu-dropdown">
-                                    <div class="menu-dropdown__content">
-                                        <ul class="sub-menu">
-                                            <li class="menu-item">
-                                                <a href="">OVERALL</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="{% url 'slider:vision' %}">Vision & Mission</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="{% url 'slider:objective' %}">Objectives</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="/travel-explore/vacation">VC Message</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="/travel-explore/vacation">About Us</a>
-                                            </li>
-                                        </ul>
-                                        <a class="menu-article" href="/event/highlights-of-portugal-may-27-june-2-2018">
-                                            <img alt="" class="menu-article__img" src="2.jpg">
-                                            <span class="menu-article__title">Fairwell Highlights, June 17-23, 2018</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="menu-item menu-item-has-children green">
-                                <a href="/play-sports"><span>Departments</span></a>
-                                <div class="menu-dropdown">
-                                    <div class="menu-dropdown__content">
-                                        <ul class="sub-menu">
-                                            <li class="menu-item">
-                                                <a href="">OVERALL</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="{% url 'slider:department_of_engineering' %}">Department of Engineering</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="pages/hod_computing.html">Department of Computing</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="/play-sports/field-hockey-indoor">Department of Management Science</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="/play-sports/field-hockey-outdoor">Department of Pharmacy</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="/play-sports/floor-hockey-indoor">Department of Life Sciences</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="/play-sports/floor-hockey-outdoor">Department of Graduate Studies</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
+                </div>
+
+                <!--main menu ends-->
+            </div>
+        </div>
+    </header>
+
+    <!--navigation area ends-->
+
+    <!--Banner area starts-->
+
+    <div class="banner-area" id="home">
+        <div class="banner-table">
+            <div class="banner-table-cell">
+                <div class="welcome-text">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <section class="intro animate-scale">
+
+                                    <h3>Welcome to My Website</h3>
+
+                                    <h1 class="ah-headline">
+
+                                        <span class="ah-words-wrapper">
+                                            <b class="is-visible">Surhan Zahid</b> <!--edit the name to your name-->
+                                            <b>Web Designer</b> <!--edit the designation if you are in different profession-->
+                                            <b>Android Developer</b> <!--edit the designation if you are in different profession-->
+                                            <b>Web Developer</b> <!--edit the designation if you are in different profession-->
+                                        </span>
+                                    </h1>
+
+                                    <a href="#contact" class="banner-btn">Contact me</a>
 
 
+                                </section>
 
-                            <li class="menu-item menu-item-has-children blue">
-                                <a href="/ski-ride"><span>Rules & Policies</span></a>
-                                <div class="menu-dropdown">
-                                    <div class="menu-dropdown__content">
-                                        <ul class="sub-menu">
-                                            <li class="menu-item">
-                                                <a href="/ski-ride/ski-weekend">Academic Integrity</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="/ski-ride/ski-vacation">Academic System</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="/ski-ride/day-ski">Registration</a>
-                                            </li>
-                                        </ul>
-                                        <a class="menu-article" href="/event/sugarloaf-march-2-4-2018">
-                                            <img alt="" class="menu-article__img" src="/__media/2.%20Ski%20&%20Ride/Ski%20Weekends/2-Menu_articles/MenuArticle_Sugarloaf.jpg">
-                                            <span class="menu-article__title">Sugarloaf March 2-4, 2018</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="menu-item menu-item-has-children fuchsia">
-                                <a href="/social-events"><span>Admission & Aids</span></a>
-                                <div class="menu-dropdown">
-                                    <div class="menu-dropdown__content">
-                                        <ul class="sub-menu">
-                                            <li class="menu-item">
-                                                <a href="/social-events/social">Admission Overview</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="/social-events/adventure">Financial Aid</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="/social-events/adventure">Scholarships</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="{% url 'slider:feestructure' %}">Fee Structure</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="pages/admission_overview.html">Admission Overview</a>
-                                            </li>
-                                        </ul>
-                                        <a class="menu-article" href="/event/spring-cornhole-tournament">
-                                            <img alt="" class="menu-article__img" src="/__media/3.%20Get%20Social/Social/2%20Menu%20Article/MenuArticle_Cornhole2.jpg">
-                                            <span class="menu-article__title">Spring Cornhole Tournament</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="menu-item menu-item-has-children">
-                                <a href="#"><span>Research</span></a>
-                                <div class="menu-dropdown">
-                                    <div class="menu-dropdown__content">
-                                        <ul class="sub-menu">
-                                            <li class="menu-item">
-                                                <a href="/join/member-rewards">Projects</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="{% url 'slider:publications'%}">Publications</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="{% url 'slider:journal'%}">Journel of Social Sciences</a>
-                                            </li>
-                                            
-                                        </ul>
-                                        <a class="menu-article" href="/event/thursday-fenway-coed-6v6-dodgeball-030118">
-                                            <img alt="" class="menu-article__img" src="#">
-                                            <span class="menu-article__title">Admissions Are Open</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="menu-item menu-item-has-children">
-                                <a href="/about"><span>Dowloads</span></a>
-                                <div class="menu-dropdown">
-                                    <div class="menu-dropdown__content">
-                                        <ul class="sub-menu">
-                                            
-                                            <li class="menu-item">
-                                                <a href="/about/staff">OBE at AUIC</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="/about/testimonials">Software System - TLS</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="/about/faq">Research and Analysis</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="/about/jobs">About the Center</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                        <ul class="mobile-sub-nav-list">
-                            <li class="mobile-sub-nav-list__item">
-                                <a class="top-link" href="#">Acdamic Calander</a>
-                            </li>
-                            <li class="mobile-sub-nav-list__item">
-                                <a class="top-link" href="#">Contact Us</a>
-                            </li>
-                            <li class="mobile-sub-nav-list__item">
-                                <a class="top-link" href="#">Peshwar Campus</a>
-                            </li>
-                            <li class="mobile-sub-nav-list__item">
-                                <a class="top-link" href="#">Peshwar Campus</a>
-                            </li>
-                            <li class="mobile-sub-nav-list__item">
-                                <a class="top-link" href="#">Campus Mail</a>
-                            </li>
-                        </ul>
+                                <div class="clearfix"></div>
+
+                                <a class="mouse-scroll hidden-xs" href="#about">
+                                    <span class="mouse">
+                                        <span class="mouse-movement"></span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </nav>
-        </header>
-<!-- End Navbar -->
-
-<!-- Slider -->
-
-        <div style="margin-top: -19px" data-pgc="slideshow" id="slideshow1">
-            <div class="ccol-md-12">
-                <div class="nivoSlider" id="nivoSlider">
-                    <img alt="" class="edit" src="img/25383112_2207945809432349_18385421_o.png" title="#htmlcaption1">
-                    <img alt="" class="edit" src="img/25371192_2207945822765681_298281518_o.png" title="#htmlcaption2">
-                    <img alt="" class="edit" src="img/25371114_2207945792765684_2049257955_o.png" title="#htmlcaption3">
-                    <img alt="" class="edit" src="img/25383348_2207945806099016_642189041_o.png" title="#htmlcaption3">
-                    <img alt="" class="edit" src="img/25397790_2207945826099014_264057750_o.png" title="#htmlcaption3">
-                </div>
-            </div>
-        </div>
-<!-- End Slider -->
-
-<!-- About University -->
-<div class="container underlined-title-about">
-    <div class="row">
-        <div class="col-md-6" data-pg-collapsed>
-            <h1 data-pg-collapsed=""><b>A Few Words <br>
-About the University</b></h1>
-            <hr>
-            <br>
-            <br>
-            <p class="text-justify">HEC has granted NOC via lett er No. 16-64/HEC/A&A/2010/401 to Abasyn University to open its campus at Islamabad. The University has established state of art faciliti es in Sector I-9/2 for the campus. Highly qualifi ed teaching and non teaching staff have been hired. The campus has also established fully equipped labs with latest state of the art technologies and tools. The campus has also developed a well stocked library which has access to digital research databases, e-journals, e-books and e-reports.</p>
-        </div>
-        <div class="col-md-6">
-            <center>
-                <img style="margin-top:100px" class="img-responsive reveal-inline-block" src="img/logo1.png" width="326" height="329" />
-            </center>
-        </div>
-    </div>
-</div>
-<!-- End About University -->
-
-<!-- Why Choose Us -->
-<div class="container underlined-title-about" data-pg-collapsed>
-<div class="row">
-    <div class="col-md-6">
-        <h1 data-pg-collapsed="" class="text-center">Why Choose Us</h1>
-        <p class="text-center">Modern University is a leading higher educational establishment offering students from all over the world a chance to obtain new knowledge, learn new useful skills, and find friends for a lifetime. Below are some interesting facts about us.</p>
-        <div class="row" data-pg-collapsed>
-            <div class="col-md-6">
-                <div class="text-center single-content">
-                    <i class="fa fa-4x fa-graduation-cap"></i>
-                    <h3>Awards</h3>
-                    <p>probant an malis deserunt commodo labore labore do pariatur</p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="text-center single-content">
-                    <i class="fa fa-4x fa-briefcase"></i>
-                    <h3>Certified Teachers</h3>
-                    <p>probant an malis deserunt commodo labore labore do pariatur</p>
-                </div>
-            </div>
-        </div>
-        <div class="row" data-pg-collapsed>
-            <div class="col-md-6">
-                <div class="text-center single-content">
-                    <i class="fa fa-4x fa-building"></i>
-                    <h3>Featured Programs</h3>
-                    <p>probant an malis deserunt commodo labore labore do pariatur</p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="text-center single-content">
-                    <i class="fa fa-4x fa-group"></i>
-                    <h3>Students</h3>
-                    <p>probant an malis deserunt commodo labore labore do pariatur</p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="col-md-6" data-pg-collapsed>
-        <center>
-            <img class="img-responsive reveal-inline-block" src="img/home-01-846x1002.jpg" />
-        </center>
-    </div>
-</div>
-</div>
-<!-- End Why Choose Us -->
 
+    <!--Banner area ends-->
 
-<!-- Event -->
-<div class="container underlined-title" data-pg-collapsed>
-<div class="row">
-     <div class="col-md-8 col-md-offset-2 text-center">
-                        <div class="underlined-title">
-                            <h1 class="sec-title">Event<br></h1>
-                            <hr>
-                        </div>
+    <!--about area starts-->
+
+    <div class="about-area section-padding" id="about">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-4 col-xs-12 col-sm-6 col-lg-4">
+                    <div class="about-text-left">
+                        <h2>Mason Smith</h2> <!--edit name-->
+                        <h3>Full Stack Developer</h3> <!--edit designation-->
+                        <p>I am a WordPress & Front-end Developer, working for the last five years. I have experience working with local clients along with clients from all around the world. I have vast knowledge in html, css, Javascript , JQuery, Angular (javascript framewok), wordpress theme development and so on. </p>
+                        <a href="images/about/demo-cv.png" download>Download CV &nbsp; &nbsp;<i class="fa fa-download"></i></a>
                     </div>
-    <div class="col-md-4">
-<figure class="snip1527">
-  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample23.jpg" alt="pr-sample23" /></div>
-  <figcaption>
-    <div class="date"><span class="day">28</span><span class="month">Oct</span></div>
-    <h4>The World Ended Yesterday</h4>
-    <p style="color: white">
-      You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
-    </p>
-  </figcaption>
-  <a href="#"></a>
-</figure>
-</div>
-<div class="col-md-4">
-<figure class="snip1527">
-  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample23.jpg" alt="pr-sample23" /></div>
-  <figcaption>
-    <div class="date"><span class="day">28</span><span class="month">Oct</span></div>
-    <h4>The World Ended Yesterday</h4>
-    <p style="color: white">
-
-      You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
-    </p>
-  </figcaption>
-  <a href="#"></a>
-</figure>
-</div>
-<div class="col-md-4">
-<figure class="snip1527">
-  <div class="image"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample23.jpg" alt="pr-sample23" /></div>
-  <figcaption>
-    <div class="date"><span class="day">28</span><span class="month">Oct</span></div>
-    <h4>The World Ended Yesterday</h4>
-    <p style="color: white">
-
-      You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
-    </p>
-  </figcaption>
-  <a href="#"></a>
-</figure>
-</div>
-</div>
-</div>
-
-<!-- End Event -->
-
-<!-- Test -->
-
-<!-- End Test -->
-
-
-
-<!-- News  -->
-<div class="container underlined-title" data-pg-collapsed>
-     <div class="col-md-8 col-md-offset-2 text-center">
-                        <div class="underlined-title">
-                            <h1 class="sec-title">News<br></h1>
-                            <hr>
-                        </div>
-                    </div>
-<div class="row">
-    <div class="col-md-4">
-        <figure class="snip1208">
-  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample66.jpg" alt="sample66"/>
-  <div class="date"><span class="day">28</span><span class="month">Oct</span></div><i class="ion-film-marker"></i>
-  <figcaption>
-    <h3>The World Ended Yesterday</h3>
-    <p>
-      I don't need to compromise my principles, because they don't have the slightest bearing on what happens to me anyway.
-    </p>
-    <button>Read More</button>
-  </figcaption><a href="#"></a>
-</figure>
-    </div>
-    <div class="col-md-4">
-        <figure class="snip1208">
-  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample66.jpg" alt="sample66"/>
-  <div class="date"><span class="day">28</span><span class="month">Oct</span></div><i class="ion-film-marker"></i>
-  <figcaption>
-    <h3>The World Ended Yesterday</h3>
-    <p>
-      I don't need to compromise my principles, because they don't have the slightest bearing on what happens to me anyway.
-    </p>
-    <button>Read More</button>
-  </figcaption><a href="#"></a>
-</figure>
-    </div>
-    <div class="col-md-4">
-        <figure class="snip1208">
-  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample66.jpg" alt="sample66"/>
-  <div class="date"><span class="day">28</span><span class="month">Oct</span></div><i class="ion-film-marker"></i>
-  <figcaption>
-    <h3>The World Ended Yesterday</h3>
-    <p>
-      I don't need to compromise my principles, because they don't have the slightest bearing on what happens to me anyway.
-    </p>
-    <button>Read More</button>
-  </figcaption><a href="#"></a>
-</figure>
-    </div>
-</div>
-</div>
-<!-- End News -->
-
-<!-- Footer -->
-<section class="footer1" data-pgc="footer-1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <h1 style="color:#66BB6A;"><i style="color:#66BB6A;" class="fa fa-university"></i> Abasyn</h1>
-                        <p>sapiente, nam sunt rem beatae architecto cupiditate.</p>
-                        <div class="media">
-                            <div class="media-left">
-                                <a href="#"><i class="fa fa-home"></i></a>
-                            </div>
-                            <div class="media-body">
-                                <h5 class="media-heading">Address</h5>
-                                <p>Park Road, Chak Shahzad, Islamabad, Pakistan</p>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="media-left">
-                                <a href="#"><i class="fa fa-envelope-o"></i></a>
-                            </div>
-                            <div class="media-body">
-                                <h5 class="media-heading">Having any questions?</h5>
-                                <p>admissions@abasynisb.edu.pk</p>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="media-left">
-                                <a href="#"><i class="fa fa-phone"></i></a>
-                            </div>
-                            <div class="media-body">
-                                <h5 class="media-heading">Call us &amp; Hair us</h5>
-                                <p>+92 051 8438320-1</p>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="media-left">
-                                <a href="#"><i class="fa fa-fax"></i></a>
-                            </div>
-                            <div class="media-body">
-                                <h5 class="media-heading">Fax</h5>
-                                <p>+92 051 8438325</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <h4><i class="fa fa-facebook"></i>&nbsp;Facebook Feed</h4>
-                        <div class="media">
-                            <a class="fb-like-box" data-href="http://www.facebook.com/pages/sheffieldhope/348096328620951" data-width="282" data-chrome="noscrollbar"  data-height="430" data-show-faces="true" data-stream="true" scrolling="no" data-header="true" style="width:282px; position:absolute; left:-162px;"></a>
-                            <div class="fb-post" data-href="https://www.facebook.com/AbasynUniversityIslamabad/posts/2033662030180693" data-width="500" data-show-text="true"><blockquote cite="https://www.facebook.com/AbasynUniversityIslamabad/posts/2033662030180693" class="fb-xfbml-parse-ignore">Posted by <a href="https://www.facebook.com/AbasynUniversityIslamabad/">Abasyn University Islamabad Campus</a> on&nbsp;<a href="https://www.facebook.com/AbasynUniversityIslamabad/posts/2033662030180693">Sunday, February 11, 2018</a></blockquote></div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <h4>Popular tags</h4>
-                        <div class="tag" style="padding-top: 8px;">
-                            <a class="btn  btn-sm" href="#">Registration</a>
-                            <a class="btn btn-default btn-sm" href="#">Fee Structure</a>
-                            <a class="btn btn-default btn-sm" href="#">Courses</a>
-                            <a class="btn btn-default btn-sm" href="#">Department</a>
-                            <a class="btn btn-default btn-sm" href="#">Faculty</a>
-                            <a class="btn btn-default btn-sm" target="_blank" href="http://115.186.163.226/moodle/login/index.php">LMS</a>
-                        </div>
-
-
-
-                        </div>
-
                 </div>
-                <br>
-                <div class="row">
 
-                    <div class="col-md-12">
-                        <iframe class="maps" style="filter: grayscale(90%);" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13284.256932660568!2d73.1555762!3d33.6554975!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe616d54130ec05d3!2sAbasyn+University+Islamabad+Campus!5e0!3m2!1sen!2s!4v1508581882280" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <img src="images/about/about.png"  class="img-responsive" alt="about image"> <!--add your image here-->
+                </div>
+
+                <div class="col-md-4 col-xs-12 col-sm-12 col-lg-4">
+                    <div class="about-text-right">
+
+                        <div id="skills">
+
+                            <h3>My Skills</h3>
+
+                            <div class="row">
+
+                                <div class="col-md-12">
+
+                                    <!-- skillbar -->
+                                    <div class="skillbar" data-percent="95%"> <!--edit percentage-->
+
+                                        <h6 class="skillbar-title">HTML / CSS</h6> <!--edit skills-->
+                                        <h6 class="skillbar-percent">95%</h6> <!--edit percentage-->
+
+                                        <div class="skillbar-bar">
+                                            <div class="skillbar-child"></div>
+                                        </div>
+
+                                    </div>
+                                    <!-- end skillbar -->
+
+                                </div>
+
+
+                                <div class="col-md-12">
+
+                                    <!-- skillbar -->
+                                    <div class="skillbar" data-percent="90%"> <!--edit percentage-->
+
+                                        <h6 class="skillbar-title">jAVASCRIPT</h6> <!--edit skills-->
+                                        <h6 class="skillbar-percent">90%</h6> <!--edit percentage-->
+
+                                        <div class="skillbar-bar">
+                                            <div class="skillbar-child"></div>
+                                        </div>
+
+                                    </div>
+                                    <!-- end skillbar -->
+
+                                </div>
+
+                                <div class="col-md-12">
+
+                                    <!-- skillbar -->
+                                    <div class="skillbar" data-percent="85%"> <!--edit percentage-->
+
+                                        <h6 class="skillbar-title">WORDPRESS</h6> <!--edit skills-->
+                                        <h6 class="skillbar-percent">85%</h6> <!--edit percentage-->
+
+                                        <div class="skillbar-bar">
+                                            <div class="skillbar-child"></div>
+                                        </div>
+
+                                    </div>
+                                    <!-- end skillbar -->
+
+                                </div>
+
+
+                                <div class="col-md-12">
+
+                                    <!-- skillbar -->
+                                    <div class="skillbar" data-percent="75%"> <!--edit percentage-->
+
+                                        <h6 class="skillbar-title">JOOMLA</h6> <!--edit skills-->
+                                        <h6 class="skillbar-percent">75%</h6> <!--edit percentage-->
+
+                                        <div class="skillbar-bar">
+                                            <div class="skillbar-child"></div>
+                                        </div>
+
+                                    </div>
+                                    <!-- end skillbar -->
+
+                                </div>
+
+                                <div class="col-md-12">
+
+                                    <!-- skillbar -->
+                                    <div class="skillbar" data-percent="70%"> <!--edit percentage-->
+
+                                        <h6 class="skillbar-title">DRUPAL</h6> <!--edit skills-->
+                                        <h6 class="skillbar-percent">70%</h6> <!--edit percentage-->
+
+                                        <div class="skillbar-bar">
+                                            <div class="skillbar-child"></div>
+                                        </div>
+
+                                    </div>
+                                    <!-- end skillbar -->
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
                     </div>
 
                 </div>
             </div>
-        </section>
-<!-- End Footer -->
 
-<!--=== Load JS here for greater good ====-->
-        <script src="js/jquery-1.8.3.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/isotope.pkgd.js"></script>
-        <script src="js/jquery.countdown.min.js"></script>
-        <script src="js/jquery.flexslider.js"></script>
-        <script src="js/jquery.nivo.slider.pack.js"></script>
-        <script src="js/portfolio-custom1.js"></script>
-        <script src="js/portfolio-custom2.js"></script>
-        <script src="js/main.js"></script>
-        <script type="text/javascript" src="components/pg.chocka-blocks/js/cb-main.js"></script>
-        <script type="text/javascript" src="components/pg.chocka-blocks/js/owl.carousel.min.js"></script>
-        <script type="text/javascript" src="components/pg.chocka-blocks/js/jquery.easy-pie-chart.js"></script>
+        </div>
+    </div>
 
-<script>
-    $('.carousel[data-type="multi"] .item').each(function(){
-        var next = $(this).next();
-        if (!next.length) {
-          next = $(this).siblings(':first');
-        }
-        next.children(':first-child').clone().appendTo($(this));
+    <!--about area ends-->
+    
+    <!--Services Area Starts-->
 
-        for (var i=0;i<4;i++) {
-          next=next.next();
-          if (!next.length) {
-              next = $(this).siblings(':first');
-            }
+    <div id="services" class="services-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
+                        <p class="line-one"></p>
+                        <h2>What I Offer</h2>
+                        <p class="line-one"></p>
 
-          next.children(':first-child').clone().appendTo($(this));
-        }
-      });
-</script>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="services-carousel" class="owl-carousel owl-theme">
 
+                    <div class="single-services text-center item">
+                        <div class="services-icon">
+                            <i class="fa fa-joomla"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3>Branding</h3> <!--edit the service you give-->
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="single-services text-center item">
+                        <div class="services-icon">
+                            <i class="fa fa-slack"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3>Web Design</h3> <!--edit the service you give-->
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="single-services text-center item">
+                        <div class="services-icon">
+                            <i class="fa fa-yelp"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3>Photography</h3> <!--edit the service you give-->
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="single-services text-center item">
+                        <div class="services-icon">
+                            <i class="fa fa-viacoin"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3>Graphics Design</h3> <!--edit the service you give-->
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="single-services text-center item">
+                        <div class="services-icon">
+                            <i class="fa fa-google-wallet"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3>Art Work</h3> <!--edit the service you give-->
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="single-services text-center item">
+                        <div class="services-icon">
+                            <i class="fa fa-renren"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3>App Development</h3> <!--edit the service you give-->
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--Services Area Ends-->
+    
+	<!--number area starts-->
+
+	<div class="number-area section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-xs-6">
+					<div class="single-number text-center">
+						<i class="fa fa-clock-o"></i>
+						<h2 class="counter">3015</h2> <!--edit-->
+						<p>Hours Worked</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<div class="single-number text-center">
+						<i class="fa fa-code"></i>
+						<h2 class="counter">6589</h2> <!--edit-->
+						<p>Lines of Code</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<div class="single-number text-center">
+						<i class="fa fa-user"></i>
+						<h2 class="counter">723</h2> <!--edit-->
+						<p>Happy Customers</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<div class="single-number text-center">
+						<i class="fa fa-trophy"></i>
+						<h2 class="counter">43</h2> <!--edit-->
+						<p>Awards Won</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--number area ends-->
+   
+	<!--Portfolio Area Starts-->
+
+	<div id="portfolio" class="portfolio-area section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header wow fadeInDown" data-wow-delay="0.2s">
+						<p class="line-one"></p>
+						<h2>My Works</h2>
+						<p class="line-one"></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+
+                <div class="portfolio-items">
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 no-pad">
+                        <div id="inline-popups" class="port-box">
+                            <a href="#test-popup" data-effect="mfp-zoom-out">
+                                <div class="hovereffect">
+
+                                    <img src="images/portfolio/port1.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    <div class="overlay">
+                                        <h2>Project One</h2> <!--your project name-->
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores, velit. Accusantium mollitia obcaecati quos.</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div id="test-popup" class="white-popup mfp-with-anim mfp-hide">
+                            <div class="row">
+                                <div class="col-md-7 col-xs-12">
+                                    <div class="por-img">
+                                        <img src="images/portfolio/port1.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    </div>
+                                </div>
+                                <div class="col-md-5 col-xs-12">
+                                    <div class="por-text">
+                                        <h2>My Project Title</h2> <!--your project title-->
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, delectus deserunt eum eveniet, illo iste magni nobis non omnis quia</p>
+                                        <div class="por-text-details">
+                                            <div class="row">
+                                                <div class="col-xs-4">
+                                                    <p>Client: </p>
+                                                    <p>Completed:</p>
+                                                    <p>Type:</p>
+                                                    <p>link:</p>
+                                                </div>
+                                                <div class="col-xs-offset-1 col-xs-7">
+                                                    <p>Reebok</p> <!--edit here-->
+                                                    <p>15/03/2018</p> <!--edit here-->
+                                                    <p>WordPress Site</p> <!--edit here-->
+                                                    <p>www.reebok.com</p> <!--edit here-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 no-pad">
+
+                        <div id="inline-popups-2">
+                            <a href="#test-popup-2" data-effect="mfp-zoom-out">
+                                <div class="hovereffect">
+
+                                    <img src="images/portfolio/port2.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    <div class="overlay">
+                                        <h2>Project Two</h2> <!--your project name-->
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores, velit. Accusantium mollitia obcaecati quos.</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div id="test-popup-2" class="white-popup mfp-with-anim mfp-hide">
+                            <div class="row">
+
+                                <div class="col-md-7">
+                                    <div class="por-img">
+                                        <img src="images/portfolio/port2.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="por-text">
+                                        <h2>My Project Title</h2> <!--your project title-->
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, delectus deserunt eum eveniet, illo iste magni nobis non omnis quia</p>
+                                        <div class="por-text-details">
+                                            <div class="row">
+                                                <div class="col-xs-4">
+                                                    <p>Client: </p>
+                                                    <p>Completed:</p>
+                                                    <p>Type:</p>
+                                                    <p>link:</p>
+                                                </div>
+                                                <div class="col-xs-offset-1 col-xs-7">
+                                                    <p>SportsDirect</p> <!--edit here-->
+                                                    <p>15/03/2018</p> <!--edit here-->
+                                                    <p>Joomla Site</p> <!--edit here-->
+                                                    <p>www.sportsdirect.com</p> <!--edit here-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 no-pad">
+
+                        <div id="inline-popups-3">
+                            <a href="#test-popup-3" data-effect="mfp-zoom-out">
+                                <div class="hovereffect">
+
+                                    <img src="images/portfolio/port3.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    <div class="overlay">
+                                        <h2>Project Three</h2> <!--your project name-->
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores, velit. Accusantium mollitia obcaecati quos.</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div id="test-popup-3" class="white-popup mfp-with-anim mfp-hide">
+                            <div class="row">
+
+                                <div class="col-md-7">
+                                    <div class="por-img">
+                                        <img src="images/portfolio/port3.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="por-text">
+                                        <h2>My Project Title</h2> <!--your project title-->
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, delectus deserunt eum eveniet, illo iste magni nobis non omnis quia</p>
+                                        <div class="por-text-details">
+                                            <div class="row">
+                                                <div class="col-xs-4">
+                                                    <p>Client: </p>
+                                                    <p>Completed:</p>
+                                                    <p>Type:</p>
+                                                    <p>link:</p>
+                                                </div>
+                                                <div class="col-xs-offset-1 col-xs-7">
+                                                    <p>Sainsbury</p> <!--edit here-->
+                                                    <p>15/03/2018</p> <!--edit here-->
+                                                    <p>Drupal Site</p> <!--edit here-->
+                                                    <p>www.sainsbury.co.uk</p> <!--edit here-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 no-pad">
+
+                        <div id="inline-popups-4">
+                            <a href="#test-popup-4" data-effect="mfp-zoom-out">
+                                <div class="hovereffect">
+
+                                    <img src="images/portfolio/port4.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    <div class="overlay">
+                                        <h2>Project Four</h2> <!--your project name-->
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores, velit. Accusantium mollitia obcaecati quos.</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div id="test-popup-4" class="white-popup mfp-with-anim mfp-hide">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="por-img">
+                                        <img src="images/portfolio/port4.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="por-text">
+                                        <h2>My Project Title</h2> <!--your project title-->
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, delectus deserunt eum eveniet, illo iste magni nobis non omnis quia</p>
+                                        <div class="por-text-details">
+                                            <div class="row">
+                                                <div class="col-xs-4">
+                                                    <p>Client: </p>
+                                                    <p>Completed:</p>
+                                                    <p>Type:</p>
+                                                    <p>link:</p>
+                                                </div>
+                                                <div class="col-xs-offset-1 col-xs-7">
+                                                    <p>Woolworths</p> <!--edit here-->
+                                                    <p>25/03/2018</p> <!--edit here-->
+                                                    <p>Shopify Site</p> <!--edit here-->
+                                                    <p>www.woolworths.co.au</p> <!--edit here-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 no-pad">
+
+                        <div id="inline-popups-5">
+                            <a href="#test-popup-5" data-effect="mfp-zoom-out">
+                                <div class="hovereffect">
+
+                                    <img src="images/portfolio/port5.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    <div class="overlay">
+                                        <h2>Project Five</h2> <!--your project name-->
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores, velit. Accusantium mollitia obcaecati quos.</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div id="test-popup-5" class="white-popup mfp-with-anim mfp-hide">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="por-img">
+                                        <img src="images/portfolio/port5.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="por-text">
+                                        <h2>My Project Title</h2> <!--your project title-->
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, delectus deserunt eum eveniet, illo iste magni nobis non omnis quia</p>
+                                        <div class="por-text-details">
+                                            <div class="row">
+                                                <div class="col-xs-4">
+                                                    <p>Client: </p>
+                                                    <p>Completed:</p>
+                                                    <p>Type:</p>
+                                                    <p>link:</p>
+                                                </div>
+                                                <div class="col-xs-offset-1 col-xs-7">
+                                                    <p>Titan</p> <!--edit here-->
+                                                    <p>15/03/2018</p> <!--edit here-->
+                                                    <p>Magento Site</p> <!--edit here-->
+                                                    <p>www.titan.co.in</p> <!--edit here-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 no-pad">
+
+                        <div id="inline-popups-6">
+                            <a href="#test-popup-6" data-effect="mfp-zoom-out">
+                                <div class="hovereffect">
+
+                                    <img src="images/portfolio/port6.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    <div class="overlay">
+                                        <h2>Project Six</h2> <!--your project name-->
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores, velit. Accusantium mollitia obcaecati quos.</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div id="test-popup-6" class="white-popup mfp-with-anim mfp-hide">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="por-img">
+                                        <img src="images/portfolio/port6.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="por-text">
+                                        <h2>My Project Title</h2> <!--your project title-->
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, delectus deserunt eum eveniet, illo iste magni nobis non omnis quia</p>
+                                        <div class="por-text-details">
+                                            <div class="row">
+                                                <div class="col-xs-4">
+                                                    <p>Client: </p>
+                                                    <p>Completed:</p>
+                                                    <p>Type:</p>
+                                                    <p>link:</p>
+                                                </div>
+                                                <div class="col-xs-offset-1 col-xs-7">
+                                                    <p>Vodafone</p> <!--edit here-->
+                                                    <p>27/03/2018</p> <!--edit here-->
+                                                    <p>PrestaShop Site</p> <!--edit here-->
+                                                    <p>www.vodafone.com</p> <!--edit here-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div> <!--end portfolio grid -->
+
+            </div>
+
+
+		</div>
+	</div>
+
+	<!--Portfolio Area Ends-->
+   
+	<!--Testimonial Section Starts-->
+
+	<div id="testimonial" class="testimonial-area section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header wow fadeInDown" data-wow-delay="0.2s">
+						<p class="line-one"></p>
+						<h2>What Clients Say</h2>
+						<p class="line-one"></p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="review-area">
+						<div id="testimonial-carousel" class="owl-carousel owl-theme">
+							<div class="single-testi text-center item">
+								<div class="testi-img">
+									<img src="images/testimonial/testi-1.png" alt="testimonial image"> <!--edit image-->
+								</div>
+								<div class="block-quote">
+									<p>My Experience working with Mason has been very positive. I always receive quality service from him. I highly recommend this guy to everyone because I think he is one a of kind.</p> <!--edit here-->
+									<h2>Jane Doe</h2> <!--edit here-->
+									<h3>CEO, Houston</h3> <!--edit here-->
+								</div>
+							</div>
+							<div class="single-testi text-center item">
+								<div class="testi-img">
+									<img src="images/testimonial/testi-2.png" alt="testimonial image"> <!--edit image-->
+								</div>
+								<div class="block-quote">
+									<p>My Experience working with Mason has been very positive. I always receive quality service from him. I highly recommend this guy to everyone because I think he is one a of kind.</p> <!--edit here-->
+									<h2>Michelle Jones</h2> <!--edit here-->
+									<h3>GM, Motorolla</h3> <!--edit here-->
+								</div>
+							</div>
+							<div class="single-testi text-center item">
+								<div class="testi-img">
+									<img src="images/testimonial/testi-3.png" alt="testimonial image"> <!--edit image-->
+								</div>
+								<div class="block-quote">
+									<p>My Experience working with Mason has been very positive. I always receive quality service from him. I highly recommend this guy to everyone because I think he is one a of kind.</p> <!--edit here-->
+									<h2>James Franco</h2> <!--edit here-->
+									<h3>CEO, Madison</h3> <!--edit here-->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Testimonial Section Ends-->
+
+    <!--contact area starts-->
+
+    <div class="contact-area section-padding" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
+                        <p class="line-one"></p>
+                        <h2>Contact</h2>
+                        <p class="line-one"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.4s">
+                        <i class="fa fa-home"></i>
+                        <h2>Location</h2>
+                        <p>123, New York, USA</p> <!--edit here-->
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.6s">
+                        <i class="fa fa-phone"></i>
+                        <h2>Phone: </h2>
+                        <p>(+1) 123 456 7890</p> <!--edit here-->
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.8s">
+                        <i class="fa fa-envelope-o"></i>
+                        <h2>Email</h2>
+                        <p>yourdomain@gmail.com</p> <!--edit here-->
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-contact text-center wow fadeInDown" data-wow-delay="1s">
+                        <i class="fa fa-gg"></i>
+                        <h2>Social Media: </h2>
+                        <div class="socials">
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a> <!--your facebook profile link here-->
+                            <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a> <!--your linkedin profile link here-->
+                            <a href="https://twitter.com/?lang=en" target="_blank"><i class="fa fa-twitter"></i></a> <!--your twitter profile link here-->
+                            <a href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest"></i></a> <!--your pinterest profile link here-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-10 col-md-offset-1">
+                    <form id="contact-form" method="post" action="contact.php" class="wow fadeInDown" data-wow-delay="1.2s">
+
+                        <div class="messages"></div> <!--you can change the message in contact.php file -->
+
+                        <div class="controls">
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your full name *" required="required" data-error="Fullname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Enter your email *" required="required" data-error="Valid email is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea id="form_message" name="message" class="form-control" placeholder="Your Message *" rows="4" required="required" data-error="Leave a message for me"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button class="btn btn-send" value="">Send message</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--contact area ends-->
+
+    <!--Brand area starts-->
+
+    <div class="brand-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-xs-6 col-sm-3">
+                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.2s">
+                        <img src="images/brand/brand-1.png" alt="brand image"> <!--edit image-->
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-3">
+                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.4s">
+                        <img src="images/brand/brand-2.png" alt="brand image"> <!--edit image-->
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-3">
+                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.6s">
+                        <img src="images/brand/brand-3.png" alt="brand image"> <!--edit image-->
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-3">
+                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.8s">
+                        <img src="images/brand/brand-4.png" alt="brand image"> <!--edit image-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Brand area ends-->
+
+    <!--Footer Area Starts-->
+
+    <div class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                    <p>&copy; All Right Reserved By <a href="https://www.codester.com/user/MouriTheme/" target="_blank">MouriTheme</a></p> <!--edit here-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer Area Ends-->
+
+    
+
+
+
+    <!--Latest version JQuery-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+    <!--Bootstrap js-->
+    <script src="js/bootstrap.min.js"></script>
+
+	<!--Magnific popup js-->
+	<script src="js/jquery.magnific-popup.js"></script>
+
+	<!--Owl Carousel js-->
+	<script src="js/owl.carousel.js"></script>
+
+	<!--wow js-->
+	<script src="js/wow.min.js"></script>
+
+    <!--Animated headline js-->
+    <script src="js/jquery.animatedheadline.js"></script>
+    
+    <!--Validator js-->
+    <script src="js/jquery.waypoints.js"></script>
+    
+	<!--counter up js-->
+	<script src="js/jquery.counterup.min.js"></script>
+
+    <!--Validator js-->
+    <script src="js/validator.js"></script>
+
+    <!--Contact js-->
+    <script src="js/contact.js"></script>
+
+    <!--Main js-->
+    <script src="js/main.js"></script>
+    
+    <script>
+
+	</script>
 </body>
-=======
-<html>
-    <head>
-        <title>Home</title>
-        <meta name="description" content="Trucking is transportation and Logistics website template">
-        <meta name="author" content="pixel-industry">
-        <meta name="keywords" content="transportation, logistics, transportation template, logistics template, cargo, business">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!-- Stylesheets -->
-        <link rel="stylesheet" href="css/bootstrap.css"/><!-- bootstrap grid -->
-        <link rel="stylesheet" href="css/animate.css"/><!-- used for animations -->
-        <link rel='stylesheet' href='owl-carousel/owl.carousel.css'/><!-- Client carousel -->
-        <link rel="stylesheet" href="masterslider/style/masterslider.css" /><!-- Master slider css -->
-        <link rel="stylesheet" href="masterslider/skins/default/style.css" /><!-- Master slider default skin -->
-        <link rel="stylesheet" href="css/style.css"/><!-- template styles -->
-        <link rel="stylesheet" href="css/color-default.css"/><!-- template main color -->
-        <link rel="stylesheet" href="css/retina.css"/><!-- retina ready styles -->
-        <link rel="stylesheet" href="css/responsive.css"/><!-- responsive styles -->
-
-        <!-- Google Web fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,800,700,600' rel='stylesheet' type='text/css'>
-
-        <!-- Font icons -->
-        <link rel="stylesheet" href="icon-fonts/font-awesome-4.3.0/css/font-awesome.min.css"/><!-- Fontawesome icons css -->
-    </head>
-
-    <body>
-        <div class="header-wrapper header-transparent">
-            <!-- .header.header-style01 start -->
-            <header id="header"  class="header-style01">
-                <!-- .container start -->
-                <div class="container">
-                    <!-- .main-nav start -->
-                    <div class="main-nav">
-                        <!-- .row start -->
-                        <div class="row">
-                            <div class="col-md-12">
-                                <nav class="navbar navbar-default nav-left" role="navigation">
-
-                                    <!-- .navbar-header start -->
-                                    <div class="navbar-header">
-                                        <div class="logo">
-                                            <a href="index.html">
-                                                <img src="img/logo2.png" alt="Trucking Transportation and Logistics HTML Template"/>
-                                            </a>
-                                        </div><!-- .logo end -->
-                                    </div><!-- .navbar-header start -->
-
-                                    <!-- MAIN NAVIGATION -->
-                                    <div class="collapse navbar-collapse">
-                                        <ul class="nav navbar-nav">
-                                            <li class="dropdown current-menu-item">
-                                                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Home</a>
-                                                
-                                            </li><!-- .dropdown end -->
-
-                                            <li class="dropdown">
-                                                <a href="#" data-toggle="dropdown" class="dropdown-toggle">About</a>
-                                                
-                                            </li><!-- .dropdown end -->
-
-                                            <li class="dropdown">
-                                                <a href="" data-toggle="dropdown" class="dropdown-toggle">Services</a>
-                                               
-                                            </li><!-- .dropdown end -->
-
-                                            <li class="dropdown">
-                                                <a href="" data-toggle="dropdown" class="dropdown-toggle">News</a>
-                                                
-                                            </li><!-- .dropdown end -->
-
-                                            <li class="dropdown">
-                                                <a href="" data-toggle="dropdown" class="dropdown-toggle">Media</a>
-                                                
-                                            </li><!-- .dropdown end -->
-
-                                            <li><a href="locations.html">Locations</a></li>
-
-                                            <li class="dropdown">
-                                                <a href="" data-toggle="dropdown" class="dropdown-toggle">Contact</a>
-                                                
-                                            </li><!-- .dropdown end -->
-                                        </ul><!-- .nav.navbar-nav end -->
-
-                                        <!-- RESPONSIVE MENU -->
-                                        <div id="dl-menu" class="dl-menuwrapper">
-                                            <button class="dl-trigger">Open Menu</button>
-
-                                            <ul class="dl-menu">
-                                                <li>
-                                                    <a href="index.html">Home</a>
-                                                    <ul class="dl-submenu">
-                                                        <li><a href="index.html">Home default</a></li>
-                                                        <li><a href="index02.html">Trucking services overview</a></li>
-                                                        <li><a href="index03.html">Trucking video slider</a></li>
-                                                        <li><a href="index04.html">Trucking home simple</a></li>
-                                                        <li><a href="index05.html">Trucking services slider</a></li>
-                                                        <li><a href="index06.html">Trucking parallax slider</a></li>
-                                                        <li><a href="index07.html">Trucking Vehicle Fleet</a></li>
-                                                        <li><a href="index08.html">Trucking corporate</a></li>
-                                                        <li><a href="index09.html">Trucking simple slider</a></li>
-                                                        <li><a href="index10.html">Fullscreen minimal</a></li>
-                                                    </ul><!-- dl-submenu end -->
-                                                </li>
-
-                                                <li>
-                                                    <a href="#">About</a>
-                                                    <ul class="dl-submenu">
-                                                        <li>
-                                                            <a href="">Header types</a>
-                                                            <ul class="dl-submenu">
-                                                                <li><a href="index.html">Header default</a></li>
-                                                                <li><a href="header-default-top-bar.html">Header default top bar</a></li>
-                                                                <li><a href="index08.html">Header simple light bar</a></li>
-                                                                <li><a href="header-simple-dark-bar.html">Header simple dark bar</a></li>
-                                                                <li><a href="header-simple-dark.html">Header simple dark</a></li>
-                                                                <li><a href="header-menu-bottom.html">Header menu bottom light</a></li>
-                                                                <li><a href="header-menu-bottom-dark.html">Header menu bottom dark</a></li>
-                                                            </ul><!-- .dl-submenu end -->
-                                                        </li>
-                                                        <li><a href="about01.html">About simple</a></li>
-                                                        <li><a href="about02.html">About compact</a></li>
-                                                        <li><a href="about03.html">About with sidebar</a></li>
-                                                        <li><a href="simple-page-title.html">Simple page title</a></li>
-                                                        <li><a href="company-history.html">Company history</a></li>
-                                                        <li><a href="events.html">Company Events</a></li>
-                                                        <li><a href="clients.html">Company Clients</a></li>
-                                                        <li><a href="careers.html">Careers</a></li>
-                                                        <li><a href="driver-application.html">Online driver application</a></li>
-                                                    </ul><!-- dl-submenu end -->
-                                                </li>
-
-                                                <li>
-                                                    <a href="#">Services</a>
-                                                    <ul class="dl-submenu">
-                                                        <li><a href="services01.html">Services overview</a></li>
-                                                        <li>
-                                                            <a href="#">Logistics</a>
-                                                            <ul class="dl-submenu">
-                                                                <li><a href="services02.html">Logistics</a></li>
-                                                                <li><a href="overland-transportation.html">Overland transportation</a></li>
-                                                                <li><a href="air-freight.html">Air freight</a></li>
-                                                                <li><a href="ocean-freight.html">Ocean freight</a></li>
-                                                                <li><a href="large-projects.html">Large projects</a></li>
-                                                                <li><a href="rail-transportation.html">Rail international shipping</a></li>
-                                                                <li><a href="contract-logistics.html">Contract logistics</a></li>
-                                                            </ul><!-- .dl-submenu end -->
-                                                        </li>
-                                                        <li><a href="warehousing.html">Warehousing</a></li>
-                                                        <li><a href="supply-chain-management.html">Supply chain management</a></li>
-                                                        <li><a href="packaging-options.html">Packaging options</a></li>
-                                                        <li><a href="consulting-services.html">Consulting services</a></li>
-                                                    </ul><!-- dl-submenu end -->
-                                                </li>
-
-                                                <li>
-                                                    <a href="#">News</a>
-                                                    <ul class="dl-submenu">
-                                                        <li><a href="news-list.html">News list</a></li>
-                                                        <li><a href="news-masonry.html">News masonry</a></li>
-                                                        <li><a href="news-standard.html">News standard</a></li>
-                                                        <li><a href="news-single.html">News single</a></li>
-                                                    </ul><!-- .dl-submenu end -->
-                                                </li>
-
-                                                <li>
-                                                    <a href="#">Gallery</a>
-                                                    <ul class="dl-submenu">
-                                                        <li><a href="gallery01.html">Vehicle gallery full</a></li>
-                                                        <li><a href="gallery02.html">Vehicle gallery grid</a></li>
-                                                    </ul><!-- .dl-submenu end -->
-                                                </li>
-                                                
-                                                <li><a href="locations.html">Locations</a></li>
-
-                                                <li>
-                                                    <a href="#">Contact</a>
-                                                    <ul class="dl-submenu">
-                                                        <li><a href="contact-simple.html">Contact simple</a></li>
-                                                        <li><a href="contact-locations.html">Contact locations</a></li>
-                                                    </ul><!-- .dl-submenu end -->
-                                                </li>
-                                            </ul><!-- .dl-menu end -->
-                                        </div><!-- #dl-menu end -->
-
-                                        <!-- #search start -->
-                                        <div id="search">
-                                            <form action="#" method="get">
-                                                <input class="search-submit" type="submit" />
-                                                <input id="m_search" name="s" type="text" placeholder="Type and hit enter..." />                        
-                                            </form>
-                                        </div><!-- #search end -->
-                                    </div><!-- MAIN NAVIGATION END -->
-                                </nav><!-- .navbar.navbar-default end -->
-                            </div><!-- .col-md-12 end -->
-                        </div><!-- .row end -->
-                    </div><!-- .main-nav end -->
-                </div><!-- .container end -->
-            </header><!-- .header.header-style01 -->
-        </div><!-- .header-wrapper.header-transparent end -->
-
-        <!-- .master-slider start -->
-        <div id="masterslider" class="master-slider ms-skin-default mb-0">
-            <!-- slide start -->
-            <div class="ms-slide">
-                <img data-src="img/slider/slider1.jpg" alt=""/>
-
-                <h2 class="ms-layer pi-caption01 pi-caption-dark" 
-                    style="left: 390px; top: 260px;" 
-                    data-type="text" 
-                    data-delay="100" 
-                    data-parallax="10"
-                    >
-                    worldwide
-                </h2>
-
-                <h2 class="ms-layer pi-caption01 pi-caption-dark" 
-                    style="left: 390px; top: 320px;" 
-                    data-type="text" 
-                    data-delay="100" 
-                    data-parallax="10"
-                    >
-                    freight
-                </h2>
-
-                <h2 class="ms-layer pi-caption01 pi-caption-dark" 
-                    style="left: 390px; top: 380px;" 
-                    data-type="text" 
-                    data-delay="100" 
-                    data-parallax="10"
-                    >
-                    services
-                </h2>
-
-                
-
-                <p class="ms-layer pi-text" 
-                   style="left: 390px; top: 470px;" 
-                   data-type="text" 
-                   data-delay="100" 
-                   data-parallax="10"
-                   >
-                    Road, air train or overseas
-                </p>
-
-                <p class="ms-layer pi-text" 
-                   style="left: 390px; top: 500px;" 
-                   data-type="text" 
-                   data-delay="100" 
-                   data-parallax="10"
-                   >
-                    We got it covered
-                </p>
-            </div><!-- slide end -->
-
-             <!-- slide start -->
-            <div class="ms-slide">
-                <img data-src="img/slider/slider-1.jpg" alt=""/>
-
-                <h2 class="ms-layer pi-caption01 pi-caption-dark" 
-                    style="left: 390px; top: 260px;" 
-                    data-type="text" 
-                    data-delay="100" 
-                    data-parallax="10"
-                    >
-                    worldwide
-                </h2>
-
-                <h2 class="ms-layer pi-caption01 pi-caption-dark" 
-                    style="left: 390px; top: 320px;" 
-                    data-type="text" 
-                    data-delay="100" 
-                    data-parallax="10"
-                    >
-                    freight
-                </h2>
-
-                <h2 class="ms-layer pi-caption01 pi-caption-dark" 
-                    style="left: 390px; top: 380px;" 
-                    data-type="text" 
-                    data-delay="100" 
-                    data-parallax="10"
-                    >
-                    services
-                </h2>
-
-            </div><!-- slide end -->
-        </div><!-- .master-slider end -->
-
-        
-
-        <div style="margin-top:30px" class="page-content">
-            <div class="container">
-                <div class="row">
-                    <div class="custom-heading02">
-                        <h2>Featured Trucks For Sale</h2>
-                        <p></p>
-                    </div><!-- .custom-heading02 end -->
-                </div><!-- .row end -->
-
-                <div class="row">
-                    <div class="col-md-12 clearfix">
-                        <div class="carousel-container">
-                            <div id="services-carousel" class="owl-carousel owl-dot">
-                                <div class="owl-item active">
-                                    <div class="service-feature-box">
-                                        <div class="service-media">
-                                            <img src="img/pics/footer-truck.png" alt="Trucking"/>
-
-                                            <a href="overland-transportation.html" class="read-more02">
-                                                <span>
-                                                    Read more
-                                                    <i class="fa fa-chevron-right"></i>
-                                                </span>
-                                            </a>
-                                        </div><!-- .service-media end -->
-
-                                        <div class="service-body">
-                                            <div class="custom-heading">
-                                                <h4>GROUND SHIPPING</h4>
-                                            </div><!-- .custom-heading end -->
-
-                                            <p>
-                                                We have a wide experience in overland 
-                                                industry specific logistic solutions like 
-                                                pharmaceutical logistics, retail, ship parts, chemical industry and 
-                                                automotive logistics by train or road.
-                                            </p>
-                                        </div><!-- .service-body end -->
-                                    </div><!-- .service-feature-box-end -->
-                                </div><!-- .owl-item end -->
-
-                                <div class="owl-item">
-                                    <div class="service-feature-box">
-                                        <div class="service-media">
-                                            <img src="img/pics/footer-truck.png" alt="Trucking"/>
-
-                                            <a href="#" class="read-more02">
-                                                <span>
-                                                    Read more
-                                                    <i class="fa fa-chevron-right"></i>
-                                                </span>
-                                            </a>
-                                        </div><!-- .service-media end -->
-
-                                        <div class="service-body">
-                                            <div class="custom-heading">
-                                                <h4>LARGE PROJECTS</h4>
-                                            </div><!-- .custom-heading end -->
-
-                                            <p>
-                                                We bring your goods safely to worldwide 
-                                                destinations with our great sea fright
-                                                services. We offer LLC and FLC shipments
-                                                that are fast and effective with no delays. 
-                                            </p>
-                                        </div><!-- .service-body end -->
-                                    </div><!-- .service-feature-box-end -->
-                                </div><!-- .owl-item end -->
-
-                                <div class="owl-item">
-                                    <div class="service-feature-box">
-                                        <div class="service-media">
-                                            <img src="img/pics/footer-truck.png" alt="Trucking"/>
-
-                                            <a href="#" class="read-more02">
-                                                <span>
-                                                    Read more
-                                                    <i class="fa fa-chevron-right"></i>
-                                                </span>
-                                            </a>
-                                        </div><!-- .service-media end -->
-
-                                        <div class="service-body">
-                                            <div class="custom-heading">
-                                                <h4>INTERNATIONAL AIR FREIGHT</h4>
-                                            </div><!-- .custom-heading end -->
-
-                                            <p>
-                                                We provide full supply chain management 
-                                                package including cost effective and fast 
-                                                air freight. You can also combine this 
-                                                package with other means of transportation.
-                                            </p>
-                                        </div><!-- .service-body end -->
-                                    </div><!-- .service-feature-box-end -->
-                                </div><!-- .owl-item end -->
-
-                                <div class="owl-item">
-                                    <div class="service-feature-box">
-                                        <div class="service-media">
-                                            <img src="img/pics/footer-truck.png" alt="Trucking"/>
-
-                                            <a href="#" class="read-more02">
-                                                <span>
-                                                    Read more
-                                                    <i class="fa fa-chevron-right"></i>
-                                                </span>
-                                            </a>
-                                        </div><!-- .service-media end -->
-
-                                        <div class="service-body">
-                                            <div class="custom-heading">
-                                                <h4>contract logistics</h4>
-                                            </div><!-- .custom-heading end -->
-
-                                            <p>
-                                                Need custom logistic service? We got 
-                                                it covered. From overland, air, rail
-                                                and sea transportation. Fast, safe 
-                                                and accurate shipment provided all 
-                                                over the globe directly to your home.
-                                            </p>
-                                        </div><!-- .service-body end -->
-                                    </div><!-- .service-feature-box-end -->
-                                </div><!-- .owl-item end -->
-
-                                <div class="owl-item">
-                                    <div class="service-feature-box">
-                                        <div class="service-media">
-                                            <img src="img/pics/footer-truck.png" alt="Trucking"/>
-
-                                            <a href="#" class="read-more02">
-                                                <span>
-                                                    Read more
-                                                    <i class="fa fa-chevron-right"></i>
-                                                </span>
-                                            </a>
-                                        </div><!-- .service-media end -->
-
-                                        <div class="service-body">
-                                            <div class="custom-heading">
-                                                <h4>WAREHOUSING</h4>
-                                            </div><!-- .custom-heading end -->
-
-                                            <p>
-                                                Trucking offers intelligent warehouse 
-                                                solution. Lower your storage and
-                                                good maintenance by using our modern 
-                                                and intelligent warehouses. You can
-                                                see all locations on location page.
-                                            </p>
-                                        </div><!-- .service-body end -->
-                                    </div><!-- .service-feature-box-end -->
-                                </div><!-- .owl-item end -->
-
-                                <div class="owl-item">
-                                    <div class="service-feature-box">
-                                        <div class="service-media">
-                                            <img src="img/pics/footer-truck.png" alt="Trucking"/>
-
-                                            <a href="#" class="read-more02">
-                                                <span>
-                                                    Read more
-                                                    <i class="fa fa-chevron-right"></i>
-                                                </span>
-                                            </a>
-                                        </div><!-- .service-media end -->
-
-                                        <div class="service-body">
-                                            <div class="custom-heading">
-                                                <h4>CONSULTING</h4>
-                                            </div><!-- .custom-heading end -->
-
-                                            <p>
-                                                Don't know what mean of 
-                                                transportation would be right for 
-                                                you, or you need someone for full 
-                                                supply chain management? Please 
-                                                contact us. Our team of professionals
-                                                will be happy to help.
-                                            </p>
-                                        </div><!-- .service-body end -->
-                                    </div><!-- .service-feature-box-end -->
-                                </div><!-- .owl-item end -->
-                            </div><!-- #services-carousel end -->
-                        </div><!-- .carousel-container end -->
-                    </div><!-- .col-md-12 end -->
-                </div><!-- .row end -->
-
-            </div><!-- .container end -->
-        </div><!-- .page-content end -->
-
-         <div class="page-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="custom-heading">
-                            <h2>Download App</h2>
-                        </div><!-- .custom-heading end -->
-
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, 
-                        </p>  
-                    </div><!-- .col-md-6 end -->
-
-                    <div class="col-md-6 animated triggerAnimation" data-animate="zoomIn">
-                        <img src="img/slider2.png" alt=""/>
-                    </div><!-- .col-md-6 end -->
-                </div><!-- .row end -->
-            </div><!-- .container end -->
-        </div><!-- .page-content end -->  
-
-        <div id="footer-wrapper" class="footer-dark">
-            <footer id="footer">
-                <div class="container">
-                    <div class="row">
-                        <ul class="col-md-3 col-sm-6 footer-widget-container clearfix">
-                            <!-- .widget.widget_text -->
-                            <li class="widget widget_newsletterwidget">
-                                <div class="title">
-                                    <h3>newsletter subscribe</h3>
-                                </div>
-
-                                <p>
-                                    Subscribe to our newsletter and we will 
-                                    inform you about newest projects and promotions.
-                                </p>
-
-                                <br />
-
-                                <form class="newsletter">
-                                    <input class="email" type="email" placeholder="Your email...">
-                                    <input type="submit" class="submit" value="">
-                                </form>
-                            </li><!-- .widget.widget_newsletterwidget end -->
-                        </ul><!-- .col-md-3.footer-widget-container end -->
-
-                        <ul class="col-md-3 col-sm-6 footer-widget-container">
-                            <!-- .widget-pages start -->
-                            <li class="widget widget_pages">
-                                <div class="title">
-                                    <h3>quick links</h3>
-                                </div>
-
-                                <ul>
-                                    <li><a href="#">About us</a></li>
-                                    <li><a href="#">Company history</a></li>
-                                    <li><a href="#">Company Events</a></li>
-                                    <li><a href="#">Supply chain management</a></li>
-                                    <li><a href="#">Warehousing</a></li>
-                                    <li><a href="#">Company news</a></li>
-                                    <li><a href="#">Online driver application</a></li>
-                                </ul>
-                            </li><!-- .widget-pages end -->
-                        </ul><!-- .col-md-3.footer-widget-container end -->
-
-                        <ul class="col-md-3 col-sm-6 footer-widget-container">
-                            <!-- .widget-pages start -->
-                            <li class="widget widget_pages">
-                                <div class="title">
-                                    <h3>Industry solutions</h3>
-                                </div>
-
-                                <ul>
-                                    <li><a href="#">Overland transportation</a></li>
-                                    <li><a href="#">Air freight</a></li>
-                                    <li><a href="#">Ocean freight</a></li>
-                                    <li><a href="#">Large projects</a></li>
-                                    <li><a href="#l">Rail international shipping</a></li>
-                                    <li><a href="#">Contract logistics</a></li>
-                                    <li><a href="#">Packaging options</a></li>
-                                </ul>
-                            </li><!-- .widget-pages end -->
-                        </ul><!-- .col-md-3.footer-widget-container end -->
-
-                        <ul class="col-md-3 col-sm-6 footer-widget-container">
-                            <li class="widget widget-text">
-                                <div class="title">
-                                    <h3>contact us</h3>
-                                </div>
-
-=======
-<html>
-    <head>
-        <title>Home</title>
-        <meta name="description" content="Trucking is transportation and Logistics website template">
-        <meta name="author" content="pixel-industry">
-        <meta name="keywords" content="transportation, logistics, transportation template, logistics template, cargo, business">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!-- Stylesheets -->
-        <link rel="stylesheet" href="css/bootstrap.css"/><!-- bootstrap grid -->
-        <link rel="stylesheet" href="css/animate.css"/><!-- used for animations -->
-        <link rel='stylesheet' href='owl-carousel/owl.carousel.css'/><!-- Client carousel -->
-        <link rel="stylesheet" href="masterslider/style/masterslider.css" /><!-- Master slider css -->
-        <link rel="stylesheet" href="masterslider/skins/default/style.css" /><!-- Master slider default skin -->
-        <link rel="stylesheet" href="css/style.css"/><!-- template styles -->
-        <link rel="stylesheet" href="css/color-default.css"/><!-- template main color -->
-        <link rel="stylesheet" href="css/retina.css"/><!-- retina ready styles -->
-        <link rel="stylesheet" href="css/responsive.css"/><!-- responsive styles -->
-
-        <!-- Google Web fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,800,700,600' rel='stylesheet' type='text/css'>
-
-        <!-- Font icons -->
-        <link rel="stylesheet" href="icon-fonts/font-awesome-4.3.0/css/font-awesome.min.css"/><!-- Fontawesome icons css -->
-    </head>
-
-    <body>
-        <div class="header-wrapper header-transparent">
-            <!-- .header.header-style01 start -->
-            <header id="header"  class="header-style01">
-                <!-- .container start -->
-                <div class="container">
-                    <!-- .main-nav start -->
-                    <div class="main-nav">
-                        <!-- .row start -->
-                        <div class="row">
-                            <div class="col-md-12">
-                                <nav class="navbar navbar-default nav-left" role="navigation">
-
-                                    <!-- .navbar-header start -->
-                                    <div class="navbar-header">
-                                        <div class="logo">
-                                            <a href="index.html">
-                                                <img src="img/logo2.png" alt="Trucking Transportation and Logistics HTML Template"/>
-                                            </a>
-                                        </div><!-- .logo end -->
-                                    </div><!-- .navbar-header start -->
-
-                                    <!-- MAIN NAVIGATION -->
-                                    <div class="collapse navbar-collapse">
-                                        <ul class="nav navbar-nav">
-                                            <li class="dropdown current-menu-item">
-                                                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Home</a>
-                                                
-                                            </li><!-- .dropdown end -->
-
-                                            <li class="dropdown">
-                                                <a href="#" data-toggle="dropdown" class="dropdown-toggle">About</a>
-                                                
-                                            </li><!-- .dropdown end -->
-
-                                            <li class="dropdown">
-                                                <a href="" data-toggle="dropdown" class="dropdown-toggle">Services</a>
-                                               
-                                            </li><!-- .dropdown end -->
-
-                                            <li class="dropdown">
-                                                <a href="" data-toggle="dropdown" class="dropdown-toggle">News</a>
-                                                
-                                            </li><!-- .dropdown end -->
-
-                                            <li class="dropdown">
-                                                <a href="" data-toggle="dropdown" class="dropdown-toggle">Media</a>
-                                                
-                                            </li><!-- .dropdown end -->
-
-                                            <li><a href="locations.html">Locations</a></li>
-
-                                            <li class="dropdown">
-                                                <a href="" data-toggle="dropdown" class="dropdown-toggle">Contact</a>
-                                                
-                                            </li><!-- .dropdown end -->
-                                        </ul><!-- .nav.navbar-nav end -->
-
-                                        <!-- RESPONSIVE MENU -->
-                                        <div id="dl-menu" class="dl-menuwrapper">
-                                            <button class="dl-trigger">Open Menu</button>
-
-                                            <ul class="dl-menu">
-                                                <li>
-                                                    <a href="index.html">Home</a>
-                                                    <ul class="dl-submenu">
-                                                        <li><a href="index.html">Home default</a></li>
-                                                        <li><a href="index02.html">Trucking services overview</a></li>
-                                                        <li><a href="index03.html">Trucking video slider</a></li>
-                                                        <li><a href="index04.html">Trucking home simple</a></li>
-                                                        <li><a href="index05.html">Trucking services slider</a></li>
-                                                        <li><a href="index06.html">Trucking parallax slider</a></li>
-                                                        <li><a href="index07.html">Trucking Vehicle Fleet</a></li>
-                                                        <li><a href="index08.html">Trucking corporate</a></li>
-                                                        <li><a href="index09.html">Trucking simple slider</a></li>
-                                                        <li><a href="index10.html">Fullscreen minimal</a></li>
-                                                    </ul><!-- dl-submenu end -->
-                                                </li>
-
-                                                <li>
-                                                    <a href="#">About</a>
-                                                    <ul class="dl-submenu">
-                                                        <li>
-                                                            <a href="">Header types</a>
-                                                            <ul class="dl-submenu">
-                                                                <li><a href="index.html">Header default</a></li>
-                                                                <li><a href="header-default-top-bar.html">Header default top bar</a></li>
-                                                                <li><a href="index08.html">Header simple light bar</a></li>
-                                                                <li><a href="header-simple-dark-bar.html">Header simple dark bar</a></li>
-                                                                <li><a href="header-simple-dark.html">Header simple dark</a></li>
-                                                                <li><a href="header-menu-bottom.html">Header menu bottom light</a></li>
-                                                                <li><a href="header-menu-bottom-dark.html">Header menu bottom dark</a></li>
-                                                            </ul><!-- .dl-submenu end -->
-                                                        </li>
-                                                        <li><a href="about01.html">About simple</a></li>
-                                                        <li><a href="about02.html">About compact</a></li>
-                                                        <li><a href="about03.html">About with sidebar</a></li>
-                                                        <li><a href="simple-page-title.html">Simple page title</a></li>
-                                                        <li><a href="company-history.html">Company history</a></li>
-                                                        <li><a href="events.html">Company Events</a></li>
-                                                        <li><a href="clients.html">Company Clients</a></li>
-                                                        <li><a href="careers.html">Careers</a></li>
-                                                        <li><a href="driver-application.html">Online driver application</a></li>
-                                                    </ul><!-- dl-submenu end -->
-                                                </li>
-
-                                                <li>
-                                                    <a href="#">Services</a>
-                                                    <ul class="dl-submenu">
-                                                        <li><a href="services01.html">Services overview</a></li>
-                                                        <li>
-                                                            <a href="#">Logistics</a>
-                                                            <ul class="dl-submenu">
-                                                                <li><a href="services02.html">Logistics</a></li>
-                                                                <li><a href="overland-transportation.html">Overland transportation</a></li>
-                                                                <li><a href="air-freight.html">Air freight</a></li>
-                                                                <li><a href="ocean-freight.html">Ocean freight</a></li>
-                                                                <li><a href="large-projects.html">Large projects</a></li>
-                                                                <li><a href="rail-transportation.html">Rail international shipping</a></li>
-                                                                <li><a href="contract-logistics.html">Contract logistics</a></li>
-                                                            </ul><!-- .dl-submenu end -->
-                                                        </li>
-                                                        <li><a href="warehousing.html">Warehousing</a></li>
-                                                        <li><a href="supply-chain-management.html">Supply chain management</a></li>
-                                                        <li><a href="packaging-options.html">Packaging options</a></li>
-                                                        <li><a href="consulting-services.html">Consulting services</a></li>
-                                                    </ul><!-- dl-submenu end -->
-                                                </li>
-
-                                                <li>
-                                                    <a href="#">News</a>
-                                                    <ul class="dl-submenu">
-                                                        <li><a href="news-list.html">News list</a></li>
-                                                        <li><a href="news-masonry.html">News masonry</a></li>
-                                                        <li><a href="news-standard.html">News standard</a></li>
-                                                        <li><a href="news-single.html">News single</a></li>
-                                                    </ul><!-- .dl-submenu end -->
-                                                </li>
-
-                                                <li>
-                                                    <a href="#">Gallery</a>
-                                                    <ul class="dl-submenu">
-                                                        <li><a href="gallery01.html">Vehicle gallery full</a></li>
-                                                        <li><a href="gallery02.html">Vehicle gallery grid</a></li>
-                                                    </ul><!-- .dl-submenu end -->
-                                                </li>
-                                                
-                                                <li><a href="locations.html">Locations</a></li>
-
-                                                <li>
-                                                    <a href="#">Contact</a>
-                                                    <ul class="dl-submenu">
-                                                        <li><a href="contact-simple.html">Contact simple</a></li>
-                                                        <li><a href="contact-locations.html">Contact locations</a></li>
-                                                    </ul><!-- .dl-submenu end -->
-                                                </li>
-                                            </ul><!-- .dl-menu end -->
-                                        </div><!-- #dl-menu end -->
-
-                                        <!-- #search start -->
-                                        <div id="search">
-                                            <form action="#" method="get">
-                                                <input class="search-submit" type="submit" />
-                                                <input id="m_search" name="s" type="text" placeholder="Type and hit enter..." />                        
-                                            </form>
-                                        </div><!-- #search end -->
-                                    </div><!-- MAIN NAVIGATION END -->
-                                </nav><!-- .navbar.navbar-default end -->
-                            </div><!-- .col-md-12 end -->
-                        </div><!-- .row end -->
-                    </div><!-- .main-nav end -->
-                </div><!-- .container end -->
-            </header><!-- .header.header-style01 -->
-        </div><!-- .header-wrapper.header-transparent end -->
-
-        <!-- .master-slider start -->
-        <div id="masterslider" class="master-slider ms-skin-default mb-0">
-            <!-- slide start -->
-            <div class="ms-slide">
-                <img data-src="img/slider/slider1.jpg" alt=""/>
-
-                <h2 class="ms-layer pi-caption01 pi-caption-dark" 
-                    style="left: 390px; top: 260px;" 
-                    data-type="text" 
-                    data-delay="100" 
-                    data-parallax="10"
-                    >
-                    worldwide
-                </h2>
-
-                <h2 class="ms-layer pi-caption01 pi-caption-dark" 
-                    style="left: 390px; top: 320px;" 
-                    data-type="text" 
-                    data-delay="100" 
-                    data-parallax="10"
-                    >
-                    freight
-                </h2>
-
-                <h2 class="ms-layer pi-caption01 pi-caption-dark" 
-                    style="left: 390px; top: 380px;" 
-                    data-type="text" 
-                    data-delay="100" 
-                    data-parallax="10"
-                    >
-                    services
-                </h2>
-
-                
-
-                <p class="ms-layer pi-text" 
-                   style="left: 390px; top: 470px;" 
-                   data-type="text" 
-                   data-delay="100" 
-                   data-parallax="10"
-                   >
-                    Road, air train or overseas
-                </p>
-
-                <p class="ms-layer pi-text" 
-                   style="left: 390px; top: 500px;" 
-                   data-type="text" 
-                   data-delay="100" 
-                   data-parallax="10"
-                   >
-                    We got it covered
-                </p>
-            </div><!-- slide end -->
-
-             <!-- slide start -->
-            <div class="ms-slide">
-                <img data-src="img/slider/slider-1.jpg" alt=""/>
-
-                <h2 class="ms-layer pi-caption01 pi-caption-dark" 
-                    style="left: 390px; top: 260px;" 
-                    data-type="text" 
-                    data-delay="100" 
-                    data-parallax="10"
-                    >
-                    worldwide
-                </h2>
-
-                <h2 class="ms-layer pi-caption01 pi-caption-dark" 
-                    style="left: 390px; top: 320px;" 
-                    data-type="text" 
-                    data-delay="100" 
-                    data-parallax="10"
-                    >
-                    freight
-                </h2>
-
-                <h2 class="ms-layer pi-caption01 pi-caption-dark" 
-                    style="left: 390px; top: 380px;" 
-                    data-type="text" 
-                    data-delay="100" 
-                    data-parallax="10"
-                    >
-                    services
-                </h2>
-
-            </div><!-- slide end -->
-        </div><!-- .master-slider end -->
-
-        
-
-        <div style="margin-top:30px" class="page-content">
-            <div class="container">
-                <div class="row">
-                    <div class="custom-heading02">
-                        <h2>Featured Trucks For Sale</h2>
-                        <p></p>
-                    </div><!-- .custom-heading02 end -->
-                </div><!-- .row end -->
-
-                <div class="row">
-                    <div class="col-md-12 clearfix">
-                        <div class="carousel-container">
-                            <div id="services-carousel" class="owl-carousel owl-dot">
-                                <div class="owl-item active">
-                                    <div class="service-feature-box">
-                                        <div class="service-media">
-                                            <img src="img/pics/footer-truck.png" alt="Trucking"/>
-
-                                            <a href="overland-transportation.html" class="read-more02">
-                                                <span>
-                                                    Read more
-                                                    <i class="fa fa-chevron-right"></i>
-                                                </span>
-                                            </a>
-                                        </div><!-- .service-media end -->
-
-                                        <div class="service-body">
-                                            <div class="custom-heading">
-                                                <h4>GROUND SHIPPING</h4>
-                                            </div><!-- .custom-heading end -->
-
-                                            <p>
-                                                We have a wide experience in overland 
-                                                industry specific logistic solutions like 
-                                                pharmaceutical logistics, retail, ship parts, chemical industry and 
-                                                automotive logistics by train or road.
-                                            </p>
-                                        </div><!-- .service-body end -->
-                                    </div><!-- .service-feature-box-end -->
-                                </div><!-- .owl-item end -->
-
-                                <div class="owl-item">
-                                    <div class="service-feature-box">
-                                        <div class="service-media">
-                                            <img src="img/pics/footer-truck.png" alt="Trucking"/>
-
-                                            <a href="#" class="read-more02">
-                                                <span>
-                                                    Read more
-                                                    <i class="fa fa-chevron-right"></i>
-                                                </span>
-                                            </a>
-                                        </div><!-- .service-media end -->
-
-                                        <div class="service-body">
-                                            <div class="custom-heading">
-                                                <h4>LARGE PROJECTS</h4>
-                                            </div><!-- .custom-heading end -->
-
-                                            <p>
-                                                We bring your goods safely to worldwide 
-                                                destinations with our great sea fright
-                                                services. We offer LLC and FLC shipments
-                                                that are fast and effective with no delays. 
-                                            </p>
-                                        </div><!-- .service-body end -->
-                                    </div><!-- .service-feature-box-end -->
-                                </div><!-- .owl-item end -->
-
-                                <div class="owl-item">
-                                    <div class="service-feature-box">
-                                        <div class="service-media">
-                                            <img src="img/pics/footer-truck.png" alt="Trucking"/>
-
-                                            <a href="#" class="read-more02">
-                                                <span>
-                                                    Read more
-                                                    <i class="fa fa-chevron-right"></i>
-                                                </span>
-                                            </a>
-                                        </div><!-- .service-media end -->
-
-                                        <div class="service-body">
-                                            <div class="custom-heading">
-                                                <h4>INTERNATIONAL AIR FREIGHT</h4>
-                                            </div><!-- .custom-heading end -->
-
-                                            <p>
-                                                We provide full supply chain management 
-                                                package including cost effective and fast 
-                                                air freight. You can also combine this 
-                                                package with other means of transportation.
-                                            </p>
-                                        </div><!-- .service-body end -->
-                                    </div><!-- .service-feature-box-end -->
-                                </div><!-- .owl-item end -->
-
-                                <div class="owl-item">
-                                    <div class="service-feature-box">
-                                        <div class="service-media">
-                                            <img src="img/pics/footer-truck.png" alt="Trucking"/>
-
-                                            <a href="#" class="read-more02">
-                                                <span>
-                                                    Read more
-                                                    <i class="fa fa-chevron-right"></i>
-                                                </span>
-                                            </a>
-                                        </div><!-- .service-media end -->
-
-                                        <div class="service-body">
-                                            <div class="custom-heading">
-                                                <h4>contract logistics</h4>
-                                            </div><!-- .custom-heading end -->
-
-                                            <p>
-                                                Need custom logistic service? We got 
-                                                it covered. From overland, air, rail
-                                                and sea transportation. Fast, safe 
-                                                and accurate shipment provided all 
-                                                over the globe directly to your home.
-                                            </p>
-                                        </div><!-- .service-body end -->
-                                    </div><!-- .service-feature-box-end -->
-                                </div><!-- .owl-item end -->
-
-                                <div class="owl-item">
-                                    <div class="service-feature-box">
-                                        <div class="service-media">
-                                            <img src="img/pics/footer-truck.png" alt="Trucking"/>
-
-                                            <a href="#" class="read-more02">
-                                                <span>
-                                                    Read more
-                                                    <i class="fa fa-chevron-right"></i>
-                                                </span>
-                                            </a>
-                                        </div><!-- .service-media end -->
-
-                                        <div class="service-body">
-                                            <div class="custom-heading">
-                                                <h4>WAREHOUSING</h4>
-                                            </div><!-- .custom-heading end -->
-
-                                            <p>
-                                                Trucking offers intelligent warehouse 
-                                                solution. Lower your storage and
-                                                good maintenance by using our modern 
-                                                and intelligent warehouses. You can
-                                                see all locations on location page.
-                                            </p>
-                                        </div><!-- .service-body end -->
-                                    </div><!-- .service-feature-box-end -->
-                                </div><!-- .owl-item end -->
-
-                                <div class="owl-item">
-                                    <div class="service-feature-box">
-                                        <div class="service-media">
-                                            <img src="img/pics/footer-truck.png" alt="Trucking"/>
-
-                                            <a href="#" class="read-more02">
-                                                <span>
-                                                    Read more
-                                                    <i class="fa fa-chevron-right"></i>
-                                                </span>
-                                            </a>
-                                        </div><!-- .service-media end -->
-
-                                        <div class="service-body">
-                                            <div class="custom-heading">
-                                                <h4>CONSULTING</h4>
-                                            </div><!-- .custom-heading end -->
-
-                                            <p>
-                                                Don't know what mean of 
-                                                transportation would be right for 
-                                                you, or you need someone for full 
-                                                supply chain management? Please 
-                                                contact us. Our team of professionals
-                                                will be happy to help.
-                                            </p>
-                                        </div><!-- .service-body end -->
-                                    </div><!-- .service-feature-box-end -->
-                                </div><!-- .owl-item end -->
-                            </div><!-- #services-carousel end -->
-                        </div><!-- .carousel-container end -->
-                    </div><!-- .col-md-12 end -->
-                </div><!-- .row end -->
-
-            </div><!-- .container end -->
-        </div><!-- .page-content end -->
-
-         <div class="page-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="custom-heading">
-                            <h2>Download App</h2>
-                        </div><!-- .custom-heading end -->
-
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, 
-                        </p>  
-                    </div><!-- .col-md-6 end -->
-
-                    <div class="col-md-6 animated triggerAnimation" data-animate="zoomIn">
-                        <img src="img/slider2.png" alt=""/>
-                    </div><!-- .col-md-6 end -->
-                </div><!-- .row end -->
-            </div><!-- .container end -->
-        </div><!-- .page-content end -->  
-
-        <div id="footer-wrapper" class="footer-dark">
-            <footer id="footer">
-                <div class="container">
-                    <div class="row">
-                        <ul class="col-md-3 col-sm-6 footer-widget-container clearfix">
-                            <!-- .widget.widget_text -->
-                            <li class="widget widget_newsletterwidget">
-                                <div class="title">
-                                    <h3>newsletter subscribe</h3>
-                                </div>
-
-                                <p>
-                                    Subscribe to our newsletter and we will 
-                                    inform you about newest projects and promotions.
-                                </p>
-
-                                <br />
-
-                                <form class="newsletter">
-                                    <input class="email" type="email" placeholder="Your email...">
-                                    <input type="submit" class="submit" value="">
-                                </form>
-                            </li><!-- .widget.widget_newsletterwidget end -->
-                        </ul><!-- .col-md-3.footer-widget-container end -->
-
-                        <ul class="col-md-3 col-sm-6 footer-widget-container">
-                            <!-- .widget-pages start -->
-                            <li class="widget widget_pages">
-                                <div class="title">
-                                    <h3>quick links</h3>
-                                </div>
-
-                                <ul>
-                                    <li><a href="#">About us</a></li>
-                                    <li><a href="#">Company history</a></li>
-                                    <li><a href="#">Company Events</a></li>
-                                    <li><a href="#">Supply chain management</a></li>
-                                    <li><a href="#">Warehousing</a></li>
-                                    <li><a href="#">Company news</a></li>
-                                    <li><a href="#">Online driver application</a></li>
-                                </ul>
-                            </li><!-- .widget-pages end -->
-                        </ul><!-- .col-md-3.footer-widget-container end -->
-
-                        <ul class="col-md-3 col-sm-6 footer-widget-container">
-                            <!-- .widget-pages start -->
-                            <li class="widget widget_pages">
-                                <div class="title">
-                                    <h3>Industry solutions</h3>
-                                </div>
-
-                                <ul>
-                                    <li><a href="#">Overland transportation</a></li>
-                                    <li><a href="#">Air freight</a></li>
-                                    <li><a href="#">Ocean freight</a></li>
-                                    <li><a href="#">Large projects</a></li>
-                                    <li><a href="#l">Rail international shipping</a></li>
-                                    <li><a href="#">Contract logistics</a></li>
-                                    <li><a href="#">Packaging options</a></li>
-                                </ul>
-                            </li><!-- .widget-pages end -->
-                        </ul><!-- .col-md-3.footer-widget-container end -->
-
-                        <ul class="col-md-3 col-sm-6 footer-widget-container">
-                            <li class="widget widget-text">
-                                <div class="title">
-                                    <h3>contact us</h3>
-                                </div>
-
->>>>>>> 2d608ee2be15121be6f59cae4dcb42c83de8b44e
-=======
-<html>
-    <head>
-        <title>Home</title>
-        <meta name="description" content="Trucking is transportation and Logistics website template">
-        <meta name="author" content="pixel-industry">
-        <meta name="keywords" content="transportation, logistics, transportation template, logistics template, cargo, business">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!-- Stylesheets -->
-        <link rel="stylesheet" href="css/bootstrap.css"/><!-- bootstrap grid -->
-        <link rel="stylesheet" href="css/animate.css"/><!-- used for animations -->
-        <link rel='stylesheet' href='owl-carousel/owl.carousel.css'/><!-- Client carousel -->
-        <link rel="stylesheet" href="masterslider/style/masterslider.css" /><!-- Master slider css -->
-        <link rel="stylesheet" href="masterslider/skins/default/style.css" /><!-- Master slider default skin -->
-        <link rel="stylesheet" href="css/style.css"/><!-- template styles -->
-        <link rel="stylesheet" href="css/color-default.css"/><!-- template main color -->
-        <link rel="stylesheet" href="css/retina.css"/><!-- retina ready styles -->
-        <link rel="stylesheet" href="css/responsive.css"/><!-- responsive styles -->
-
-        <!-- Google Web fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,800,700,600' rel='stylesheet' type='text/css'>
-
-        <!-- Font icons -->
-        <link rel="stylesheet" href="icon-fonts/font-awesome-4.3.0/css/font-awesome.min.css"/><!-- Fontawesome icons css -->
-    </head>
-
-    <body>
-        <div class="header-wrapper header-transparent">
-            <!-- .header.header-style01 start -->
-            <header id="header"  class="header-style01">
-                <!-- .container start -->
-                <div class="container">
-                    <!-- .main-nav start -->
-                    <div class="main-nav">
-                        <!-- .row start -->
-                        <div class="row">
-                            <div class="col-md-12">
-                                <nav class="navbar navbar-default nav-left" role="navigation">
-
-                                    <!-- .navbar-header start -->
-                                    <div class="navbar-header">
-                                        <div class="logo">
-                                            <a href="index.html">
-                                                <img src="img/logo2.png" alt="Trucking Transportation and Logistics HTML Template"/>
-                                            </a>
-                                        </div><!-- .logo end -->
-                                    </div><!-- .navbar-header start -->
-
-                                    <!-- MAIN NAVIGATION -->
-                                    <div class="collapse navbar-collapse">
-                                        <ul class="nav navbar-nav">
-                                            <li class="dropdown current-menu-item">
-                                                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Home</a>
-                                                
-                                            </li><!-- .dropdown end -->
-
-                                            <li class="dropdown">
-                                                <a href="#" data-toggle="dropdown" class="dropdown-toggle">About</a>
-                                                
-                                            </li><!-- .dropdown end -->
-
-                                            <li class="dropdown">
-                                                <a href="" data-toggle="dropdown" class="dropdown-toggle">Services</a>
-                                               
-                                            </li><!-- .dropdown end -->
-
-                                            <li class="dropdown">
-                                                <a href="" data-toggle="dropdown" class="dropdown-toggle">News</a>
-                                                
-                                            </li><!-- .dropdown end -->
-
-                                            <li class="dropdown">
-                                                <a href="" data-toggle="dropdown" class="dropdown-toggle">Media</a>
-                                                
-                                            </li><!-- .dropdown end -->
-
-                                            <li><a href="locations.html">Locations</a></li>
-
-                                            <li class="dropdown">
-                                                <a href="" data-toggle="dropdown" class="dropdown-toggle">Contact</a>
-                                                
-                                            </li><!-- .dropdown end -->
-                                        </ul><!-- .nav.navbar-nav end -->
-
-                                        <!-- RESPONSIVE MENU -->
-                                        <div id="dl-menu" class="dl-menuwrapper">
-                                            <button class="dl-trigger">Open Menu</button>
-
-                                            <ul class="dl-menu">
-                                                <li>
-                                                    <a href="index.html">Home</a>
-                                                    <ul class="dl-submenu">
-                                                        <li><a href="index.html">Home default</a></li>
-                                                        <li><a href="index02.html">Trucking services overview</a></li>
-                                                        <li><a href="index03.html">Trucking video slider</a></li>
-                                                        <li><a href="index04.html">Trucking home simple</a></li>
-                                                        <li><a href="index05.html">Trucking services slider</a></li>
-                                                        <li><a href="index06.html">Trucking parallax slider</a></li>
-                                                        <li><a href="index07.html">Trucking Vehicle Fleet</a></li>
-                                                        <li><a href="index08.html">Trucking corporate</a></li>
-                                                        <li><a href="index09.html">Trucking simple slider</a></li>
-                                                        <li><a href="index10.html">Fullscreen minimal</a></li>
-                                                    </ul><!-- dl-submenu end -->
-                                                </li>
-
-                                                <li>
-                                                    <a href="#">About</a>
-                                                    <ul class="dl-submenu">
-                                                        <li>
-                                                            <a href="">Header types</a>
-                                                            <ul class="dl-submenu">
-                                                                <li><a href="index.html">Header default</a></li>
-                                                                <li><a href="header-default-top-bar.html">Header default top bar</a></li>
-                                                                <li><a href="index08.html">Header simple light bar</a></li>
-                                                                <li><a href="header-simple-dark-bar.html">Header simple dark bar</a></li>
-                                                                <li><a href="header-simple-dark.html">Header simple dark</a></li>
-                                                                <li><a href="header-menu-bottom.html">Header menu bottom light</a></li>
-                                                                <li><a href="header-menu-bottom-dark.html">Header menu bottom dark</a></li>
-                                                            </ul><!-- .dl-submenu end -->
-                                                        </li>
-                                                        <li><a href="about01.html">About simple</a></li>
-                                                        <li><a href="about02.html">About compact</a></li>
-                                                        <li><a href="about03.html">About with sidebar</a></li>
-                                                        <li><a href="simple-page-title.html">Simple page title</a></li>
-                                                        <li><a href="company-history.html">Company history</a></li>
-                                                        <li><a href="events.html">Company Events</a></li>
-                                                        <li><a href="clients.html">Company Clients</a></li>
-                                                        <li><a href="careers.html">Careers</a></li>
-                                                        <li><a href="driver-application.html">Online driver application</a></li>
-                                                    </ul><!-- dl-submenu end -->
-                                                </li>
-
-                                                <li>
-                                                    <a href="#">Services</a>
-                                                    <ul class="dl-submenu">
-                                                        <li><a href="services01.html">Services overview</a></li>
-                                                        <li>
-                                                            <a href="#">Logistics</a>
-                                                            <ul class="dl-submenu">
-                                                                <li><a href="services02.html">Logistics</a></li>
-                                                                <li><a href="overland-transportation.html">Overland transportation</a></li>
-                                                                <li><a href="air-freight.html">Air freight</a></li>
-                                                                <li><a href="ocean-freight.html">Ocean freight</a></li>
-                                                                <li><a href="large-projects.html">Large projects</a></li>
-                                                                <li><a href="rail-transportation.html">Rail international shipping</a></li>
-                                                                <li><a href="contract-logistics.html">Contract logistics</a></li>
-                                                            </ul><!-- .dl-submenu end -->
-                                                        </li>
-                                                        <li><a href="warehousing.html">Warehousing</a></li>
-                                                        <li><a href="supply-chain-management.html">Supply chain management</a></li>
-                                                        <li><a href="packaging-options.html">Packaging options</a></li>
-                                                        <li><a href="consulting-services.html">Consulting services</a></li>
-                                                    </ul><!-- dl-submenu end -->
-                                                </li>
-
-                                                <li>
-                                                    <a href="#">News</a>
-                                                    <ul class="dl-submenu">
-                                                        <li><a href="news-list.html">News list</a></li>
-                                                        <li><a href="news-masonry.html">News masonry</a></li>
-                                                        <li><a href="news-standard.html">News standard</a></li>
-                                                        <li><a href="news-single.html">News single</a></li>
-                                                    </ul><!-- .dl-submenu end -->
-                                                </li>
-
-                                                <li>
-                                                    <a href="#">Gallery</a>
-                                                    <ul class="dl-submenu">
-                                                        <li><a href="gallery01.html">Vehicle gallery full</a></li>
-                                                        <li><a href="gallery02.html">Vehicle gallery grid</a></li>
-                                                    </ul><!-- .dl-submenu end -->
-                                                </li>
-                                                
-                                                <li><a href="locations.html">Locations</a></li>
-
-                                                <li>
-                                                    <a href="#">Contact</a>
-                                                    <ul class="dl-submenu">
-                                                        <li><a href="contact-simple.html">Contact simple</a></li>
-                                                        <li><a href="contact-locations.html">Contact locations</a></li>
-                                                    </ul><!-- .dl-submenu end -->
-                                                </li>
-                                            </ul><!-- .dl-menu end -->
-                                        </div><!-- #dl-menu end -->
-
-                                        <!-- #search start -->
-                                        <div id="search">
-                                            <form action="#" method="get">
-                                                <input class="search-submit" type="submit" />
-                                                <input id="m_search" name="s" type="text" placeholder="Type and hit enter..." />                        
-                                            </form>
-                                        </div><!-- #search end -->
-                                    </div><!-- MAIN NAVIGATION END -->
-                                </nav><!-- .navbar.navbar-default end -->
-                            </div><!-- .col-md-12 end -->
-                        </div><!-- .row end -->
-                    </div><!-- .main-nav end -->
-                </div><!-- .container end -->
-            </header><!-- .header.header-style01 -->
-        </div><!-- .header-wrapper.header-transparent end -->
-
-        <!-- .master-slider start -->
-        <div id="masterslider" class="master-slider ms-skin-default mb-0">
-            <!-- slide start -->
-            <div class="ms-slide">
-                <img data-src="img/slider/slider1.jpg" alt=""/>
-
-                <h2 class="ms-layer pi-caption01 pi-caption-dark" 
-                    style="left: 390px; top: 260px;" 
-                    data-type="text" 
-                    data-delay="100" 
-                    data-parallax="10"
-                    >
-                    worldwide
-                </h2>
-
-                <h2 class="ms-layer pi-caption01 pi-caption-dark" 
-                    style="left: 390px; top: 320px;" 
-                    data-type="text" 
-                    data-delay="100" 
-                    data-parallax="10"
-                    >
-                    freight
-                </h2>
-
-                <h2 class="ms-layer pi-caption01 pi-caption-dark" 
-                    style="left: 390px; top: 380px;" 
-                    data-type="text" 
-                    data-delay="100" 
-                    data-parallax="10"
-                    >
-                    services
-                </h2>
-
-                
-
-                <p class="ms-layer pi-text" 
-                   style="left: 390px; top: 470px;" 
-                   data-type="text" 
-                   data-delay="100" 
-                   data-parallax="10"
-                   >
-                    Road, air train or overseas
-                </p>
-
-                <p class="ms-layer pi-text" 
-                   style="left: 390px; top: 500px;" 
-                   data-type="text" 
-                   data-delay="100" 
-                   data-parallax="10"
-                   >
-                    We got it covered
-                </p>
-            </div><!-- slide end -->
-
-             <!-- slide start -->
-            <div class="ms-slide">
-                <img data-src="img/slider/slider-1.jpg" alt=""/>
-
-                <h2 class="ms-layer pi-caption01 pi-caption-dark" 
-                    style="left: 390px; top: 260px;" 
-                    data-type="text" 
-                    data-delay="100" 
-                    data-parallax="10"
-                    >
-                    worldwide
-                </h2>
-
-                <h2 class="ms-layer pi-caption01 pi-caption-dark" 
-                    style="left: 390px; top: 320px;" 
-                    data-type="text" 
-                    data-delay="100" 
-                    data-parallax="10"
-                    >
-                    freight
-                </h2>
-
-                <h2 class="ms-layer pi-caption01 pi-caption-dark" 
-                    style="left: 390px; top: 380px;" 
-                    data-type="text" 
-                    data-delay="100" 
-                    data-parallax="10"
-                    >
-                    services
-                </h2>
-
-            </div><!-- slide end -->
-        </div><!-- .master-slider end -->
-
-        
-
-        <div style="margin-top:30px" class="page-content">
-            <div class="container">
-                <div class="row">
-                    <div class="custom-heading02">
-                        <h2>Featured Trucks For Sale</h2>
-                        <p></p>
-                    </div><!-- .custom-heading02 end -->
-                </div><!-- .row end -->
-
-                <div class="row">
-                    <div class="col-md-12 clearfix">
-                        <div class="carousel-container">
-                            <div id="services-carousel" class="owl-carousel owl-dot">
-                                <div class="owl-item active">
-                                    <div class="service-feature-box">
-                                        <div class="service-media">
-                                            <img src="img/pics/footer-truck.png" alt="Trucking"/>
-
-                                            <a href="overland-transportation.html" class="read-more02">
-                                                <span>
-                                                    Read more
-                                                    <i class="fa fa-chevron-right"></i>
-                                                </span>
-                                            </a>
-                                        </div><!-- .service-media end -->
-
-                                        <div class="service-body">
-                                            <div class="custom-heading">
-                                                <h4>GROUND SHIPPING</h4>
-                                            </div><!-- .custom-heading end -->
-
-                                            <p>
-                                                We have a wide experience in overland 
-                                                industry specific logistic solutions like 
-                                                pharmaceutical logistics, retail, ship parts, chemical industry and 
-                                                automotive logistics by train or road.
-                                            </p>
-                                        </div><!-- .service-body end -->
-                                    </div><!-- .service-feature-box-end -->
-                                </div><!-- .owl-item end -->
-
-                                <div class="owl-item">
-                                    <div class="service-feature-box">
-                                        <div class="service-media">
-                                            <img src="img/pics/footer-truck.png" alt="Trucking"/>
-
-                                            <a href="#" class="read-more02">
-                                                <span>
-                                                    Read more
-                                                    <i class="fa fa-chevron-right"></i>
-                                                </span>
-                                            </a>
-                                        </div><!-- .service-media end -->
-
-                                        <div class="service-body">
-                                            <div class="custom-heading">
-                                                <h4>LARGE PROJECTS</h4>
-                                            </div><!-- .custom-heading end -->
-
-                                            <p>
-                                                We bring your goods safely to worldwide 
-                                                destinations with our great sea fright
-                                                services. We offer LLC and FLC shipments
-                                                that are fast and effective with no delays. 
-                                            </p>
-                                        </div><!-- .service-body end -->
-                                    </div><!-- .service-feature-box-end -->
-                                </div><!-- .owl-item end -->
-
-                                <div class="owl-item">
-                                    <div class="service-feature-box">
-                                        <div class="service-media">
-                                            <img src="img/pics/footer-truck.png" alt="Trucking"/>
-
-                                            <a href="#" class="read-more02">
-                                                <span>
-                                                    Read more
-                                                    <i class="fa fa-chevron-right"></i>
-                                                </span>
-                                            </a>
-                                        </div><!-- .service-media end -->
-
-                                        <div class="service-body">
-                                            <div class="custom-heading">
-                                                <h4>INTERNATIONAL AIR FREIGHT</h4>
-                                            </div><!-- .custom-heading end -->
-
-                                            <p>
-                                                We provide full supply chain management 
-                                                package including cost effective and fast 
-                                                air freight. You can also combine this 
-                                                package with other means of transportation.
-                                            </p>
-                                        </div><!-- .service-body end -->
-                                    </div><!-- .service-feature-box-end -->
-                                </div><!-- .owl-item end -->
-
-                                <div class="owl-item">
-                                    <div class="service-feature-box">
-                                        <div class="service-media">
-                                            <img src="img/pics/footer-truck.png" alt="Trucking"/>
-
-                                            <a href="#" class="read-more02">
-                                                <span>
-                                                    Read more
-                                                    <i class="fa fa-chevron-right"></i>
-                                                </span>
-                                            </a>
-                                        </div><!-- .service-media end -->
-
-                                        <div class="service-body">
-                                            <div class="custom-heading">
-                                                <h4>contract logistics</h4>
-                                            </div><!-- .custom-heading end -->
-
-                                            <p>
-                                                Need custom logistic service? We got 
-                                                it covered. From overland, air, rail
-                                                and sea transportation. Fast, safe 
-                                                and accurate shipment provided all 
-                                                over the globe directly to your home.
-                                            </p>
-                                        </div><!-- .service-body end -->
-                                    </div><!-- .service-feature-box-end -->
-                                </div><!-- .owl-item end -->
-
-                                <div class="owl-item">
-                                    <div class="service-feature-box">
-                                        <div class="service-media">
-                                            <img src="img/pics/footer-truck.png" alt="Trucking"/>
-
-                                            <a href="#" class="read-more02">
-                                                <span>
-                                                    Read more
-                                                    <i class="fa fa-chevron-right"></i>
-                                                </span>
-                                            </a>
-                                        </div><!-- .service-media end -->
-
-                                        <div class="service-body">
-                                            <div class="custom-heading">
-                                                <h4>WAREHOUSING</h4>
-                                            </div><!-- .custom-heading end -->
-
-                                            <p>
-                                                Trucking offers intelligent warehouse 
-                                                solution. Lower your storage and
-                                                good maintenance by using our modern 
-                                                and intelligent warehouses. You can
-                                                see all locations on location page.
-                                            </p>
-                                        </div><!-- .service-body end -->
-                                    </div><!-- .service-feature-box-end -->
-                                </div><!-- .owl-item end -->
-
-                                <div class="owl-item">
-                                    <div class="service-feature-box">
-                                        <div class="service-media">
-                                            <img src="img/pics/footer-truck.png" alt="Trucking"/>
-
-                                            <a href="#" class="read-more02">
-                                                <span>
-                                                    Read more
-                                                    <i class="fa fa-chevron-right"></i>
-                                                </span>
-                                            </a>
-                                        </div><!-- .service-media end -->
-
-                                        <div class="service-body">
-                                            <div class="custom-heading">
-                                                <h4>CONSULTING</h4>
-                                            </div><!-- .custom-heading end -->
-
-                                            <p>
-                                                Don't know what mean of 
-                                                transportation would be right for 
-                                                you, or you need someone for full 
-                                                supply chain management? Please 
-                                                contact us. Our team of professionals
-                                                will be happy to help.
-                                            </p>
-                                        </div><!-- .service-body end -->
-                                    </div><!-- .service-feature-box-end -->
-                                </div><!-- .owl-item end -->
-                            </div><!-- #services-carousel end -->
-                        </div><!-- .carousel-container end -->
-                    </div><!-- .col-md-12 end -->
-                </div><!-- .row end -->
-
-            </div><!-- .container end -->
-        </div><!-- .page-content end -->
-
-         <div class="page-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="custom-heading">
-                            <h2>Download App</h2>
-                        </div><!-- .custom-heading end -->
-
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, 
-                        </p>  
-                    </div><!-- .col-md-6 end -->
-
-                    <div class="col-md-6 animated triggerAnimation" data-animate="zoomIn">
-                        <img src="img/slider2.png" alt=""/>
-                    </div><!-- .col-md-6 end -->
-                </div><!-- .row end -->
-            </div><!-- .container end -->
-        </div><!-- .page-content end -->  
-
-        <div id="footer-wrapper" class="footer-dark">
-            <footer id="footer">
-                <div class="container">
-                    <div class="row">
-                        <ul class="col-md-3 col-sm-6 footer-widget-container clearfix">
-                            <!-- .widget.widget_text -->
-                            <li class="widget widget_newsletterwidget">
-                                <div class="title">
-                                    <h3>newsletter subscribe</h3>
-                                </div>
-
-                                <p>
-                                    Subscribe to our newsletter and we will 
-                                    inform you about newest projects and promotions.
-                                </p>
-
-                                <br />
-
-                                <form class="newsletter">
-                                    <input class="email" type="email" placeholder="Your email...">
-                                    <input type="submit" class="submit" value="">
-                                </form>
-                            </li><!-- .widget.widget_newsletterwidget end -->
-                        </ul><!-- .col-md-3.footer-widget-container end -->
-
-                        <ul class="col-md-3 col-sm-6 footer-widget-container">
-                            <!-- .widget-pages start -->
-                            <li class="widget widget_pages">
-                                <div class="title">
-                                    <h3>quick links</h3>
-                                </div>
-
-                                <ul>
-                                    <li><a href="#">About us</a></li>
-                                    <li><a href="#">Company history</a></li>
-                                    <li><a href="#">Company Events</a></li>
-                                    <li><a href="#">Supply chain management</a></li>
-                                    <li><a href="#">Warehousing</a></li>
-                                    <li><a href="#">Company news</a></li>
-                                    <li><a href="#">Online driver application</a></li>
-                                </ul>
-                            </li><!-- .widget-pages end -->
-                        </ul><!-- .col-md-3.footer-widget-container end -->
-
-                        <ul class="col-md-3 col-sm-6 footer-widget-container">
-                            <!-- .widget-pages start -->
-                            <li class="widget widget_pages">
-                                <div class="title">
-                                    <h3>Industry solutions</h3>
-                                </div>
-
-                                <ul>
-                                    <li><a href="#">Overland transportation</a></li>
-                                    <li><a href="#">Air freight</a></li>
-                                    <li><a href="#">Ocean freight</a></li>
-                                    <li><a href="#">Large projects</a></li>
-                                    <li><a href="#l">Rail international shipping</a></li>
-                                    <li><a href="#">Contract logistics</a></li>
-                                    <li><a href="#">Packaging options</a></li>
-                                </ul>
-                            </li><!-- .widget-pages end -->
-                        </ul><!-- .col-md-3.footer-widget-container end -->
-
-                        <ul class="col-md-3 col-sm-6 footer-widget-container">
-                            <li class="widget widget-text">
-                                <div class="title">
-                                    <h3>contact us</h3>
-                                </div>
-
->>>>>>> 2d608ee2be15121be6f59cae4dcb42c83de8b44e
-                                <address>
-                                    123 Second Street Fifth Avenue, <br />
-                                    Manhattan, New York
-                                </address>
-
-                                <span class="text-big">
-                                    +00 41 258 489 6587
-                                </span>
-                                <br />
-
-                                <a href="mailto:">info@trucking.com</a>
-                                <br />
-                                <ul class="footer-social-icons">
-                                    <li><a href="#" class="fa fa-facebook"></a></li>
-                                    <li><a href="#" class="fa fa-twitter"></a></li>
-                                    <li><a href="#" class="fa fa-google-plus"></a></li>
-                                </ul><!-- .footer-social-icons end -->
-                            </li><!-- .widget.widget-text end -->
-                        </ul><!-- .col-md-3.footer-widget-container end -->
-                    </div><!-- .row end -->
-                </div><!-- .container end -->
-            </footer><!-- #footer end -->
-
-            <div class="copyright-container">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p>TRUCKING 2015. All RIGHTS RESERVED.</p>
-                        </div><!-- .col-md-6 end -->
-
-                        <div class="col-md-6">
-                            <p class="align-right">DESIGNED AND DEVELOPED BY <a href="www.pixel-industry.com">PIXEL INDUSTRY.</a> ELITE AUTHOR.</p>
-                        </div><!-- .col-md-6 end -->
-                    </div><!-- .row end -->
-                </div><!-- .container end -->
-            </div><!-- .copyright-container end -->
-
-            <a href="#" class="scroll-up">Scroll</a>
-        </div><!-- #footer-wrapper end -->
-
-        <script src="js/jquery-2.1.4.min.js"></script><!-- jQuery library -->
-        <script src="js/bootstrap.min.js"></script><!-- .bootstrap script -->
-        <script src="js/jquery.srcipts.min.js"></script><!-- modernizr, retina, stellar for parallax -->  
-        <script src="owl-carousel/owl.carousel.min.js"></script><!-- Carousels script -->
-        <script src="masterslider/masterslider.min.js"></script><!-- Master slider main js -->
-        <script src="js/jquery.dlmenu.min.js"></script><!-- for responsive menu -->
-        <script src="js/include.js"></script><!-- custom js functions -->
-
-        <script>
-            /* <![CDATA[ */
-            jQuery(document).ready(function ($) {
-                'use strict';
-                // MASTER SLIDER START
-                var slider = new MasterSlider();
-                slider.setup('masterslider', {
-                    width: 1920, // slider standard width
-                    height: 854, // slider standard height
-                    space: 0,
-                    layout: "fullwidth",
-                    speed: 50,
-                    centerControls: false,
-                    loop: true,
-                    autoplay: true,
-                    parallaxMode: "mouse"
-                            // more slider options goes here...
-                            // check slider options section in documentation for more options.
-                });
-                // adds Arrows navigation control to the slider.
-                slider.control('arrows');
-                MSScrollParallax.setup(slider, 50, 80, true);
-
-                $('#services-carousel').owlCarousel({
-                    items: 3,
-                    loop: true,
-                    margin: 30,
-                    responsiveClass: true,
-                    mouseDrag: true,
-                    dots: true,
-                    responsive: {
-                        0: {
-                            items: 1,
-                            nav: false,
-                            loop: true,
-                            autoplay: true,
-                            autoplayTimeout: 3000,
-                            autoplayHoverPause: true,
-                            responsiveClass: true,
-                            autoHeight: true
-                        },
-                        600: {
-                            items: 2,
-                            nav: false,
-                            loop: true,
-                            autoplay: true,
-                            autoplayTimeout: 3000,
-                            autoplayHoverPause: true,
-                            responsiveClass: true,
-                            autoHeight: true
-                        },
-                        1000: {
-                            items: 3,
-                            nav: false,
-                            loop: true,
-                            autoplay: true,
-                            autoplayTimeout: 3000,
-                            autoplayHoverPause: true,
-                            responsiveClass: true,
-                            mouseDrag: true,
-                            autoHeight: true
-                        }
-                    }
-                });
-
-                $('#client-carousel').owlCarousel({
-                    items: 6,
-                    loop: true,
-                    margin: 30,
-                    responsiveClass: true,
-                    mouseDrag: true,
-                    dots: false,
-                    responsive: {
-                        0: {
-                            items: 2,
-                            nav: true,
-                            loop: true,
-                            autoplay: true,
-                            autoplayTimeout: 3000,
-                            autoplayHoverPause: true,
-                            responsiveClass: true
-                        },
-                        600: {
-                            items: 3,
-                            nav: true,
-                            loop: true,
-                            autoplay: true,
-                            autoplayTimeout: 3000,
-                            autoplayHoverPause: true,
-                            responsiveClass: true
-                        },
-                        1000: {
-                            items: 6,
-                            nav: true,
-                            loop: true,
-                            autoplay: true,
-                            autoplayTimeout: 3000,
-                            autoplayHoverPause: true,
-                            responsiveClass: true,
-                            mouseDrag: true
-                        }
-                    }
-                });
-            });
-            /* ]]> */
-        </script>
-    </body>
-
 </html>
